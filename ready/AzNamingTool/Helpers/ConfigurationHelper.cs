@@ -148,6 +148,7 @@ namespace AzureNamingTool.Helpers
                 var data = CacheHelper.GetCacheObject("isconnected");
                 if (data == null)
                 {
+                    // removed this as can ping from azure app service
                     // Atempt to ping a url first
                     /*
                     Ping ping = new Ping();
