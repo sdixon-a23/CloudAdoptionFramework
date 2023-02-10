@@ -149,6 +149,7 @@ namespace AzureNamingTool.Helpers
                 if (data == null)
                 {
                     // Atempt to ping a url first
+                    /*
                     Ping ping = new Ping();
                     String host = "github.com";
                     byte[] buffer = new byte[32];
@@ -160,7 +161,7 @@ namespace AzureNamingTool.Helpers
                         pingsuccessful = true;
                         result = true;
                     }
-
+                    */
                     // If ping is not successful, attempt to download a file
                     if (!pingsuccessful)
                     {
