@@ -1,6 +1,6 @@
 [
  {
-   "id": 1,
+   "id" :  1,
    "nameLookup": "AnalysisServices/servers",
    "resource": "AnalysisServices/servers",
    "optional": "UnitDept",
@@ -8,8 +8,8 @@
    "property": "",
    "ShortName": "as",
    "scope": "resource group",
-   "lengthMin": 3,
-   "lengthMax": 63,
+   "lengthMin": "3",
+   "lengthMax": "63",
    "validText": "Lowercase letters and numbers. Start with lowercase letter.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -20,7 +20,7 @@
    "staticValues": ""
  },
  {
-   "id": 2,
+   "id" :  2,
    "nameLookup": "ApiManagement/service",
    "resource": "ApiManagement/service",
    "optional": "UnitDept",
@@ -28,8 +28,8 @@
    "property": "",
    "ShortName": "apim",
    "scope": "global",
-   "lengthMin": 1,
-   "lengthMax": 50,
+   "lengthMin": "1",
+   "lengthMax": "50",
    "validText": "Alphanumerics, and hyphens. Start with letter, and end with alphanumeric.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -40,7 +40,7 @@
    "staticValues": ""
  },
  {
-   "id": 3,
+   "id" :  3,
    "nameLookup": "ApiManagement/service/apis",
    "resource": "ApiManagement/service/apis",
    "optional": "UnitDept",
@@ -48,8 +48,8 @@
    "property": "",
    "ShortName": "api",
    "scope": "service",
-   "lengthMin": 1,
-   "lengthMax": 256,
+   "lengthMin": "1",
+   "lengthMax": "256",
    "validText": "",
    "invalidText": "Asterisk, number sign, ampersand, plus, colon, angle brackets, question mark.",
    "invalidCharacters": "*#&+:<>?",
@@ -60,7 +60,7 @@
    "staticValues": ""
  },
  {
-   "id": 4,
+   "id" :  4,
    "nameLookup": "ApiManagement/service/apis/issues",
    "resource": "ApiManagement/service/apis/issues",
    "optional": "UnitDept",
@@ -68,8 +68,8 @@
    "property": "",
    "ShortName": "apii",
    "scope": "api",
-   "lengthMin": 1,
-   "lengthMax": 256,
+   "lengthMin": "1",
+   "lengthMax": "256",
    "validText": "",
    "invalidText": "Asterisk, number sign, ampersand, plus, colon, angle brackets, question mark.",
    "invalidCharacters": "*#&+:<>?",
@@ -80,7 +80,7 @@
    "staticValues": ""
  },
  {
-   "id": 5,
+   "id" :  5,
    "nameLookup": "ApiManagement/service/apis/issues/attachments",
    "resource": "ApiManagement/service/apis/issues/attachments",
    "optional": "UnitDept",
@@ -88,8 +88,8 @@
    "property": "",
    "ShortName": "apiia",
    "scope": "issue",
-   "lengthMin": 1,
-   "lengthMax": 256,
+   "lengthMin": "1",
+   "lengthMax": "256",
    "validText": "",
    "invalidText": "Asterisk, number sign, ampersand, plus, colon, angle brackets, question mark.",
    "invalidCharacters": "*#&+:<>?",
@@ -100,7 +100,7 @@
    "staticValues": ""
  },
  {
-   "id": 6,
+   "id" :  6,
    "nameLookup": "ApiManagement/service/apis/issues/comments",
    "resource": "ApiManagement/service/apis/issues/comments",
    "optional": "UnitDept",
@@ -108,8 +108,8 @@
    "property": "",
    "ShortName": "apiic",
    "scope": "issue",
-   "lengthMin": 1,
-   "lengthMax": 256,
+   "lengthMin": "1",
+   "lengthMax": "256",
    "validText": "",
    "invalidText": "Asterisk, number sign, ampersand, plus, colon, angle brackets, question mark.",
    "invalidCharacters": "*#&+:<>?",
@@ -120,7 +120,7 @@
    "staticValues": ""
  },
  {
-   "id": 7,
+   "id" :  7,
    "nameLookup": "ApiManagement/service/apis/operations",
    "resource": "ApiManagement/service/apis/operations",
    "optional": "UnitDept",
@@ -128,8 +128,8 @@
    "property": "",
    "ShortName": "apio",
    "scope": "api",
-   "lengthMin": 1,
-   "lengthMax": 256,
+   "lengthMin": "1",
+   "lengthMax": "256",
    "validText": "",
    "invalidText": "Asterisk, number sign, ampersand, plus, colon, angle brackets, question mark.",
    "invalidCharacters": "*#&+:<>?",
@@ -140,7 +140,7 @@
    "staticValues": ""
  },
  {
-   "id": 8,
+   "id" :  8,
    "nameLookup": "ApiManagement/service/apis/operations/tags",
    "resource": "ApiManagement/service/apis/operations/tags",
    "optional": "UnitDept",
@@ -148,8 +148,8 @@
    "property": "",
    "ShortName": "apiot",
    "scope": "operation",
-   "lengthMin": 1,
-   "lengthMax": 256,
+   "lengthMin": "1",
+   "lengthMax": "256",
    "validText": "",
    "invalidText": "Asterisk, number sign, ampersand, plus, colon, angle brackets, question mark.",
    "invalidCharacters": "*#&+:<>?",
@@ -160,7 +160,7 @@
    "staticValues": ""
  },
  {
-   "id": 9,
+   "id" :  9,
    "nameLookup": "ApiManagement/service/apis/releases",
    "resource": "ApiManagement/service/apis/releases",
    "optional": "UnitDept",
@@ -168,8 +168,8 @@
    "property": "",
    "ShortName": "apir",
    "scope": "api",
-   "lengthMin": 1,
-   "lengthMax": 80,
+   "lengthMin": "1",
+   "lengthMax": "80",
    "validText": "Alphanumerics, underscores, and hyphens. Start and end with alphanumeric or underscore.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -180,7 +180,7 @@
    "staticValues": ""
  },
  {
-   "id": 10,
+   "id" :  10,
    "nameLookup": "ApiManagement/service/apis/schemas",
    "resource": "ApiManagement/service/apis/schemas",
    "optional": "UnitDept",
@@ -188,8 +188,8 @@
    "property": "",
    "ShortName": "apis",
    "scope": "api",
-   "lengthMin": 1,
-   "lengthMax": 256,
+   "lengthMin": "1",
+   "lengthMax": "256",
    "validText": "",
    "invalidText": "Asterisk, number sign, ampersand, plus, colon, angle brackets, question mark.",
    "invalidCharacters": "*#&+:<>?",
@@ -200,7 +200,7 @@
    "staticValues": ""
  },
  {
-   "id": 11,
+   "id" :  11,
    "nameLookup": "ApiManagement/service/apis/tagDescriptions",
    "resource": "ApiManagement/service/apis/tagDescriptions",
    "optional": "UnitDept",
@@ -208,8 +208,8 @@
    "property": "",
    "ShortName": "apitd",
    "scope": "api",
-   "lengthMin": 1,
-   "lengthMax": 256,
+   "lengthMin": "1",
+   "lengthMax": "256",
    "validText": "",
    "invalidText": "Asterisk, number sign, ampersand, plus, colon, angle brackets, question mark.",
    "invalidCharacters": "*#&+:<>?",
@@ -220,7 +220,7 @@
    "staticValues": ""
  },
  {
-   "id": 12,
+   "id" :  12,
    "nameLookup": "ApiManagement/service/apis/tags",
    "resource": "ApiManagement/service/apis/tags",
    "optional": "UnitDept",
@@ -228,8 +228,8 @@
    "property": "",
    "ShortName": "apitg",
    "scope": "api",
-   "lengthMin": 1,
-   "lengthMax": 256,
+   "lengthMin": "1",
+   "lengthMax": "256",
    "validText": "",
    "invalidText": "Asterisk, number sign, ampersand, plus, colon, angle brackets, question mark.",
    "invalidCharacters": "*#&+:<>?",
@@ -240,7 +240,7 @@
    "staticValues": ""
  },
  {
-   "id": 13,
+   "id" :  13,
    "nameLookup": "ApiManagement/service/api-version-sets",
    "resource": "ApiManagement/service/api-version-sets",
    "optional": "UnitDept",
@@ -248,8 +248,8 @@
    "property": "",
    "ShortName": "apivs",
    "scope": "service",
-   "lengthMin": 1,
-   "lengthMax": 256,
+   "lengthMin": "1",
+   "lengthMax": "256",
    "validText": "",
    "invalidText": "Asterisk, number sign, ampersand, plus, colon, angle brackets, question mark.",
    "invalidCharacters": "*#&+:<>?",
@@ -260,7 +260,7 @@
    "staticValues": ""
  },
  {
-   "id": 14,
+   "id" :  14,
    "nameLookup": "ApiManagement/service/authorizationServers",
    "resource": "ApiManagement/service/authorizationServers",
    "optional": "UnitDept",
@@ -268,8 +268,8 @@
    "property": "",
    "ShortName": "apias",
    "scope": "service",
-   "lengthMin": 1,
-   "lengthMax": 256,
+   "lengthMin": "1",
+   "lengthMax": "256",
    "validText": "",
    "invalidText": "Asterisk, number sign, ampersand, plus, colon, angle brackets, question mark.",
    "invalidCharacters": "*#&+:<>?",
@@ -280,7 +280,7 @@
    "staticValues": ""
  },
  {
-   "id": 15,
+   "id" :  15,
    "nameLookup": "ApiManagement/service/backends",
    "resource": "ApiManagement/service/backends",
    "optional": "UnitDept",
@@ -288,8 +288,8 @@
    "property": "",
    "ShortName": "apib",
    "scope": "service",
-   "lengthMin": 1,
-   "lengthMax": 256,
+   "lengthMin": "1",
+   "lengthMax": "256",
    "validText": "",
    "invalidText": "Asterisk, number sign, ampersand, plus, colon, angle brackets, question mark.",
    "invalidCharacters": "*#&+:<>?",
@@ -300,7 +300,7 @@
    "staticValues": ""
  },
  {
-   "id": 16,
+   "id" :  16,
    "nameLookup": "ApiManagement/service/certificates",
    "resource": "ApiManagement/service/certificates",
    "optional": "UnitDept",
@@ -308,8 +308,8 @@
    "property": "",
    "ShortName": "apic",
    "scope": "service",
-   "lengthMin": 1,
-   "lengthMax": 256,
+   "lengthMin": "1",
+   "lengthMax": "256",
    "validText": "",
    "invalidText": "Asterisk, number sign, ampersand, plus, colon, angle brackets, question mark.",
    "invalidCharacters": "*#&+:<>?",
@@ -320,7 +320,7 @@
    "staticValues": ""
  },
  {
-   "id": 17,
+   "id" :  17,
    "nameLookup": "ApiManagement/service/diagnostics",
    "resource": "ApiManagement/service/diagnostics",
    "optional": "UnitDept",
@@ -328,8 +328,8 @@
    "property": "",
    "ShortName": "apid",
    "scope": "service",
-   "lengthMin": 1,
-   "lengthMax": 256,
+   "lengthMin": "1",
+   "lengthMax": "256",
    "validText": "",
    "invalidText": "Asterisk, number sign, ampersand, plus, colon, angle brackets, question mark.",
    "invalidCharacters": "*#&+:<>?",
@@ -340,7 +340,7 @@
    "staticValues": ""
  },
  {
-   "id": 18,
+   "id" :  18,
    "nameLookup": "ApiManagement/service/groups",
    "resource": "ApiManagement/service/groups",
    "optional": "UnitDept",
@@ -348,8 +348,8 @@
    "property": "",
    "ShortName": "apig",
    "scope": "service",
-   "lengthMin": 1,
-   "lengthMax": 256,
+   "lengthMin": "1",
+   "lengthMax": "256",
    "validText": "",
    "invalidText": "Asterisk, number sign, ampersand, plus, colon, angle brackets, question mark.",
    "invalidCharacters": "*#&+:<>?",
@@ -360,7 +360,7 @@
    "staticValues": ""
  },
  {
-   "id": 19,
+   "id" :  19,
    "nameLookup": "ApiManagement/service/groups/users",
    "resource": "ApiManagement/service/groups/users",
    "optional": "UnitDept",
@@ -368,8 +368,8 @@
    "property": "",
    "ShortName": "apigu",
    "scope": "group",
-   "lengthMin": 1,
-   "lengthMax": 256,
+   "lengthMin": "1",
+   "lengthMax": "256",
    "validText": "",
    "invalidText": "Asterisk, number sign, ampersand, plus, colon, angle brackets, question mark.",
    "invalidCharacters": "*#&+:<>?",
@@ -380,7 +380,7 @@
    "staticValues": ""
  },
  {
-   "id": 20,
+   "id" :  20,
    "nameLookup": "ApiManagement/service/identityProviders",
    "resource": "ApiManagement/service/identityProviders",
    "optional": "UnitDept",
@@ -388,8 +388,8 @@
    "property": "",
    "ShortName": "apiip",
    "scope": "service",
-   "lengthMin": 1,
-   "lengthMax": 256,
+   "lengthMin": "1",
+   "lengthMax": "256",
    "validText": "",
    "invalidText": "Asterisk, number sign, ampersand, plus, colon, angle brackets, question mark.",
    "invalidCharacters": "*#&+:<>?",
@@ -400,7 +400,7 @@
    "staticValues": ""
  },
  {
-   "id": 21,
+   "id" :  21,
    "nameLookup": "ApiManagement/service/loggers",
    "resource": "ApiManagement/service/loggers",
    "optional": "UnitDept",
@@ -408,8 +408,8 @@
    "property": "",
    "ShortName": "apil",
    "scope": "service",
-   "lengthMin": 1,
-   "lengthMax": 256,
+   "lengthMin": "1",
+   "lengthMax": "256",
    "validText": "",
    "invalidText": "Asterisk, number sign, ampersand, plus, colon, angle brackets, question mark.",
    "invalidCharacters": "*#&+:<>?",
@@ -420,7 +420,7 @@
    "staticValues": ""
  },
  {
-   "id": 22,
+   "id" :  22,
    "nameLookup": "ApiManagement/service/notifications",
    "resource": "ApiManagement/service/notifications",
    "optional": "UnitDept",
@@ -428,8 +428,8 @@
    "property": "",
    "ShortName": "apin",
    "scope": "service",
-   "lengthMin": 1,
-   "lengthMax": 256,
+   "lengthMin": "1",
+   "lengthMax": "256",
    "validText": "",
    "invalidText": "Asterisk, number sign, ampersand, plus, colon, angle brackets, question mark.",
    "invalidCharacters": "*#&+:<>?",
@@ -440,7 +440,7 @@
    "staticValues": ""
  },
  {
-   "id": 23,
+   "id" :  23,
    "nameLookup": "ApiManagement/service/notifications/recipientEmails",
    "resource": "ApiManagement/service/notifications/recipientEmails",
    "optional": "UnitDept",
@@ -448,8 +448,8 @@
    "property": "",
    "ShortName": "recem",
    "scope": "notification",
-   "lengthMin": 1,
-   "lengthMax": 256,
+   "lengthMin": "1",
+   "lengthMax": "256",
    "validText": "",
    "invalidText": "Asterisk, number sign, ampersand, plus, colon, angle brackets, question mark.",
    "invalidCharacters": "*#&+:<>?",
@@ -460,7 +460,7 @@
    "staticValues": ""
  },
  {
-   "id": 24,
+   "id" :  24,
    "nameLookup": "ApiManagement/service/openidConnectProviders",
    "resource": "ApiManagement/service/openidConnectProviders",
    "optional": "UnitDept",
@@ -468,8 +468,8 @@
    "property": "",
    "ShortName": "apioi",
    "scope": "service",
-   "lengthMin": 1,
-   "lengthMax": 256,
+   "lengthMin": "1",
+   "lengthMax": "256",
    "validText": "",
    "invalidText": "Asterisk, number sign, ampersand, plus, colon, angle brackets, question mark.",
    "invalidCharacters": "*#&+:<>?",
@@ -480,7 +480,7 @@
    "staticValues": ""
  },
  {
-   "id": 25,
+   "id" :  25,
    "nameLookup": "ApiManagement/service/policies",
    "resource": "ApiManagement/service/policies",
    "optional": "UnitDept",
@@ -488,8 +488,8 @@
    "property": "",
    "ShortName": "apipo",
    "scope": "service",
-   "lengthMin": 1,
-   "lengthMax": 256,
+   "lengthMin": "1",
+   "lengthMax": "256",
    "validText": "",
    "invalidText": "Asterisk, number sign, ampersand, plus, colon, angle brackets, question mark.",
    "invalidCharacters": "*#&+:<>?",
@@ -500,7 +500,7 @@
    "staticValues": ""
  },
  {
-   "id": 26,
+   "id" :  26,
    "nameLookup": "ApiManagement/service/products",
    "resource": "ApiManagement/service/products",
    "optional": "UnitDept",
@@ -508,8 +508,8 @@
    "property": "",
    "ShortName": "apipr",
    "scope": "service",
-   "lengthMin": 1,
-   "lengthMax": 256,
+   "lengthMin": "1",
+   "lengthMax": "256",
    "validText": "",
    "invalidText": "Asterisk, number sign, ampersand, plus, colon, angle brackets, question mark.",
    "invalidCharacters": "*#&+:<>?",
@@ -520,7 +520,7 @@
    "staticValues": ""
  },
  {
-   "id": 27,
+   "id" :  27,
    "nameLookup": "ApiManagement/service/products/apis",
    "resource": "ApiManagement/service/products/apis",
    "optional": "UnitDept",
@@ -528,8 +528,8 @@
    "property": "",
    "ShortName": "api",
    "scope": "product",
-   "lengthMin": 1,
-   "lengthMax": 256,
+   "lengthMin": "1",
+   "lengthMax": "256",
    "validText": "",
    "invalidText": "Asterisk, number sign, ampersand, plus, colon, angle brackets, question mark.",
    "invalidCharacters": "*#&+:<>?",
@@ -540,7 +540,7 @@
    "staticValues": ""
  },
  {
-   "id": 28,
+   "id" :  28,
    "nameLookup": "ApiManagement/service/products/groups",
    "resource": "ApiManagement/service/products/groups",
    "optional": "UnitDept",
@@ -548,8 +548,8 @@
    "property": "",
    "ShortName": "grp",
    "scope": "product",
-   "lengthMin": 1,
-   "lengthMax": 256,
+   "lengthMin": "1",
+   "lengthMax": "256",
    "validText": "",
    "invalidText": "Asterisk, number sign, ampersand, plus, colon, angle brackets, question mark.",
    "invalidCharacters": "*#&+:<>?",
@@ -560,7 +560,7 @@
    "staticValues": ""
  },
  {
-   "id": 29,
+   "id" :  29,
    "nameLookup": "ApiManagement/service/products/tags",
    "resource": "ApiManagement/service/products/tags",
    "optional": "UnitDept",
@@ -568,8 +568,8 @@
    "property": "",
    "ShortName": "tag",
    "scope": "product",
-   "lengthMin": 1,
-   "lengthMax": 256,
+   "lengthMin": "1",
+   "lengthMax": "256",
    "validText": "",
    "invalidText": "Asterisk, number sign, ampersand, plus, colon, angle brackets, question mark.",
    "invalidCharacters": "*#&+:<>?",
@@ -580,7 +580,7 @@
    "staticValues": ""
  },
  {
-   "id": 30,
+   "id" :  30,
    "nameLookup": "ApiManagement/service/properties",
    "resource": "ApiManagement/service/properties",
    "optional": "UnitDept",
@@ -588,8 +588,8 @@
    "property": "",
    "ShortName": "prop",
    "scope": "service",
-   "lengthMin": 1,
-   "lengthMax": 256,
+   "lengthMin": "1",
+   "lengthMax": "256",
    "validText": "",
    "invalidText": "Asterisk, number sign, ampersand, plus, colon, angle brackets, question mark.",
    "invalidCharacters": "*#&+:<>?",
@@ -600,7 +600,7 @@
    "staticValues": ""
  },
  {
-   "id": 31,
+   "id" :  31,
    "nameLookup": "ApiManagement/service/subscriptions",
    "resource": "ApiManagement/service/subscriptions",
    "optional": "UnitDept",
@@ -608,8 +608,8 @@
    "property": "",
    "ShortName": "subsr",
    "scope": "service",
-   "lengthMin": 1,
-   "lengthMax": 256,
+   "lengthMin": "1",
+   "lengthMax": "256",
    "validText": "",
    "invalidText": "Asterisk, number sign, ampersand, plus, colon, angle brackets, question mark.",
    "invalidCharacters": "*#&+:<>?",
@@ -620,7 +620,7 @@
    "staticValues": ""
  },
  {
-   "id": 32,
+   "id" :  32,
    "nameLookup": "ApiManagement/service/tags",
    "resource": "ApiManagement/service/tags",
    "optional": "UnitDept",
@@ -628,8 +628,8 @@
    "property": "",
    "ShortName": "tag",
    "scope": "service",
-   "lengthMin": 1,
-   "lengthMax": 256,
+   "lengthMin": "1",
+   "lengthMax": "256",
    "validText": "",
    "invalidText": "Asterisk, number sign, ampersand, plus, colon, angle brackets, question mark.",
    "invalidCharacters": "*#&+:<>?",
@@ -640,7 +640,7 @@
    "staticValues": ""
  },
  {
-   "id": 33,
+   "id" :  33,
    "nameLookup": "ApiManagement/service/templates",
    "resource": "ApiManagement/service/templates",
    "optional": "UnitDept",
@@ -648,8 +648,8 @@
    "property": "",
    "ShortName": "temp",
    "scope": "service",
-   "lengthMin": 1,
-   "lengthMax": 256,
+   "lengthMin": "1",
+   "lengthMax": "256",
    "validText": "",
    "invalidText": "Asterisk, number sign, ampersand, plus, colon, angle brackets, question mark.",
    "invalidCharacters": "*#&+:<>?",
@@ -660,7 +660,7 @@
    "staticValues": ""
  },
  {
-   "id": 34,
+   "id" :  34,
    "nameLookup": "ApiManagement/service/users",
    "resource": "ApiManagement/service/users",
    "optional": "UnitDept",
@@ -668,8 +668,8 @@
    "property": "",
    "ShortName": "user",
    "scope": "service",
-   "lengthMin": 1,
-   "lengthMax": 256,
+   "lengthMin": "1",
+   "lengthMax": "256",
    "validText": "",
    "invalidText": "Asterisk, number sign, ampersand, plus, colon, angle brackets, question mark.",
    "invalidCharacters": "*#&+:<>?",
@@ -680,7 +680,7 @@
    "staticValues": ""
  },
  {
-   "id": 35,
+   "id" :  35,
    "nameLookup": "AppConfiguration/configurationStores",
    "resource": "AppConfiguration/configurationStores",
    "optional": "UnitDept",
@@ -688,8 +688,8 @@
    "property": "",
    "ShortName": "appcs",
    "scope": "resource group",
-   "lengthMin": 5,
-   "lengthMax": 50,
+   "lengthMin": "5",
+   "lengthMax": "50",
    "validText": "Alphanumerics, underscores, and hyphens.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -700,7 +700,7 @@
    "staticValues": ""
  },
  {
-   "id": 36,
+   "id" :  36,
    "nameLookup": "Authorization/locks",
    "resource": "Authorization/locks",
    "optional": "UnitDept",
@@ -708,8 +708,8 @@
    "property": "",
    "ShortName": "lock",
    "scope": "scope of assignment",
-   "lengthMin": 1,
-   "lengthMax": 90,
+   "lengthMin": "1",
+   "lengthMax": "90",
    "validText": "Alphanumerics, periods, underscores, hyphens, and parenthesis.",
    "invalidText": "Can't end in period",
    "invalidCharacters": "",
@@ -720,7 +720,7 @@
    "staticValues": ""
  },
  {
-   "id": 37,
+   "id" :  37,
    "nameLookup": "Authorization/policyAssignments - [Management Group Resource Name]",
    "resource": "Authorization/policyAssignments",
    "optional": "UnitDept",
@@ -728,8 +728,8 @@
    "property": "Management Group Resource Name",
    "ShortName": "pas",
    "scope": "scope of assignment",
-   "lengthMin": 1,
-   "lengthMax": 24,
+   "lengthMin": "1",
+   "lengthMax": "24",
    "validText": "",
    "invalidText": "Can't include percent sign and can't end with period or space.",
    "invalidCharacters": "%",
@@ -740,7 +740,7 @@
    "staticValues": ""
  },
  {
-   "id": 38,
+   "id" :  38,
    "nameLookup": "Authorization/policyAssignments - [Resoure Name]",
    "resource": "Authorization/policyAssignments",
    "optional": "UnitDept",
@@ -748,8 +748,8 @@
    "property": "Resoure Name",
    "ShortName": "pas",
    "scope": "scope of assignment",
-   "lengthMin": 1,
-   "lengthMax": 64,
+   "lengthMin": "1",
+   "lengthMax": "64",
    "validText": "",
    "invalidText": "Can't include percent sign and can't end with period or space.",
    "invalidCharacters": "%",
@@ -760,7 +760,7 @@
    "staticValues": ""
  },
  {
-   "id": 39,
+   "id" :  39,
    "nameLookup": "Authorization/policyAssignments - [Display Name]",
    "resource": "Authorization/policyAssignments",
    "optional": "UnitDept",
@@ -768,8 +768,8 @@
    "property": "Display Name",
    "ShortName": "pas",
    "scope": "scope of assignment",
-   "lengthMin": 1,
-   "lengthMax": 128,
+   "lengthMin": "1",
+   "lengthMax": "128",
    "validText": "",
    "invalidText": "Can't include percent sign and can't end with period or space.",
    "invalidCharacters": "%",
@@ -780,7 +780,7 @@
    "staticValues": ""
  },
  {
-   "id": 40,
+   "id" :  40,
    "nameLookup": "Authorization/policyDefinitions - [Resoure Name]",
    "resource": "Authorization/policyDefinitions",
    "optional": "UnitDept",
@@ -788,8 +788,8 @@
    "property": "Resoure Name",
    "ShortName": "policy",
    "scope": "scope of definition",
-   "lengthMin": 1,
-   "lengthMax": 64,
+   "lengthMin": "1",
+   "lengthMax": "64",
    "validText": "Display name can contain any characters.",
    "invalidText": "Can't include percent sign and can't end with period or space.",
    "invalidCharacters": "%",
@@ -800,7 +800,7 @@
    "staticValues": ""
  },
  {
-   "id": 41,
+   "id" :  41,
    "nameLookup": "Authorization/policyDefinitions - [Display Name]",
    "resource": "Authorization/policyDefinitions",
    "optional": "UnitDept",
@@ -808,8 +808,8 @@
    "property": "Display Name",
    "ShortName": "policy",
    "scope": "scope of definition",
-   "lengthMin": 1,
-   "lengthMax": 128,
+   "lengthMin": "1",
+   "lengthMax": "128",
    "validText": "Display name can contain any characters.",
    "invalidText": "Can't include percent sign and can't end with period or space.",
    "invalidCharacters": "%",
@@ -820,7 +820,7 @@
    "staticValues": ""
  },
  {
-   "id": 42,
+   "id" :  42,
    "nameLookup": "Authorization/policySetDefinitions - [Management Group Resource Name]",
    "resource": "Authorization/policySetDefinitions",
    "optional": "UnitDept",
@@ -828,8 +828,8 @@
    "property": "Management Group Resource Name",
    "ShortName": "init",
    "scope": "scope of definition",
-   "lengthMin": 1,
-   "lengthMax": 24,
+   "lengthMin": "1",
+   "lengthMax": "24",
    "validText": "Display name can contain any characters.",
    "invalidText": "Can't include percent sign and can't end with period or space.",
    "invalidCharacters": "%",
@@ -840,7 +840,7 @@
    "staticValues": ""
  },
  {
-   "id": 43,
+   "id" :  43,
    "nameLookup": "Authorization/policySetDefinitions - [Resoure Name]",
    "resource": "Authorization/policySetDefinitions",
    "optional": "UnitDept",
@@ -848,8 +848,8 @@
    "property": "Resoure Name",
    "ShortName": "init",
    "scope": "scope of definition",
-   "lengthMin": 1,
-   "lengthMax": 64,
+   "lengthMin": "1",
+   "lengthMax": "64",
    "validText": "Display name can contain any characters.",
    "invalidText": "Can't include percent sign and can't end with period or space.",
    "invalidCharacters": "%",
@@ -860,7 +860,7 @@
    "staticValues": ""
  },
  {
-   "id": 44,
+   "id" :  44,
    "nameLookup": "Authorization/policySetDefinitions - [Display Name]",
    "resource": "Authorization/policySetDefinitions",
    "optional": "UnitDept",
@@ -868,8 +868,8 @@
    "property": "Display Name",
    "ShortName": "init",
    "scope": "scope of definition",
-   "lengthMin": 1,
-   "lengthMax": 128,
+   "lengthMin": "1",
+   "lengthMax": "128",
    "validText": "Display name can contain any characters.",
    "invalidText": "Can't include percent sign and can't end with period or space.",
    "invalidCharacters": "%",
@@ -880,7 +880,7 @@
    "staticValues": ""
  },
  {
-   "id": 45,
+   "id" :  45,
    "nameLookup": "Automation/automationAccounts",
    "resource": "Automation/automationAccounts",
    "optional": "UnitDept",
@@ -888,8 +888,8 @@
    "property": "",
    "ShortName": "aa",
    "scope": "resource group & region",
-   "lengthMin": 6,
-   "lengthMax": 50,
+   "lengthMin": "6",
+   "lengthMax": "50",
    "validText": "Alphanumerics and hyphens. Start with letter. End with alphanumeric.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -900,7 +900,7 @@
    "staticValues": ""
  },
  {
-   "id": 46,
+   "id" :  46,
    "nameLookup": "Automation/automationAccounts/certificates",
    "resource": "Automation/automationAccounts/certificates",
    "optional": "UnitDept",
@@ -908,8 +908,8 @@
    "property": "",
    "ShortName": "aacert",
    "scope": "automation account",
-   "lengthMin": 1,
-   "lengthMax": 128,
+   "lengthMin": "1",
+   "lengthMax": "128",
    "validText": "",
    "invalidText": "Angle brackets, asterisk, percent sign, ampersand, colon, backslash, question mark, period, plus sign, and slash. Can't end with space.",
    "invalidCharacters": "<>*%&:\\?.+/",
@@ -920,7 +920,7 @@
    "staticValues": ""
  },
  {
-   "id": 47,
+   "id" :  47,
    "nameLookup": "Automation/automationAccounts/connections",
    "resource": "Automation/automationAccounts/connections",
    "optional": "UnitDept",
@@ -928,8 +928,8 @@
    "property": "",
    "ShortName": "aaconn",
    "scope": "automation account",
-   "lengthMin": 1,
-   "lengthMax": 128,
+   "lengthMin": "1",
+   "lengthMax": "128",
    "validText": "",
    "invalidText": "Angle brackets, asterisk, percent sign, ampersand, colon, backslash, question mark, period, plus sign, and slash. Can't end with space.",
    "invalidCharacters": "<>*%&:\\?.+/",
@@ -940,7 +940,7 @@
    "staticValues": ""
  },
  {
-   "id": 48,
+   "id" :  48,
    "nameLookup": "Automation/automationAccounts/credentials",
    "resource": "Automation/automationAccounts/credentials",
    "optional": "UnitDept",
@@ -948,8 +948,8 @@
    "property": "",
    "ShortName": "cred",
    "scope": "automation account",
-   "lengthMin": 1,
-   "lengthMax": 128,
+   "lengthMin": "1",
+   "lengthMax": "128",
    "validText": "",
    "invalidText": "Angle brackets, asterisk, percent sign, ampersand, colon, backslash, question mark, period, plus sign, and slash. Can't end with space.",
    "invalidCharacters": "<>*%&:\\?.+/",
@@ -960,7 +960,7 @@
    "staticValues": ""
  },
  {
-   "id": 49,
+   "id" :  49,
    "nameLookup": "Automation/automationAccounts/runbooks",
    "resource": "Automation/automationAccounts/runbooks",
    "optional": "UnitDept",
@@ -968,8 +968,8 @@
    "property": "",
    "ShortName": "runbk",
    "scope": "automation account",
-   "lengthMin": 1,
-   "lengthMax": 63,
+   "lengthMin": "1",
+   "lengthMax": "63",
    "validText": "Alphanumerics, underscores, and hyphens. Start with a letter.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -980,7 +980,7 @@
    "staticValues": ""
  },
  {
-   "id": 50,
+   "id" :  50,
    "nameLookup": "Automation/automationAccounts/schedules",
    "resource": "Automation/automationAccounts/schedules",
    "optional": "UnitDept",
@@ -988,8 +988,8 @@
    "property": "",
    "ShortName": "sched",
    "scope": "automation account",
-   "lengthMin": 1,
-   "lengthMax": 128,
+   "lengthMin": "1",
+   "lengthMax": "128",
    "validText": "",
    "invalidText": "Angle brackets, asterisk, percent sign, ampersand, colon, backslash, question mark, period, plus sign, and slash. Can't end with space.",
    "invalidCharacters": "<>*%&:\\?.+/",
@@ -1000,7 +1000,7 @@
    "staticValues": ""
  },
  {
-   "id": 51,
+   "id" :  51,
    "nameLookup": "Automation/automationAccounts/variables",
    "resource": "Automation/automationAccounts/variables",
    "optional": "UnitDept",
@@ -1008,8 +1008,8 @@
    "property": "",
    "ShortName": "var",
    "scope": "automation account",
-   "lengthMin": 1,
-   "lengthMax": 128,
+   "lengthMin": "1",
+   "lengthMax": "128",
    "validText": "",
    "invalidText": "Angle brackets, asterisk, percent sign, ampersand, colon, backslash, question mark, period, plus sign, and slash. Can't end with space.",
    "invalidCharacters": "<>*%&:\\?.+/",
@@ -1020,7 +1020,7 @@
    "staticValues": ""
  },
  {
-   "id": 52,
+   "id" :  52,
    "nameLookup": "Automation/automationAccounts/watchers",
    "resource": "Automation/automationAccounts/watchers",
    "optional": "UnitDept",
@@ -1028,8 +1028,8 @@
    "property": "",
    "ShortName": "watch",
    "scope": "automation account",
-   "lengthMin": 1,
-   "lengthMax": 63,
+   "lengthMin": "1",
+   "lengthMax": "63",
    "validText": "Alphanumerics, underscores, and hyphens. Start with a letter.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -1040,7 +1040,7 @@
    "staticValues": ""
  },
  {
-   "id": 53,
+   "id" :  53,
    "nameLookup": "Automation/automationAccounts/webhooks",
    "resource": "Automation/automationAccounts/webhooks",
    "optional": "UnitDept",
@@ -1048,8 +1048,8 @@
    "property": "",
    "ShortName": "wbhk",
    "scope": "automation account",
-   "lengthMin": 1,
-   "lengthMax": 128,
+   "lengthMin": "1",
+   "lengthMax": "128",
    "validText": "",
    "invalidText": "Angle brackets, asterisk, percent sign, ampersand, colon, backslash, question mark, period, plus sign, and slash. Can't end with space.",
    "invalidCharacters": "<>*%&:\\?.+/",
@@ -1060,7 +1060,7 @@
    "staticValues": ""
  },
  {
-   "id": 54,
+   "id" :  54,
    "nameLookup": "Batch/batchAccounts",
    "resource": "Batch/batchAccounts",
    "optional": "UnitDept",
@@ -1068,8 +1068,8 @@
    "property": "",
    "ShortName": "ba",
    "scope": "region",
-   "lengthMin": 3,
-   "lengthMax": 24,
+   "lengthMin": "3",
+   "lengthMax": "24",
    "validText": "Lowercase letters and numbers.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -1080,7 +1080,7 @@
    "staticValues": ""
  },
  {
-   "id": 55,
+   "id" :  55,
    "nameLookup": "Batch/batchAccounts/applications",
    "resource": "Batch/batchAccounts/applications",
    "optional": "UnitDept",
@@ -1088,8 +1088,8 @@
    "property": "",
    "ShortName": "appl",
    "scope": "batch account",
-   "lengthMin": 1,
-   "lengthMax": 64,
+   "lengthMin": "1",
+   "lengthMax": "64",
    "validText": "Alphanumerics, underscores, and hyphens.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -1100,7 +1100,7 @@
    "staticValues": ""
  },
  {
-   "id": 56,
+   "id" :  56,
    "nameLookup": "Batch/batchAccounts/certificates",
    "resource": "Batch/batchAccounts/certificates",
    "optional": "UnitDept",
@@ -1108,8 +1108,8 @@
    "property": "",
    "ShortName": "bacert",
    "scope": "batch account",
-   "lengthMin": 5,
-   "lengthMax": 45,
+   "lengthMin": "5",
+   "lengthMax": "45",
    "validText": "Alphanumerics, underscores, and hyphens.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -1120,7 +1120,7 @@
    "staticValues": ""
  },
  {
-   "id": 57,
+   "id" :  57,
    "nameLookup": "Batch/batchAccounts/pools",
    "resource": "Batch/batchAccounts/pools",
    "optional": "UnitDept",
@@ -1128,8 +1128,8 @@
    "property": "",
    "ShortName": "pool",
    "scope": "batch account",
-   "lengthMin": 1,
-   "lengthMax": 64,
+   "lengthMin": "1",
+   "lengthMax": "64",
    "validText": "Alphanumerics, underscores, and hyphens.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -1140,7 +1140,7 @@
    "staticValues": ""
  },
  {
-   "id": 58,
+   "id" :  58,
    "nameLookup": "Blockchain/blockchainMembers",
    "resource": "Blockchain/blockchainMembers",
    "optional": "UnitDept",
@@ -1148,8 +1148,8 @@
    "property": "",
    "ShortName": "blchm",
    "scope": "global",
-   "lengthMin": 2,
-   "lengthMax": 20,
+   "lengthMin": "2",
+   "lengthMax": "20",
    "validText": "Lowercase letters and numbers. Start with lowercase letter.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -1160,7 +1160,7 @@
    "staticValues": ""
  },
  {
-   "id": 59,
+   "id" :  59,
    "nameLookup": "Blueprint/blueprintAssignments",
    "resource": "Blueprint/blueprintAssignments",
    "optional": "Org,UnitDept,Location,Instance",
@@ -1168,8 +1168,8 @@
    "property": "",
    "ShortName": "bpas",
    "scope": "tenant",
-   "lengthMin": 1,
-   "lengthMax": 90,
+   "lengthMin": "1",
+   "lengthMax": "90",
    "validText": "Letters, numbers, hyphens, and periods.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -1180,7 +1180,7 @@
    "staticValues": ""
  },
  {
-   "id": 60,
+   "id" :  60,
    "nameLookup": "Blueprint/blueprints",
    "resource": "Blueprint/blueprints",
    "optional": "Org,UnitDept,Location,Instance",
@@ -1188,8 +1188,8 @@
    "property": "",
    "ShortName": "bp",
    "scope": "tenant",
-   "lengthMin": 1,
-   "lengthMax": 48,
+   "lengthMin": "1",
+   "lengthMax": "48",
    "validText": "Letters, numbers, hyphens, and periods.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -1200,7 +1200,7 @@
    "staticValues": ""
  },
  {
-   "id": 61,
+   "id" :  61,
    "nameLookup": "Blueprint/blueprints/artifacts",
    "resource": "Blueprint/blueprints/artifacts",
    "optional": "Org,UnitDept,Location,Instance",
@@ -1208,8 +1208,8 @@
    "property": "",
    "ShortName": "bpa",
    "scope": "tenant",
-   "lengthMin": 1,
-   "lengthMax": 48,
+   "lengthMin": "1",
+   "lengthMax": "48",
    "validText": "Letters, numbers, hyphens, and periods.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -1220,7 +1220,7 @@
    "staticValues": ""
  },
  {
-   "id": 62,
+   "id" :  62,
    "nameLookup": "Blueprint/blueprints/versions",
    "resource": "Blueprint/blueprints/versions",
    "optional": "Org,UnitDept,Location,Instance",
@@ -1228,8 +1228,8 @@
    "property": "",
    "ShortName": "bpv",
    "scope": "tenant",
-   "lengthMin": 1,
-   "lengthMax": 20,
+   "lengthMin": "1",
+   "lengthMax": "20",
    "validText": "Letters, numbers, hyphens, and periods.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -1240,7 +1240,7 @@
    "staticValues": ""
  },
  {
-   "id": 63,
+   "id" :  63,
    "nameLookup": "BotService/botServices",
    "resource": "BotService/botServices",
    "optional": "UnitDept",
@@ -1248,8 +1248,8 @@
    "property": "",
    "ShortName": "botsvc",
    "scope": "global",
-   "lengthMin": 2,
-   "lengthMax": 64,
+   "lengthMin": "2",
+   "lengthMax": "64",
    "validText": "Alphanumerics, underscores, periods, and hyphens. Start with alphanumeric.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -1260,7 +1260,7 @@
    "staticValues": ""
  },
  {
-   "id": 64,
+   "id" :  64,
    "nameLookup": "BotService/botServices/channels",
    "resource": "BotService/botServices/channels",
    "optional": "UnitDept",
@@ -1268,8 +1268,8 @@
    "property": "",
    "ShortName": "chan",
    "scope": "bot service",
-   "lengthMin": 2,
-   "lengthMax": 64,
+   "lengthMin": "2",
+   "lengthMax": "64",
    "validText": "Alphanumerics, underscores, periods, and hyphens. Start with alphanumeric.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -1280,7 +1280,7 @@
    "staticValues": ""
  },
  {
-   "id": 65,
+   "id" :  65,
    "nameLookup": "BotService/botServices/Connections",
    "resource": "BotService/botServices/Connections",
    "optional": "UnitDept",
@@ -1288,8 +1288,8 @@
    "property": "",
    "ShortName": "bsconn",
    "scope": "bot service",
-   "lengthMin": 2,
-   "lengthMax": 64,
+   "lengthMin": "2",
+   "lengthMax": "64",
    "validText": "Alphanumerics, underscores, periods, and hyphens. Start with alphanumeric.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -1300,7 +1300,7 @@
    "staticValues": ""
  },
  {
-   "id": 66,
+   "id" :  66,
    "nameLookup": "BotService/enterpriseChannels",
    "resource": "BotService/enterpriseChannels",
    "optional": "UnitDept",
@@ -1308,8 +1308,8 @@
    "property": "",
    "ShortName": "botec",
    "scope": "resource group",
-   "lengthMin": 2,
-   "lengthMax": 64,
+   "lengthMin": "2",
+   "lengthMax": "64",
    "validText": "Alphanumerics, underscores, periods, and hyphens. Start with alphanumeric.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -1320,7 +1320,7 @@
    "staticValues": ""
  },
  {
-   "id": 67,
+   "id" :  67,
    "nameLookup": "Cache/Redis",
    "resource": "Cache/Redis",
    "optional": "UnitDept",
@@ -1328,8 +1328,8 @@
    "property": "",
    "ShortName": "redis",
    "scope": "global",
-   "lengthMin": 1,
-   "lengthMax": 63,
+   "lengthMin": "1",
+   "lengthMax": "63",
    "validText": "Alphanumerics and hyphens. Start and end with alphanumeric.",
    "invalidText": "Consecutive hyphens not allowed.",
    "invalidCharacters": "",
@@ -1340,7 +1340,7 @@
    "staticValues": ""
  },
  {
-   "id": 68,
+   "id" :  68,
    "nameLookup": "Cache/Redis/firewallRules",
    "resource": "Cache/Redis/firewallRules",
    "optional": "UnitDept",
@@ -1348,8 +1348,8 @@
    "property": "",
    "ShortName": "rule",
    "scope": "Redis",
-   "lengthMin": 1,
-   "lengthMax": 256,
+   "lengthMin": "1",
+   "lengthMax": "256",
    "validText": "Alphanumerics",
    "invalidText": "",
    "invalidCharacters": "",
@@ -1360,7 +1360,7 @@
    "staticValues": ""
  },
  {
-   "id": 69,
+   "id" :  69,
    "nameLookup": "Cdn/profiles",
    "resource": "Cdn/profiles",
    "optional": "UnitDept",
@@ -1368,8 +1368,8 @@
    "property": "",
    "ShortName": "cdnp",
    "scope": "resource group",
-   "lengthMin": 1,
-   "lengthMax": 260,
+   "lengthMin": "1",
+   "lengthMax": "260",
    "validText": "Alphanumerics and hyphens. Start and end with alphanumeric.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -1380,7 +1380,7 @@
    "staticValues": ""
  },
  {
-   "id": 70,
+   "id" :  70,
    "nameLookup": "Cdn/profiles/endpoints",
    "resource": "Cdn/profiles/endpoints",
    "optional": "UnitDept",
@@ -1388,8 +1388,8 @@
    "property": "",
    "ShortName": "cdne",
    "scope": "global",
-   "lengthMin": 1,
-   "lengthMax": 50,
+   "lengthMin": "1",
+   "lengthMax": "50",
    "validText": "Alphanumerics and hyphens. Start and end with alphanumeric.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -1400,7 +1400,7 @@
    "staticValues": ""
  },
  {
-   "id": 71,
+   "id" :  71,
    "nameLookup": "CertificateRegistration/certificateOrders",
    "resource": "CertificateRegistration/certificateOrders",
    "optional": "UnitDept",
@@ -1408,8 +1408,8 @@
    "property": "",
    "ShortName": "cerco",
    "scope": "resource group",
-   "lengthMin": 3,
-   "lengthMax": 30,
+   "lengthMin": "3",
+   "lengthMax": "30",
    "validText": "Alphanumerics.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -1420,7 +1420,7 @@
    "staticValues": ""
  },
  {
-   "id": 72,
+   "id" :  72,
    "nameLookup": "CognitiveServices/accounts",
    "resource": "CognitiveServices/accounts",
    "optional": "UnitDept",
@@ -1428,8 +1428,8 @@
    "property": "",
    "ShortName": "cog",
    "scope": "resource group",
-   "lengthMin": 2,
-   "lengthMax": 64,
+   "lengthMin": "2",
+   "lengthMax": "64",
    "validText": "Alphanumerics and hyphens. Start and end with alphanumeric.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -1440,7 +1440,7 @@
    "staticValues": ""
  },
  {
-   "id": 73,
+   "id" :  73,
    "nameLookup": "Compute/availabilitySets",
    "resource": "Compute/availabilitySets",
    "optional": "UnitDept,Function",
@@ -1448,8 +1448,8 @@
    "property": "",
    "ShortName": "avail",
    "scope": "resource group",
-   "lengthMin": 1,
-   "lengthMax": 80,
+   "lengthMin": "1",
+   "lengthMax": "80",
    "validText": "Alphanumerics, underscores, periods, and hyphens. Start with alphanumeric. End with alphanumeric or underscore",
    "invalidText": "",
    "invalidCharacters": "",
@@ -1460,7 +1460,7 @@
    "staticValues": ""
  },
  {
-   "id": 74,
+   "id" :  74,
    "nameLookup": "Compute/cloudServices",
    "resource": "Compute/cloudServices",
    "optional": "",
@@ -1480,7 +1480,7 @@
    "staticValues": ""
  },
  {
-   "id": 75,
+   "id" :  75,
    "nameLookup": "Compute/diskEncryptionSets",
    "resource": "Compute/diskEncryptionSets",
    "optional": "UnitDept",
@@ -1488,8 +1488,8 @@
    "property": "",
    "ShortName": "des",
    "scope": "resource group",
-   "lengthMin": 1,
-   "lengthMax": 80,
+   "lengthMin": "1",
+   "lengthMax": "80",
    "validText": "Alphanumerics and underscores.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -1500,7 +1500,7 @@
    "staticValues": ""
  },
  {
-   "id": 76,
+   "id" :  76,
    "nameLookup": "Compute/disks - [OS Disk]",
    "resource": "Compute/disks",
    "optional": "UnitDept",
@@ -1508,8 +1508,8 @@
    "property": "OS Disk",
    "ShortName": "osdisk",
    "scope": "resource group",
-   "lengthMin": 1,
-   "lengthMax": 80,
+   "lengthMin": "1",
+   "lengthMax": "80",
    "validText": "Alphanumerics and underscores.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -1520,7 +1520,7 @@
    "staticValues": ""
  },
  {
-   "id": 77,
+   "id" :  77,
    "nameLookup": "Compute/disks - [Data Disk]",
    "resource": "Compute/disks",
    "optional": "UnitDept",
@@ -1528,8 +1528,8 @@
    "property": "Data Disk",
    "ShortName": "disk",
    "scope": "resource group",
-   "lengthMin": 1,
-   "lengthMax": 80,
+   "lengthMin": "1",
+   "lengthMax": "80",
    "validText": "Alphanumerics and underscores.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -1540,7 +1540,7 @@
    "staticValues": ""
  },
  {
-   "id": 78,
+   "id" :  78,
    "nameLookup": "Compute/galleries",
    "resource": "Compute/galleries",
    "optional": "UnitDept",
@@ -1548,8 +1548,8 @@
    "property": "",
    "ShortName": "gal",
    "scope": "resource group",
-   "lengthMin": 1,
-   "lengthMax": 80,
+   "lengthMin": "1",
+   "lengthMax": "80",
    "validText": "Alphanumerics and periods. Start and end with alphanumeric.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -1560,7 +1560,7 @@
    "staticValues": ""
  },
  {
-   "id": 79,
+   "id" :  79,
    "nameLookup": "Compute/galleries/applications",
    "resource": "Compute/galleries/applications",
    "optional": "UnitDept",
@@ -1568,8 +1568,8 @@
    "property": "",
    "ShortName": "gapp",
    "scope": "gallery",
-   "lengthMin": 1,
-   "lengthMax": 80,
+   "lengthMin": "1",
+   "lengthMax": "80",
    "validText": "Alphanumerics, hyphens, and periods. Start and end with alphanumeric.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -1580,7 +1580,7 @@
    "staticValues": ""
  },
  {
-   "id": 80,
+   "id" :  80,
    "nameLookup": "Compute/galleries/applications/versions",
    "resource": "Compute/galleries/applications/versions",
    "optional": "UnitDept",
@@ -1600,7 +1600,7 @@
    "staticValues": "1.0.0"
  },
  {
-   "id": 81,
+   "id" :  81,
    "nameLookup": "Compute/galleries/images",
    "resource": "Compute/galleries/images",
    "optional": "UnitDept",
@@ -1608,8 +1608,8 @@
    "property": "",
    "ShortName": "gimg",
    "scope": "gallery",
-   "lengthMin": 1,
-   "lengthMax": 80,
+   "lengthMin": "1",
+   "lengthMax": "80",
    "validText": "Alphanumerics, underscores, hyphens, and periods. Start and end with alphanumeric.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -1620,7 +1620,7 @@
    "staticValues": ""
  },
  {
-   "id": 82,
+   "id" :  82,
    "nameLookup": "Compute/galleries/images/versions",
    "resource": "Compute/galleries/images/versions",
    "optional": "UnitDept",
@@ -1640,7 +1640,7 @@
    "staticValues": "1.0.0"
  },
  {
-   "id": 83,
+   "id" :  83,
    "nameLookup": "Compute/images",
    "resource": "Compute/images",
    "optional": "UnitDept",
@@ -1648,8 +1648,8 @@
    "property": "",
    "ShortName": "cimg",
    "scope": "resource group",
-   "lengthMin": 1,
-   "lengthMax": 80,
+   "lengthMin": "1",
+   "lengthMax": "80",
    "validText": "Alphanumerics, underscores, periods, and hyphens. Start with alphanumeric. End with alphanumeric or underscore",
    "invalidText": "",
    "invalidCharacters": "",
@@ -1660,7 +1660,7 @@
    "staticValues": ""
  },
  {
-   "id": 84,
+   "id" :  84,
    "nameLookup": "Compute/snapshots",
    "resource": "Compute/snapshots",
    "optional": "UnitDept",
@@ -1668,8 +1668,8 @@
    "property": "",
    "ShortName": "snap",
    "scope": "resource group",
-   "lengthMin": 1,
-   "lengthMax": 80,
+   "lengthMin": "1",
+   "lengthMax": "80",
    "validText": "Alphanumerics, underscores, periods, and hyphens. Start with alphanumeric. End with alphanumeric or underscore",
    "invalidText": "",
    "invalidCharacters": "",
@@ -1680,7 +1680,7 @@
    "staticValues": ""
  },
  {
-   "id": 85,
+   "id" :  85,
    "nameLookup": "Compute/virtualMachines - [Linux]",
    "resource": "Compute/virtualMachines",
    "optional": "UnitDept",
@@ -1688,8 +1688,8 @@
    "property": "Linux",
    "ShortName": "vm",
    "scope": "resource group",
-   "lengthMin": 1,
-   "lengthMax": 64,
+   "lengthMin": "1",
+   "lengthMax": "64",
    "validText": "",
    "invalidText": "Backslash, slash, double quote, single quote, square brackets, colon, pipe, angle brackets, plus sign, equals sign, semi-colon, comma, question mark, asterisk, at sign, ampersand, and underscore. Can't end with period or hyphen.",
    "invalidCharacters": "\\/\\'[]:|<>+=;,?*@&_\"",
@@ -1700,7 +1700,7 @@
    "staticValues": ""
  },
  {
-   "id": 86,
+   "id" :  86,
    "nameLookup": "Compute/virtualMachines - [Windows]",
    "resource": "Compute/virtualMachines",
    "optional": "UnitDept",
@@ -1708,8 +1708,8 @@
    "property": "Windows",
    "ShortName": "vm",
    "scope": "resource group",
-   "lengthMin": 1,
-   "lengthMax": 15,
+   "lengthMin": "1",
+   "lengthMax": "15",
    "validText": "",
    "invalidText": "Backslash, slash, double quote, single quote, square brackets, colon, pipe, angle brackets, plus sign, equals sign, semi-colon, comma, question mark, asterisk, at sign, ampersand, and underscore. Can't include space or period. Can't end with hyphen.",
    "invalidCharacters": "/\\'[]:|<>+=;,?*@&_ .\"",
@@ -1720,7 +1720,7 @@
    "staticValues": ""
  },
  {
-   "id": 87,
+   "id" :  87,
    "nameLookup": "Compute/virtualMachineScaleSets - [Linux]",
    "resource": "Compute/virtualMachineScaleSets",
    "optional": "UnitDept",
@@ -1728,8 +1728,8 @@
    "property": "Linux",
    "ShortName": "vmss",
    "scope": "resource group",
-   "lengthMin": 1,
-   "lengthMax": 64,
+   "lengthMin": "1",
+   "lengthMax": "64",
    "validText": "",
    "invalidText": "Backslash, slash, double quote, single quote, square brackets, colon, pipe, angle brackets, plus sign, equals sign, semi-colon, comma, question mark, asterisk, at sign, and ampersand. Can't use space. Can't start with underscore.  Can't end with period or hyphen.",
    "invalidCharacters": "/\"'[]:|<>+=;,?*@& ",
@@ -1740,7 +1740,7 @@
    "staticValues": ""
  },
  {
-   "id": 88,
+   "id" :  88,
    "nameLookup": "Compute/virtualMachineScaleSets - [Windows]",
    "resource": "Compute/virtualMachineScaleSets",
    "optional": "UnitDept",
@@ -1748,8 +1748,8 @@
    "property": "Windows",
    "ShortName": "vmss",
    "scope": "resource group",
-   "lengthMin": 1,
-   "lengthMax": 15,
+   "lengthMin": "1",
+   "lengthMax": "15",
    "validText": "",
    "invalidText": "Backslash, slash, double quote, single quote, square brackets, colon, pipe, angle brackets, plus sign, equals sign, semi-colon, comma, question mark, asterisk, at sign, and ampersand. Can't use space. Can't start with underscore.  Can't end with period or hyphen.",
    "invalidCharacters": "/\"'[]:|<>+=;,?*@& ",
@@ -1760,7 +1760,7 @@
    "staticValues": ""
  },
  {
-   "id": 89,
+   "id" :  89,
    "nameLookup": "ContainerInstance/containerGroups",
    "resource": "ContainerInstance/containerGroups",
    "optional": "UnitDept",
@@ -1768,8 +1768,8 @@
    "property": "",
    "ShortName": "ci",
    "scope": "resource group",
-   "lengthMin": 1,
-   "lengthMax": 63,
+   "lengthMin": "1",
+   "lengthMax": "63",
    "validText": "Lowercase letters, numbers, and hyphens.",
    "invalidText": "Can't start or end with hyphen. Consecutive hyphens aren't allowed.",
    "invalidCharacters": "",
@@ -1780,7 +1780,7 @@
    "staticValues": ""
  },
  {
-   "id": 90,
+   "id" :  90,
    "nameLookup": "ContainerRegistry/registries",
    "resource": "ContainerRegistry/registries",
    "optional": "UnitDept",
@@ -1788,8 +1788,8 @@
    "property": "",
    "ShortName": "cr",
    "scope": "global",
-   "lengthMin": 5,
-   "lengthMax": 50,
+   "lengthMin": "5",
+   "lengthMax": "50",
    "validText": "Alphanumerics.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -1800,7 +1800,7 @@
    "staticValues": ""
  },
  {
-   "id": 91,
+   "id" :  91,
    "nameLookup": "ContainerRegistry/registries/buildTasks",
    "resource": "ContainerRegistry/registries/buildTasks",
    "optional": "UnitDept",
@@ -1808,8 +1808,8 @@
    "property": "",
    "ShortName": "btsk",
    "scope": "registry",
-   "lengthMin": 5,
-   "lengthMax": 50,
+   "lengthMin": "5",
+   "lengthMax": "50",
    "validText": "Alphanumerics.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -1820,7 +1820,7 @@
    "staticValues": ""
  },
  {
-   "id": 92,
+   "id" :  92,
    "nameLookup": "ContainerRegistry/registries/buildTasks/steps",
    "resource": "ContainerRegistry/registries/buildTasks/steps",
    "optional": "UnitDept",
@@ -1828,8 +1828,8 @@
    "property": "",
    "ShortName": "step",
    "scope": "build task",
-   "lengthMin": 5,
-   "lengthMax": 50,
+   "lengthMin": "5",
+   "lengthMax": "50",
    "validText": "Alphanumerics.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -1840,7 +1840,7 @@
    "staticValues": ""
  },
  {
-   "id": 93,
+   "id" :  93,
    "nameLookup": "ContainerRegistry/registries/replications",
    "resource": "ContainerRegistry/registries/replications",
    "optional": "UnitDept",
@@ -1848,8 +1848,8 @@
    "property": "",
    "ShortName": "rep",
    "scope": "registry",
-   "lengthMin": 5,
-   "lengthMax": 50,
+   "lengthMin": "5",
+   "lengthMax": "50",
    "validText": "Alphanumerics.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -1860,7 +1860,7 @@
    "staticValues": ""
  },
  {
-   "id": 94,
+   "id" :  94,
    "nameLookup": "ContainerRegistry/registries/scopeMaps",
    "resource": "ContainerRegistry/registries/scopeMaps",
    "optional": "UnitDept",
@@ -1868,8 +1868,8 @@
    "property": "",
    "ShortName": "scmap",
    "scope": "registry",
-   "lengthMin": 5,
-   "lengthMax": 50,
+   "lengthMin": "5",
+   "lengthMax": "50",
    "validText": "Alphanumerics, hyphens, and underscores.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -1880,7 +1880,7 @@
    "staticValues": ""
  },
  {
-   "id": 95,
+   "id" :  95,
    "nameLookup": "ContainerRegistry/registries/tasks",
    "resource": "ContainerRegistry/registries/tasks",
    "optional": "UnitDept",
@@ -1888,8 +1888,8 @@
    "property": "",
    "ShortName": "task",
    "scope": "registry",
-   "lengthMin": 5,
-   "lengthMax": 50,
+   "lengthMin": "5",
+   "lengthMax": "50",
    "validText": "Alphanumerics, hyphens, and underscores.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -1900,7 +1900,7 @@
    "staticValues": ""
  },
  {
-   "id": 96,
+   "id" :  96,
    "nameLookup": "ContainerRegistry/registries/tokens",
    "resource": "ContainerRegistry/registries/tokens",
    "optional": "UnitDept",
@@ -1908,8 +1908,8 @@
    "property": "",
    "ShortName": "tokn",
    "scope": "registry",
-   "lengthMin": 5,
-   "lengthMax": 50,
+   "lengthMin": "5",
+   "lengthMax": "50",
    "validText": "Alphanumerics, hyphens, and underscores.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -1920,7 +1920,7 @@
    "staticValues": ""
  },
  {
-   "id": 97,
+   "id" :  97,
    "nameLookup": "ContainerRegistry/registries/webhooks",
    "resource": "ContainerRegistry/registries/webhooks",
    "optional": "UnitDept",
@@ -1928,8 +1928,8 @@
    "property": "",
    "ShortName": "webhk",
    "scope": "registry",
-   "lengthMin": 5,
-   "lengthMax": 50,
+   "lengthMin": "5",
+   "lengthMax": "50",
    "validText": "Alphanumerics.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -1940,7 +1940,7 @@
    "staticValues": ""
  },
  {
-   "id": 98,
+   "id" :  98,
    "nameLookup": "ContainerService/managedClusters",
    "resource": "ContainerService/managedClusters",
    "optional": "UnitDept",
@@ -1948,8 +1948,8 @@
    "property": "",
    "ShortName": "aks",
    "scope": "resource group",
-   "lengthMin": 1,
-   "lengthMax": 63,
+   "lengthMin": "1",
+   "lengthMax": "63",
    "validText": "Alphanumerics, underscores, and hyphens. Start and end with alphanumeric.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -1960,7 +1960,7 @@
    "staticValues": ""
  },
  {
-   "id": 99,
+   "id" :  99,
    "nameLookup": "ContainerServiceopenShiftManagedClusters",
    "resource": "ContainerServiceopenShiftManagedClusters",
    "optional": "UnitDept",
@@ -1968,8 +1968,8 @@
    "property": "",
    "ShortName": "osmc",
    "scope": "resource group",
-   "lengthMin": 1,
-   "lengthMax": 30,
+   "lengthMin": "1",
+   "lengthMax": "30",
    "validText": "Alphanumerics.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -1980,7 +1980,7 @@
    "staticValues": ""
  },
  {
-   "id": 100,
+   "id" :  100,
    "nameLookup": "CustomerInsights/hubs",
    "resource": "CustomerInsights/hubs",
    "optional": "UnitDept",
@@ -1988,8 +1988,8 @@
    "property": "",
    "ShortName": "cihub",
    "scope": "resource group",
-   "lengthMin": 1,
-   "lengthMax": 64,
+   "lengthMin": "1",
+   "lengthMax": "64",
    "validText": "Alphanumerics. Start with letter.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -2000,7 +2000,7 @@
    "staticValues": ""
  },
  {
-   "id": 101,
+   "id" :  101,
    "nameLookup": "CustomerInsights/hubs/authorizationPolicies",
    "resource": "CustomerInsights/hubs/authorizationPolicies",
    "optional": "UnitDept",
@@ -2008,8 +2008,8 @@
    "property": "",
    "ShortName": "authp",
    "scope": "hub",
-   "lengthMin": 1,
-   "lengthMax": 50,
+   "lengthMin": "1",
+   "lengthMax": "50",
    "validText": "Alphanumerics, underscores, and periods. Start and end with alphnumeric.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -2020,7 +2020,7 @@
    "staticValues": ""
  },
  {
-   "id": 102,
+   "id" :  102,
    "nameLookup": "CustomerInsights/hubs/connectors",
    "resource": "CustomerInsights/hubs/connectors",
    "optional": "UnitDept",
@@ -2028,8 +2028,8 @@
    "property": "",
    "ShortName": "cihbconn",
    "scope": "hub",
-   "lengthMin": 1,
-   "lengthMax": 128,
+   "lengthMin": "1",
+   "lengthMax": "128",
    "validText": "Alphanumerics and underscores. Start with letter.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -2040,7 +2040,7 @@
    "staticValues": ""
  },
  {
-   "id": 103,
+   "id" :  103,
    "nameLookup": "CustomerInsights/hubs/connectors/mappings",
    "resource": "CustomerInsights/hubs/connectors/mappings",
    "optional": "UnitDept",
@@ -2048,8 +2048,8 @@
    "property": "",
    "ShortName": "cihmap",
    "scope": "connector",
-   "lengthMin": 1,
-   "lengthMax": 128,
+   "lengthMin": "1",
+   "lengthMax": "128",
    "validText": "Alphanumerics and underscores. Start with letter.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -2060,7 +2060,7 @@
    "staticValues": ""
  },
  {
-   "id": 104,
+   "id" :  104,
    "nameLookup": "CustomerInsights/hubs/interactions",
    "resource": "CustomerInsights/hubs/interactions",
    "optional": "UnitDept",
@@ -2068,8 +2068,8 @@
    "property": "",
    "ShortName": "int",
    "scope": "hub",
-   "lengthMin": 1,
-   "lengthMax": 128,
+   "lengthMin": "1",
+   "lengthMax": "128",
    "validText": "Alphanumerics and underscores. Start with letter.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -2080,7 +2080,7 @@
    "staticValues": ""
  },
  {
-   "id": 105,
+   "id" :  105,
    "nameLookup": "CustomerInsights/hubs/kpi",
    "resource": "CustomerInsights/hubs/kpi",
    "optional": "UnitDept",
@@ -2088,8 +2088,8 @@
    "property": "",
    "ShortName": "kpi",
    "scope": "hub",
-   "lengthMin": 1,
-   "lengthMax": 512,
+   "lengthMin": "1",
+   "lengthMax": "512",
    "validText": "Alphanumerics and underscores. Start with letter.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -2100,7 +2100,7 @@
    "staticValues": ""
  },
  {
-   "id": 106,
+   "id" :  106,
    "nameLookup": "CustomerInsights/hubs/links",
    "resource": "CustomerInsights/hubs/links",
    "optional": "UnitDept",
@@ -2108,8 +2108,8 @@
    "property": "",
    "ShortName": "link",
    "scope": "hub",
-   "lengthMin": 1,
-   "lengthMax": 512,
+   "lengthMin": "1",
+   "lengthMax": "512",
    "validText": "Alphanumerics and underscores. Start with letter.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -2120,7 +2120,7 @@
    "staticValues": ""
  },
  {
-   "id": 107,
+   "id" :  107,
    "nameLookup": "CustomerInsights/hubs/predictions",
    "resource": "CustomerInsights/hubs/predictions",
    "optional": "UnitDept",
@@ -2128,8 +2128,8 @@
    "property": "",
    "ShortName": "pred",
    "scope": "hub",
-   "lengthMin": 1,
-   "lengthMax": 512,
+   "lengthMin": "1",
+   "lengthMax": "512",
    "validText": "Alphanumerics and underscores. Start with letter.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -2140,7 +2140,7 @@
    "staticValues": ""
  },
  {
-   "id": 108,
+   "id" :  108,
    "nameLookup": "CustomerInsights/hubs/profiles",
    "resource": "CustomerInsights/hubs/profiles",
    "optional": "UnitDept",
@@ -2148,8 +2148,8 @@
    "property": "",
    "ShortName": "prof",
    "scope": "hub",
-   "lengthMin": 1,
-   "lengthMax": 128,
+   "lengthMin": "1",
+   "lengthMax": "128",
    "validText": "Alphanumerics and underscores. Start with letter.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -2160,7 +2160,7 @@
    "staticValues": ""
  },
  {
-   "id": 109,
+   "id" :  109,
    "nameLookup": "CustomerInsights/hubs/relationshipLinks",
    "resource": "CustomerInsights/hubs/relationshipLinks",
    "optional": "UnitDept",
@@ -2168,8 +2168,8 @@
    "property": "",
    "ShortName": "rlink",
    "scope": "hub",
-   "lengthMin": 1,
-   "lengthMax": 512,
+   "lengthMin": "1",
+   "lengthMax": "512",
    "validText": "Alphanumerics and underscores. Start with letter.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -2180,7 +2180,7 @@
    "staticValues": ""
  },
  {
-   "id": 110,
+   "id" :  110,
    "nameLookup": "CustomerInsights/hubs/relationships",
    "resource": "CustomerInsights/hubs/relationships",
    "optional": "UnitDept",
@@ -2188,8 +2188,8 @@
    "property": "",
    "ShortName": "rel",
    "scope": "hub",
-   "lengthMin": 1,
-   "lengthMax": 512,
+   "lengthMin": "1",
+   "lengthMax": "512",
    "validText": "Alphanumerics and underscores. Start with letter.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -2200,7 +2200,7 @@
    "staticValues": ""
  },
  {
-   "id": 111,
+   "id" :  111,
    "nameLookup": "CustomerInsights/hubs/roleAssignments",
    "resource": "CustomerInsights/hubs/roleAssignments",
    "optional": "UnitDept",
@@ -2208,8 +2208,8 @@
    "property": "",
    "ShortName": "role",
    "scope": "hub",
-   "lengthMin": 1,
-   "lengthMax": 128,
+   "lengthMin": "1",
+   "lengthMax": "128",
    "validText": "Alphanumerics and underscores. Start with letter.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -2220,7 +2220,7 @@
    "staticValues": ""
  },
  {
-   "id": 112,
+   "id" :  112,
    "nameLookup": "CustomerInsights/hubs/views",
    "resource": "CustomerInsights/hubs/views",
    "optional": "UnitDept",
@@ -2228,8 +2228,8 @@
    "property": "",
    "ShortName": "view",
    "scope": "hub",
-   "lengthMin": 1,
-   "lengthMax": 512,
+   "lengthMin": "1",
+   "lengthMax": "512",
    "validText": "Alphanumerics and underscores. Start with letter.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -2240,7 +2240,7 @@
    "staticValues": ""
  },
  {
-   "id": 113,
+   "id" :  113,
    "nameLookup": "CustomProviders/associations",
    "resource": "CustomProviders/associations",
    "optional": "UnitDept",
@@ -2248,8 +2248,8 @@
    "property": "",
    "ShortName": "cpas",
    "scope": "resource group",
-   "lengthMin": 1,
-   "lengthMax": 180,
+   "lengthMin": "1",
+   "lengthMax": "180",
    "validText": "",
    "invalidText": "Percent sign, ampersand, backslash, question mark, slash. Can't end with period or space.",
    "invalidCharacters": "%&\\?/",
@@ -2260,7 +2260,7 @@
    "staticValues": ""
  },
  {
-   "id": 114,
+   "id" :  114,
    "nameLookup": "CustomProviders/resourceProviders",
    "resource": "CustomProviders/resourceProviders",
    "optional": "UnitDept",
@@ -2268,8 +2268,8 @@
    "property": "",
    "ShortName": "cprep",
    "scope": "resource group",
-   "lengthMin": 3,
-   "lengthMax": 64,
+   "lengthMin": "3",
+   "lengthMax": "64",
    "validText": "",
    "invalidText": "Percent sign, ampersand, backslash, question mark, slash. Can't end with period or space.",
    "invalidCharacters": "%&\\?/",
@@ -2280,7 +2280,7 @@
    "staticValues": ""
  },
  {
-   "id": 115,
+   "id" :  115,
    "nameLookup": "DataBox/jobs",
    "resource": "DataBox/jobs",
    "optional": "UnitDept",
@@ -2288,8 +2288,8 @@
    "property": "",
    "ShortName": "dbjob",
    "scope": "resource group",
-   "lengthMin": 3,
-   "lengthMax": 24,
+   "lengthMin": "3",
+   "lengthMax": "24",
    "validText": "Alphanumerics, hyphens, underscores and periods.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -2300,7 +2300,7 @@
    "staticValues": ""
  },
  {
-   "id": 116,
+   "id" :  116,
    "nameLookup": "Databricks/workspaces",
    "resource": "Databricks/workspaces",
    "optional": "UnitDept",
@@ -2308,8 +2308,8 @@
    "property": "",
    "ShortName": "dbw",
    "scope": "resource group",
-   "lengthMin": 3,
-   "lengthMax": 30,
+   "lengthMin": "3",
+   "lengthMax": "30",
    "validText": "Alphanumerics, underscores, and hyphens",
    "invalidText": "",
    "invalidCharacters": "",
@@ -2320,7 +2320,7 @@
    "staticValues": ""
  },
  {
-   "id": 117,
+   "id" :  117,
    "nameLookup": "DataFactory/factories",
    "resource": "DataFactory/factories",
    "optional": "UnitDept",
@@ -2328,8 +2328,8 @@
    "property": "",
    "ShortName": "adf",
    "scope": "global",
-   "lengthMin": 3,
-   "lengthMax": 63,
+   "lengthMin": "3",
+   "lengthMax": "63",
    "validText": "Alphanumerics and hyphens. Start and end with alphanumeric.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -2340,7 +2340,7 @@
    "staticValues": ""
  },
  {
-   "id": 118,
+   "id" :  118,
    "nameLookup": "DataFactory/factories/dataflows",
    "resource": "DataFactory/factories/dataflows",
    "optional": "UnitDept",
@@ -2348,8 +2348,8 @@
    "property": "",
    "ShortName": "flow",
    "scope": "factory",
-   "lengthMin": 1,
-   "lengthMax": 260,
+   "lengthMin": "1",
+   "lengthMax": "260",
    "validText": "Start with alphanumeric.",
    "invalidText": "Angle brackets, asterisk, number sign, period, percent sign, ampersand, colon, backslash, question mark, plus sign, and slash",
    "invalidCharacters": "<>*#.%&:\\+?/",
@@ -2360,7 +2360,7 @@
    "staticValues": ""
  },
  {
-   "id": 119,
+   "id" :  119,
    "nameLookup": "DataFactory/factories/datasets",
    "resource": "DataFactory/factories/datasets",
    "optional": "UnitDept",
@@ -2368,8 +2368,8 @@
    "property": "",
    "ShortName": "dset",
    "scope": "factory",
-   "lengthMin": 1,
-   "lengthMax": 260,
+   "lengthMin": "1",
+   "lengthMax": "260",
    "validText": "Start with alphanumeric.",
    "invalidText": "Angle brackets, asterisk, number sign, period, percent sign, ampersand, colon, backslash, question mark, plus sign, and slash",
    "invalidCharacters": "<>*#.%&:\\+?/",
@@ -2380,7 +2380,7 @@
    "staticValues": ""
  },
  {
-   "id": 120,
+   "id" :  120,
    "nameLookup": "DataFactory/factories/integrationRuntimes",
    "resource": "DataFactory/factories/integrationRuntimes",
    "optional": "UnitDept",
@@ -2388,8 +2388,8 @@
    "property": "",
    "ShortName": "run",
    "scope": "factory",
-   "lengthMin": 3,
-   "lengthMax": 63,
+   "lengthMin": "3",
+   "lengthMax": "63",
    "validText": "Alphanumerics and hyphens. Start and end with alphanumeric.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -2400,7 +2400,7 @@
    "staticValues": ""
  },
  {
-   "id": 121,
+   "id" :  121,
    "nameLookup": "DataFactory/factories/linkedservices",
    "resource": "DataFactory/factories/linkedservices",
    "optional": "UnitDept",
@@ -2408,8 +2408,8 @@
    "property": "",
    "ShortName": "lksvc",
    "scope": "factory",
-   "lengthMin": 1,
-   "lengthMax": 260,
+   "lengthMin": "1",
+   "lengthMax": "260",
    "validText": "Start with alphanumeric.",
    "invalidText": "Angle brackets, asterisk, number sign, period, percent sign, ampersand, colon, backslash, question mark, plus sign, and slash",
    "invalidCharacters": "<>*#.%&:\\+?/",
@@ -2420,7 +2420,7 @@
    "staticValues": ""
  },
  {
-   "id": 122,
+   "id" :  122,
    "nameLookup": "DataFactory/factories/pipelines",
    "resource": "DataFactory/factories/pipelines",
    "optional": "UnitDept",
@@ -2428,8 +2428,8 @@
    "property": "",
    "ShortName": "pipe",
    "scope": "factory",
-   "lengthMin": 1,
-   "lengthMax": 260,
+   "lengthMin": "1",
+   "lengthMax": "260",
    "validText": "Start with alphanumeric.",
    "invalidText": "Angle brackets, asterisk, number sign, period, percent sign, ampersand, colon, backslash, question mark, plus sign, and slash",
    "invalidCharacters": "<>*#.%&:\\+?/",
@@ -2440,7 +2440,7 @@
    "staticValues": ""
  },
  {
-   "id": 123,
+   "id" :  123,
    "nameLookup": "DataFactory/factories/triggers",
    "resource": "DataFactory/factories/triggers",
    "optional": "UnitDept",
@@ -2448,8 +2448,8 @@
    "property": "",
    "ShortName": "trig",
    "scope": "factory",
-   "lengthMin": 1,
-   "lengthMax": 260,
+   "lengthMin": "1",
+   "lengthMax": "260",
    "validText": "Start with alphanumeric.",
    "invalidText": "Angle brackets, asterisk, number sign, period, percent sign, ampersand, colon, backslash, question mark, plus sign, and slash",
    "invalidCharacters": "<>*#.%&:\\+?/",
@@ -2460,7 +2460,7 @@
    "staticValues": ""
  },
  {
-   "id": 124,
+   "id" :  124,
    "nameLookup": "DataFactory/factories/triggers/rerunTriggers",
    "resource": "DataFactory/factories/triggers/rerunTriggers",
    "optional": "UnitDept",
@@ -2468,8 +2468,8 @@
    "property": "",
    "ShortName": "rerun",
    "scope": "trigger",
-   "lengthMin": 1,
-   "lengthMax": 260,
+   "lengthMin": "1",
+   "lengthMax": "260",
    "validText": "Start with alphanumeric.",
    "invalidText": "Angle brackets, asterisk, number sign, period, percent sign, ampersand, colon, backslash, question mark, plus sign, and slash",
    "invalidCharacters": "<>*#.%&:\\+?/",
@@ -2480,7 +2480,7 @@
    "staticValues": ""
  },
  {
-   "id": 125,
+   "id" :  125,
    "nameLookup": "DataLakeAnalytics/accounts",
    "resource": "DataLakeAnalytics/accounts",
    "optional": "UnitDept",
@@ -2488,8 +2488,8 @@
    "property": "",
    "ShortName": "dla",
    "scope": "global",
-   "lengthMin": 3,
-   "lengthMax": 24,
+   "lengthMin": "3",
+   "lengthMax": "24",
    "validText": "Lowercase letters and numbers.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -2500,7 +2500,7 @@
    "staticValues": ""
  },
  {
-   "id": 126,
+   "id" :  126,
    "nameLookup": "DataLakeAnalytics/accounts/computePolicies",
    "resource": "DataLakeAnalytics/accounts/computePolicies",
    "optional": "UnitDept",
@@ -2508,8 +2508,8 @@
    "property": "",
    "ShortName": "cmpol",
    "scope": "account",
-   "lengthMin": 3,
-   "lengthMax": 60,
+   "lengthMin": "3",
+   "lengthMax": "60",
    "validText": "Alphanumerics, hyphens, and underscores.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -2520,7 +2520,7 @@
    "staticValues": ""
  },
  {
-   "id": 127,
+   "id" :  127,
    "nameLookup": "DataLakeAnalytics/accounts/dataLakeStoreAccounts",
    "resource": "DataLakeAnalytics/accounts/dataLakeStoreAccounts",
    "optional": "UnitDept",
@@ -2528,8 +2528,8 @@
    "property": "",
    "ShortName": "dlsta",
    "scope": "account",
-   "lengthMin": 3,
-   "lengthMax": 24,
+   "lengthMin": "3",
+   "lengthMax": "24",
    "validText": "Lowercase letters and numbers.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -2540,7 +2540,7 @@
    "staticValues": ""
  },
  {
-   "id": 128,
+   "id" :  128,
    "nameLookup": "DataLakeAnalytics/accounts/firewallRules",
    "resource": "DataLakeAnalytics/accounts/firewallRules",
    "optional": "UnitDept",
@@ -2548,8 +2548,8 @@
    "property": "",
    "ShortName": "rule",
    "scope": "account",
-   "lengthMin": 3,
-   "lengthMax": 50,
+   "lengthMin": "3",
+   "lengthMax": "50",
    "validText": "Alphanumerics, hyphens, and underscores.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -2560,7 +2560,7 @@
    "staticValues": ""
  },
  {
-   "id": 129,
+   "id" :  129,
    "nameLookup": "DataLakeAnalytics/accounts/storageAccounts",
    "resource": "DataLakeAnalytics/accounts/storageAccounts",
    "optional": "UnitDept",
@@ -2568,8 +2568,8 @@
    "property": "",
    "ShortName": "dlasa",
    "scope": "account",
-   "lengthMin": 3,
-   "lengthMax": 60,
+   "lengthMin": "3",
+   "lengthMax": "60",
    "validText": "Alphanumerics, hyphens, and underscores.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -2580,7 +2580,7 @@
    "staticValues": ""
  },
  {
-   "id": 130,
+   "id" :  130,
    "nameLookup": "DataLakeStore/accounts",
    "resource": "DataLakeStore/accounts",
    "optional": "UnitDept",
@@ -2588,8 +2588,8 @@
    "property": "",
    "ShortName": "dls",
    "scope": "global",
-   "lengthMin": 3,
-   "lengthMax": 24,
+   "lengthMin": "3",
+   "lengthMax": "24",
    "validText": "Lowercase letters and numbers.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -2600,7 +2600,7 @@
    "staticValues": ""
  },
  {
-   "id": 131,
+   "id" :  131,
    "nameLookup": "DataLakeStore/accounts/firewallRules",
    "resource": "DataLakeStore/accounts/firewallRules",
    "optional": "UnitDept",
@@ -2608,8 +2608,8 @@
    "property": "",
    "ShortName": "rule",
    "scope": "account",
-   "lengthMin": 3,
-   "lengthMax": 50,
+   "lengthMin": "3",
+   "lengthMax": "50",
    "validText": "Alphanumerics, hyphens, and underscores.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -2620,7 +2620,7 @@
    "staticValues": ""
  },
  {
-   "id": 132,
+   "id" :  132,
    "nameLookup": "DataLakeStore/accounts/virtualNetworkRules",
    "resource": "DataLakeStore/accounts/virtualNetworkRules",
    "optional": "UnitDept",
@@ -2628,8 +2628,8 @@
    "property": "",
    "ShortName": "rule",
    "scope": "account",
-   "lengthMin": 3,
-   "lengthMax": 50,
+   "lengthMin": "3",
+   "lengthMax": "50",
    "validText": "Alphanumerics, hyphens, and underscores.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -2640,7 +2640,7 @@
    "staticValues": ""
  },
  {
-   "id": 133,
+   "id" :  133,
    "nameLookup": "DataMigration/services",
    "resource": "DataMigration/services",
    "optional": "UnitDept",
@@ -2648,8 +2648,8 @@
    "property": "",
    "ShortName": "dms",
    "scope": "resource group",
-   "lengthMin": 2,
-   "lengthMax": 62,
+   "lengthMin": "2",
+   "lengthMax": "62",
    "validText": "Alphanumerics, hyphens, periods, and underscores. Start with alphanumeric",
    "invalidText": "",
    "invalidCharacters": "",
@@ -2660,7 +2660,7 @@
    "staticValues": ""
  },
  {
-   "id": 134,
+   "id" :  134,
    "nameLookup": "DataMigration/services/projects",
    "resource": "DataMigration/services/projects",
    "optional": "UnitDept",
@@ -2668,8 +2668,8 @@
    "property": "",
    "ShortName": "proj",
    "scope": "service",
-   "lengthMin": 2,
-   "lengthMax": 57,
+   "lengthMin": "2",
+   "lengthMax": "57",
    "validText": "Alphanumerics, hyphens, periods, and underscores.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -2680,7 +2680,7 @@
    "staticValues": ""
  },
  {
-   "id": 135,
+   "id" :  135,
    "nameLookup": "DBforMariaDB/servers",
    "resource": "DBforMariaDB/servers",
    "optional": "UnitDept",
@@ -2688,8 +2688,8 @@
    "property": "",
    "ShortName": "mdbsv",
    "scope": "global",
-   "lengthMin": 3,
-   "lengthMax": 63,
+   "lengthMin": "3",
+   "lengthMax": "63",
    "validText": "Lowercase letters, hyphens and numbers.",
    "invalidText": "Can't start or end with hyphen.",
    "invalidCharacters": "",
@@ -2700,7 +2700,7 @@
    "staticValues": ""
  },
  {
-   "id": 136,
+   "id" :  136,
    "nameLookup": "DBforMariaDB/servers/databases",
    "resource": "DBforMariaDB/servers/databases",
    "optional": "UnitDept",
@@ -2708,8 +2708,8 @@
    "property": "",
    "ShortName": "mdbdb",
    "scope": "servers",
-   "lengthMin": 1,
-   "lengthMax": 63,
+   "lengthMin": "1",
+   "lengthMax": "63",
    "validText": "Alphanumerics and hyphens.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -2720,7 +2720,7 @@
    "staticValues": ""
  },
  {
-   "id": 137,
+   "id" :  137,
    "nameLookup": "DBforMariaDB/servers/firewallRules",
    "resource": "DBforMariaDB/servers/firewallRules",
    "optional": "UnitDept",
@@ -2728,8 +2728,8 @@
    "property": "",
    "ShortName": "rule",
    "scope": "servers",
-   "lengthMin": 1,
-   "lengthMax": 128,
+   "lengthMin": "1",
+   "lengthMax": "128",
    "validText": "Alphanumerics, hyphens, and underscores.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -2740,7 +2740,7 @@
    "staticValues": ""
  },
  {
-   "id": 138,
+   "id" :  138,
    "nameLookup": "DBforMariaDB/servers/virtualNetworkRules",
    "resource": "DBforMariaDB/servers/virtualNetworkRules",
    "optional": "UnitDept",
@@ -2748,8 +2748,8 @@
    "property": "",
    "ShortName": "rule",
    "scope": "servers",
-   "lengthMin": 1,
-   "lengthMax": 128,
+   "lengthMin": "1",
+   "lengthMax": "128",
    "validText": "Alphanumerics and hyphens.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -2760,7 +2760,7 @@
    "staticValues": ""
  },
  {
-   "id": 139,
+   "id" :  139,
    "nameLookup": "DBforMySQL/servers",
    "resource": "DBforMySQL/servers",
    "optional": "UnitDept",
@@ -2768,8 +2768,8 @@
    "property": "",
    "ShortName": "mysql",
    "scope": "global",
-   "lengthMin": 3,
-   "lengthMax": 63,
+   "lengthMin": "3",
+   "lengthMax": "63",
    "validText": "Lowercase letters, hyphens and numbers.",
    "invalidText": "Can't start or end with hyphen.",
    "invalidCharacters": "",
@@ -2780,7 +2780,7 @@
    "staticValues": ""
  },
  {
-   "id": 140,
+   "id" :  140,
    "nameLookup": "DBforMySQL/servers/databases",
    "resource": "DBforMySQL/servers/databases",
    "optional": "UnitDept",
@@ -2788,8 +2788,8 @@
    "property": "",
    "ShortName": "db",
    "scope": "servers",
-   "lengthMin": 1,
-   "lengthMax": 63,
+   "lengthMin": "1",
+   "lengthMax": "63",
    "validText": "Alphanumerics and hyphens.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -2800,7 +2800,7 @@
    "staticValues": ""
  },
  {
-   "id": 141,
+   "id" :  141,
    "nameLookup": "DBforMySQL/servers/firewallRules",
    "resource": "DBforMySQL/servers/firewallRules",
    "optional": "UnitDept",
@@ -2808,8 +2808,8 @@
    "property": "",
    "ShortName": "rule",
    "scope": "servers",
-   "lengthMin": 1,
-   "lengthMax": 128,
+   "lengthMin": "1",
+   "lengthMax": "128",
    "validText": "Alphanumerics, hyphens, and underscores.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -2820,7 +2820,7 @@
    "staticValues": ""
  },
  {
-   "id": 142,
+   "id" :  142,
    "nameLookup": "DBforMySQL/servers/virtualNetworkRules",
    "resource": "DBforMySQL/servers/virtualNetworkRules",
    "optional": "UnitDept",
@@ -2828,8 +2828,8 @@
    "property": "",
    "ShortName": "rule",
    "scope": "servers",
-   "lengthMin": 1,
-   "lengthMax": 128,
+   "lengthMin": "1",
+   "lengthMax": "128",
    "validText": "Alphanumerics and hyphens.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -2840,7 +2840,7 @@
    "staticValues": ""
  },
  {
-   "id": 143,
+   "id" :  143,
    "nameLookup": "DBforPostgreSQL/servers",
    "resource": "DBforPostgreSQL/servers",
    "optional": "UnitDept",
@@ -2848,8 +2848,8 @@
    "property": "",
    "ShortName": "psql",
    "scope": "global",
-   "lengthMin": 3,
-   "lengthMax": 63,
+   "lengthMin": "3",
+   "lengthMax": "63",
    "validText": "Lowercase letters, hyphens and numbers.",
    "invalidText": "Can't start or end with hyphen.",
    "invalidCharacters": "",
@@ -2860,7 +2860,7 @@
    "staticValues": ""
  },
  {
-   "id": 144,
+   "id" :  144,
    "nameLookup": "DBforPostgreSQL/servers/databases",
    "resource": "DBforPostgreSQL/servers/databases",
    "optional": "UnitDept",
@@ -2868,8 +2868,8 @@
    "property": "",
    "ShortName": "db",
    "scope": "servers",
-   "lengthMin": 1,
-   "lengthMax": 63,
+   "lengthMin": "1",
+   "lengthMax": "63",
    "validText": "Alphanumerics and hyphens.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -2880,7 +2880,7 @@
    "staticValues": ""
  },
  {
-   "id": 145,
+   "id" :  145,
    "nameLookup": "DBforPostgreSQL/servers/firewallRules",
    "resource": "DBforPostgreSQL/servers/firewallRules",
    "optional": "UnitDept",
@@ -2888,8 +2888,8 @@
    "property": "",
    "ShortName": "rule",
    "scope": "servers",
-   "lengthMin": 1,
-   "lengthMax": 128,
+   "lengthMin": "1",
+   "lengthMax": "128",
    "validText": "Alphanumerics, hyphens, and underscores.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -2900,7 +2900,7 @@
    "staticValues": ""
  },
  {
-   "id": 146,
+   "id" :  146,
    "nameLookup": "DBforPostgreSQL/servers/virtualNetworkRules",
    "resource": "DBforPostgreSQL/servers/virtualNetworkRules",
    "optional": "UnitDept",
@@ -2908,8 +2908,8 @@
    "property": "",
    "ShortName": "rule",
    "scope": "servers",
-   "lengthMin": 1,
-   "lengthMax": 128,
+   "lengthMin": "1",
+   "lengthMax": "128",
    "validText": "Alphanumerics and hyphens.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -2920,7 +2920,7 @@
    "staticValues": ""
  },
  {
-   "id": 147,
+   "id" :  147,
    "nameLookup": "Devices/IotHubs",
    "resource": "Devices/IotHubs",
    "optional": "UnitDept",
@@ -2928,8 +2928,8 @@
    "property": "",
    "ShortName": "iot",
    "scope": "global",
-   "lengthMin": 3,
-   "lengthMax": 50,
+   "lengthMin": "3",
+   "lengthMax": "50",
    "validText": "Alphanumerics and hyphens.",
    "invalidText": "Can't end with hyphen.",
    "invalidCharacters": "",
@@ -2940,7 +2940,7 @@
    "staticValues": ""
  },
  {
-   "id": 148,
+   "id" :  148,
    "nameLookup": "Devices/IotHubs/certificates",
    "resource": "Devices/IotHubs/certificates",
    "optional": "UnitDept",
@@ -2948,8 +2948,8 @@
    "property": "",
    "ShortName": "iothcert",
    "scope": "IoT hub",
-   "lengthMin": 1,
-   "lengthMax": 64,
+   "lengthMin": "1",
+   "lengthMax": "64",
    "validText": "Alphanumerics, hyphens, periods, and underscores.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -2960,7 +2960,7 @@
    "staticValues": ""
  },
  {
-   "id": 149,
+   "id" :  149,
    "nameLookup": "Devices/IotHubs/eventHubEndpoints/ConsumerGroups",
    "resource": "Devices/IotHubs/eventHubEndpoints/ConsumerGroups",
    "optional": "UnitDept",
@@ -2968,8 +2968,8 @@
    "property": "",
    "ShortName": "congp",
    "scope": "eventHubEndpoints",
-   "lengthMin": 1,
-   "lengthMax": 50,
+   "lengthMin": "1",
+   "lengthMax": "50",
    "validText": "Alphanumerics, hyphens, periods, and underscores.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -2980,7 +2980,7 @@
    "staticValues": ""
  },
  {
-   "id": 150,
+   "id" :  150,
    "nameLookup": "Devices/provisioningServices",
    "resource": "Devices/provisioningServices",
    "optional": "UnitDept",
@@ -2988,8 +2988,8 @@
    "property": "",
    "ShortName": "provs",
    "scope": "resource group",
-   "lengthMin": 3,
-   "lengthMax": 64,
+   "lengthMin": "3",
+   "lengthMax": "64",
    "validText": "Alphanumerics and hyphens. End with alphanumeric",
    "invalidText": "",
    "invalidCharacters": "",
@@ -3000,7 +3000,7 @@
    "staticValues": ""
  },
  {
-   "id": 151,
+   "id" :  151,
    "nameLookup": "Devices/provisioningServices/certificates",
    "resource": "Devices/provisioningServices/certificates",
    "optional": "UnitDept",
@@ -3008,8 +3008,8 @@
    "property": "",
    "ShortName": "pcert",
    "scope": "provisioningServices",
-   "lengthMin": 1,
-   "lengthMax": 64,
+   "lengthMin": "1",
+   "lengthMax": "64",
    "validText": "Alphanumerics, hyphens, periods, and underscores.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -3020,7 +3020,7 @@
    "staticValues": ""
  },
  {
-   "id": 152,
+   "id" :  152,
    "nameLookup": "DevTestLab/labs",
    "resource": "DevTestLab/labs",
    "optional": "UnitDept",
@@ -3028,8 +3028,8 @@
    "property": "",
    "ShortName": "dtlab",
    "scope": "resource group",
-   "lengthMin": 1,
-   "lengthMax": 50,
+   "lengthMin": "1",
+   "lengthMax": "50",
    "validText": "Alphanumerics, underscores, and hyphens.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -3040,7 +3040,7 @@
    "staticValues": ""
  },
  {
-   "id": 153,
+   "id" :  153,
    "nameLookup": "DevTestLab/labs/customimages",
    "resource": "DevTestLab/labs/customimages",
    "optional": "UnitDept",
@@ -3048,8 +3048,8 @@
    "property": "",
    "ShortName": "img",
    "scope": "lab",
-   "lengthMin": 1,
-   "lengthMax": 80,
+   "lengthMin": "1",
+   "lengthMax": "80",
    "validText": "Alphanumerics, underscores, hyphens, and parentheses.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -3060,7 +3060,7 @@
    "staticValues": ""
  },
  {
-   "id": 154,
+   "id" :  154,
    "nameLookup": "DevTestLab/labs/formulas",
    "resource": "DevTestLab/labs/formulas",
    "optional": "UnitDept",
@@ -3068,8 +3068,8 @@
    "property": "",
    "ShortName": "form",
    "scope": "lab",
-   "lengthMin": 1,
-   "lengthMax": 80,
+   "lengthMin": "1",
+   "lengthMax": "80",
    "validText": "Alphanumerics, underscores, hyphens, and parentheses.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -3080,7 +3080,7 @@
    "staticValues": ""
  },
  {
-   "id": 155,
+   "id" :  155,
    "nameLookup": "DevTestLab/labs/virtualmachines - [Linux]",
    "resource": "DevTestLab/labs/virtualmachines",
    "optional": "UnitDept",
@@ -3088,8 +3088,8 @@
    "property": "Linux",
    "ShortName": "vm",
    "scope": "lab",
-   "lengthMin": 1,
-   "lengthMax": 64,
+   "lengthMin": "1",
+   "lengthMax": "64",
    "validText": "Alphanumerics and hyphens. Start and end with alphanumeric.",
    "invalidText": "Can't be all numbers.",
    "invalidCharacters": "",
@@ -3100,7 +3100,7 @@
    "staticValues": ""
  },
  {
-   "id": 156,
+   "id" :  156,
    "nameLookup": "DevTestLab/labs/virtualmachines - [Windows]",
    "resource": "DevTestLab/labs/virtualmachines",
    "optional": "UnitDept",
@@ -3108,8 +3108,8 @@
    "property": "Windows",
    "ShortName": "vm",
    "scope": "lab",
-   "lengthMin": 1,
-   "lengthMax": 15,
+   "lengthMin": "1",
+   "lengthMax": "15",
    "validText": "Alphanumerics and hyphens. Start and end with alphanumeric.",
    "invalidText": "Can't be all numbers.",
    "invalidCharacters": "",
@@ -3120,7 +3120,7 @@
    "staticValues": ""
  },
  {
-   "id": 157,
+   "id" :  157,
    "nameLookup": "DocumentDB/databaseAccounts",
    "resource": "DocumentDB/databaseAccounts",
    "optional": "UnitDept",
@@ -3128,8 +3128,8 @@
    "property": "",
    "ShortName": "dbact",
    "scope": "global",
-   "lengthMin": 3,
-   "lengthMax": 44,
+   "lengthMin": "3",
+   "lengthMax": "44",
    "validText": "Lowercase letters, numbers, and hyphens. Start with lowercase letter or number.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -3140,7 +3140,7 @@
    "staticValues": ""
  },
  {
-   "id": 158,
+   "id" :  158,
    "nameLookup": "DocumentDB/databaseAccounts/sqlDatabases",
    "resource": "DocumentDB/databaseAccounts/sqlDatabases",
    "optional": "",
@@ -3160,7 +3160,7 @@
    "staticValues": ""
  },
  {
-   "id": 159,
+   "id" :  159,
    "nameLookup": "EventGrid/domains",
    "resource": "EventGrid/domains",
    "optional": "UnitDept",
@@ -3168,8 +3168,8 @@
    "property": "",
    "ShortName": "evgd",
    "scope": "resource group",
-   "lengthMin": 3,
-   "lengthMax": 50,
+   "lengthMin": "3",
+   "lengthMax": "50",
    "validText": "Alphanumerics and hyphens.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -3180,7 +3180,7 @@
    "staticValues": ""
  },
  {
-   "id": 160,
+   "id" :  160,
    "nameLookup": "EventGrid/domains/topics",
    "resource": "EventGrid/domains/topics",
    "optional": "UnitDept",
@@ -3188,8 +3188,8 @@
    "property": "",
    "ShortName": "evgt",
    "scope": "domain",
-   "lengthMin": 3,
-   "lengthMax": 50,
+   "lengthMin": "3",
+   "lengthMax": "50",
    "validText": "Alphanumerics and hyphens.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -3200,7 +3200,7 @@
    "staticValues": ""
  },
  {
-   "id": 161,
+   "id" :  161,
    "nameLookup": "EventGrid/eventSubscriptions",
    "resource": "EventGrid/eventSubscriptions",
    "optional": "UnitDept",
@@ -3208,8 +3208,8 @@
    "property": "",
    "ShortName": "evgs",
    "scope": "resource group",
-   "lengthMin": 3,
-   "lengthMax": 64,
+   "lengthMin": "3",
+   "lengthMax": "64",
    "validText": "Alphanumerics and hyphens.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -3220,7 +3220,7 @@
    "staticValues": ""
  },
  {
-   "id": 162,
+   "id" :  162,
    "nameLookup": "EventGrid/topics",
    "resource": "EventGrid/topics",
    "optional": "UnitDept",
@@ -3228,8 +3228,8 @@
    "property": "",
    "ShortName": "egtp",
    "scope": "resource group",
-   "lengthMin": 3,
-   "lengthMax": 50,
+   "lengthMin": "3",
+   "lengthMax": "50",
    "validText": "Alphanumerics and hyphens.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -3240,7 +3240,7 @@
    "staticValues": ""
  },
  {
-   "id": 163,
+   "id" :  163,
    "nameLookup": "EventHub/clusters",
    "resource": "EventHub/clusters",
    "optional": "UnitDept",
@@ -3248,8 +3248,8 @@
    "property": "",
    "ShortName": "evhcl",
    "scope": "resource group",
-   "lengthMin": 1,
-   "lengthMax": 50,
+   "lengthMin": "1",
+   "lengthMax": "50",
    "validText": "Alphanumerics and hyphens. Start with letter.  End with letter or number.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -3260,7 +3260,7 @@
    "staticValues": ""
  },
  {
-   "id": 164,
+   "id" :  164,
    "nameLookup": "EventHub/namespaces",
    "resource": "EventHub/namespaces",
    "optional": "UnitDept",
@@ -3268,8 +3268,8 @@
    "property": "",
    "ShortName": "evhns",
    "scope": "global",
-   "lengthMin": 1,
-   "lengthMax": 50,
+   "lengthMin": "1",
+   "lengthMax": "50",
    "validText": "Alphanumerics and hyphens. Start with letter.  End with letter or number.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -3280,7 +3280,7 @@
    "staticValues": ""
  },
  {
-   "id": 165,
+   "id" :  165,
    "nameLookup": "EventHub/namespaces/AuthorizationRules",
    "resource": "EventHub/namespaces/AuthorizationRules",
    "optional": "UnitDept",
@@ -3288,8 +3288,8 @@
    "property": "",
    "ShortName": "rule",
    "scope": "namespace",
-   "lengthMin": 1,
-   "lengthMax": 50,
+   "lengthMin": "1",
+   "lengthMax": "50",
    "validText": "Alphanumerics, periods, hyphens and underscores. Start and end with letter or number.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -3300,7 +3300,7 @@
    "staticValues": ""
  },
  {
-   "id": 166,
+   "id" :  166,
    "nameLookup": "EventHub/namespaces/disasterRecoveryConfigs",
    "resource": "EventHub/namespaces/disasterRecoveryConfigs",
    "optional": "UnitDept",
@@ -3308,8 +3308,8 @@
    "property": "",
    "ShortName": "drcfg",
    "scope": "namespace",
-   "lengthMin": 1,
-   "lengthMax": 50,
+   "lengthMin": "1",
+   "lengthMax": "50",
    "validText": "Alphanumerics, periods, hyphens and underscores. Start and end with letter or number.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -3320,7 +3320,7 @@
    "staticValues": ""
  },
  {
-   "id": 167,
+   "id" :  167,
    "nameLookup": "EventHub/namespaces/eventhubs",
    "resource": "EventHub/namespaces/eventhubs",
    "optional": "UnitDept",
@@ -3328,8 +3328,8 @@
    "property": "",
    "ShortName": "evh",
    "scope": "namespace",
-   "lengthMin": 1,
-   "lengthMax": 50,
+   "lengthMin": "1",
+   "lengthMax": "50",
    "validText": "Alphanumerics, periods, hyphens and underscores. Start and end with letter or number.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -3340,7 +3340,7 @@
    "staticValues": ""
  },
  {
-   "id": 168,
+   "id" :  168,
    "nameLookup": "EventHub/namespaces/eventhubs/authorizationRules",
    "resource": "EventHub/namespaces/eventhubs/authorizationRules",
    "optional": "UnitDept",
@@ -3348,8 +3348,8 @@
    "property": "",
    "ShortName": "rule",
    "scope": "event hub",
-   "lengthMin": 1,
-   "lengthMax": 50,
+   "lengthMin": "1",
+   "lengthMax": "50",
    "validText": "Alphanumerics, periods, hyphens and underscores. Start and end with letter or number.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -3360,7 +3360,7 @@
    "staticValues": ""
  },
  {
-   "id": 169,
+   "id" :  169,
    "nameLookup": "EventHub/namespaces/eventhubs/consumergroups",
    "resource": "EventHub/namespaces/eventhubs/consumergroups",
    "optional": "UnitDept",
@@ -3368,8 +3368,8 @@
    "property": "",
    "ShortName": "cgrp",
    "scope": "event hub",
-   "lengthMin": 1,
-   "lengthMax": 50,
+   "lengthMin": "1",
+   "lengthMax": "50",
    "validText": "Alphanumerics, periods, hyphens and underscores. Start and end with letter or number.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -3380,7 +3380,7 @@
    "staticValues": ""
  },
  {
-   "id": 170,
+   "id" :  170,
    "nameLookup": "HDInsight/clusters - [Spark Cluster]",
    "resource": "HDInsight/clusters",
    "optional": "UnitDept",
@@ -3388,8 +3388,8 @@
    "property": "Spark Cluster",
    "ShortName": "mls",
    "scope": "global",
-   "lengthMin": 3,
-   "lengthMax": 59,
+   "lengthMin": "3",
+   "lengthMax": "59",
    "validText": "Alphanumerics and hyphens. Start and end with letter or number",
    "invalidText": "",
    "invalidCharacters": "",
@@ -3400,7 +3400,7 @@
    "staticValues": ""
  },
  {
-   "id": 171,
+   "id" :  171,
    "nameLookup": "HDInsight/clusters - [Storm Cluster]",
    "resource": "HDInsight/clusters",
    "optional": "UnitDept",
@@ -3408,8 +3408,8 @@
    "property": "Storm Cluster",
    "ShortName": "spark",
    "scope": "global",
-   "lengthMin": 3,
-   "lengthMax": 59,
+   "lengthMin": "3",
+   "lengthMax": "59",
    "validText": "Alphanumerics and hyphens. Start and end with letter or number",
    "invalidText": "",
    "invalidCharacters": "",
@@ -3420,7 +3420,7 @@
    "staticValues": ""
  },
  {
-   "id": 172,
+   "id" :  172,
    "nameLookup": "HDInsight/clusters - [ML Services Cluster]",
    "resource": "HDInsight/clusters",
    "optional": "UnitDept",
@@ -3428,8 +3428,8 @@
    "property": "ML Services Cluster",
    "ShortName": "storm",
    "scope": "global",
-   "lengthMin": 3,
-   "lengthMax": 59,
+   "lengthMin": "3",
+   "lengthMax": "59",
    "validText": "Alphanumerics and hyphens. Start and end with letter or number",
    "invalidText": "",
    "invalidCharacters": "",
@@ -3440,7 +3440,7 @@
    "staticValues": ""
  },
  {
-   "id": 173,
+   "id" :  173,
    "nameLookup": "HDInsight/clusters - [Hadoop Cluster]",
    "resource": "HDInsight/clusters",
    "optional": "UnitDept",
@@ -3448,8 +3448,8 @@
    "property": "Hadoop Cluster",
    "ShortName": "hadoop",
    "scope": "global",
-   "lengthMin": 3,
-   "lengthMax": 59,
+   "lengthMin": "3",
+   "lengthMax": "59",
    "validText": "Alphanumerics and hyphens. Start and end with letter or number",
    "invalidText": "",
    "invalidCharacters": "",
@@ -3460,7 +3460,7 @@
    "staticValues": ""
  },
  {
-   "id": 174,
+   "id" :  174,
    "nameLookup": "HDInsight/clusters - [HBase Cluster]",
    "resource": "HDInsight/clusters",
    "optional": "UnitDept",
@@ -3468,8 +3468,8 @@
    "property": "HBase Cluster",
    "ShortName": "hbase",
    "scope": "global",
-   "lengthMin": 3,
-   "lengthMax": 59,
+   "lengthMin": "3",
+   "lengthMax": "59",
    "validText": "Alphanumerics and hyphens. Start and end with letter or number",
    "invalidText": "",
    "invalidCharacters": "",
@@ -3480,7 +3480,7 @@
    "staticValues": ""
  },
  {
-   "id": 175,
+   "id" :  175,
    "nameLookup": "HDInsight/clusters - [Kafka Cluster]",
    "resource": "HDInsight/clusters",
    "optional": "UnitDept",
@@ -3488,8 +3488,8 @@
    "property": "Kafka Cluster",
    "ShortName": "kafka",
    "scope": "global",
-   "lengthMin": 3,
-   "lengthMax": 59,
+   "lengthMin": "3",
+   "lengthMax": "59",
    "validText": "Alphanumerics and hyphens. Start and end with letter or number",
    "invalidText": "",
    "invalidCharacters": "",
@@ -3500,7 +3500,7 @@
    "staticValues": ""
  },
  {
-   "id": 176,
+   "id" :  176,
    "nameLookup": "HybridCompute/machines",
    "resource": "HybridCompute/machines",
    "optional": "",
@@ -3520,7 +3520,7 @@
    "staticValues": ""
  },
  {
-   "id": 177,
+   "id" :  177,
    "nameLookup": "ImportExport/jobs",
    "resource": "ImportExport/jobs",
    "optional": "UnitDept",
@@ -3528,8 +3528,8 @@
    "property": "",
    "ShortName": "iejob",
    "scope": "resource group",
-   "lengthMin": 2,
-   "lengthMax": 64,
+   "lengthMin": "2",
+   "lengthMax": "64",
    "validText": "Alphanumerics and hyphens. Start with letter.   ",
    "invalidText": "",
    "invalidCharacters": "",
@@ -3540,7 +3540,7 @@
    "staticValues": ""
  },
  {
-   "id": 178,
+   "id" :  178,
    "nameLookup": "Insights/actionGroups",
    "resource": "Insights/actionGroups",
    "optional": "UnitDept",
@@ -3548,8 +3548,8 @@
    "property": "",
    "ShortName": "ag",
    "scope": "resource group",
-   "lengthMin": 1,
-   "lengthMax": 260,
+   "lengthMin": "1",
+   "lengthMax": "260",
    "validText": "",
    "invalidText": "Slash, ampersand, percent sign, backslash, and question mark. Can't end with space or period.",
    "invalidCharacters": "/&%\\?",
@@ -3560,7 +3560,7 @@
    "staticValues": ""
  },
  {
-   "id": 179,
+   "id" :  179,
    "nameLookup": "Insights/activityLogAlerts",
    "resource": "Insights/activityLogAlerts",
    "optional": "UnitDept",
@@ -3568,8 +3568,8 @@
    "property": "",
    "ShortName": "inala",
    "scope": "resource group",
-   "lengthMin": 1,
-   "lengthMax": 260,
+   "lengthMin": "1",
+   "lengthMax": "260",
    "validText": "",
    "invalidText": "Angle brackets, asterisk, percent sign, curly brackets, ampersand, colon, backslash, question mark, plus sign, slash, and number sign. Can't end with space or period.",
    "invalidCharacters": "<>*%{}&:\\?+/#",
@@ -3580,7 +3580,7 @@
    "staticValues": ""
  },
  {
-   "id": 180,
+   "id" :  180,
    "nameLookup": "Insights/components",
    "resource": "Insights/components",
    "optional": "UnitDept",
@@ -3588,8 +3588,8 @@
    "property": "",
    "ShortName": "appi",
    "scope": "resource group",
-   "lengthMin": 1,
-   "lengthMax": 260,
+   "lengthMin": "1",
+   "lengthMax": "260",
    "validText": "",
    "invalidText": "Percent sign, ampersand, backslash, question mark, and slash. Can't end with space or period.",
    "invalidCharacters": "%&\\?/",
@@ -3600,7 +3600,7 @@
    "staticValues": ""
  },
  {
-   "id": 181,
+   "id" :  181,
    "nameLookup": "Insights/metricAlerts",
    "resource": "Insights/metricAlerts",
    "optional": "UnitDept",
@@ -3608,8 +3608,8 @@
    "property": "",
    "ShortName": "inma",
    "scope": "resource group",
-   "lengthMin": 1,
-   "lengthMax": 260,
+   "lengthMin": "1",
+   "lengthMax": "260",
    "validText": "",
    "invalidText": "Asterisk, number sign, ampersand, plus sign, colon, angle brackets, question mark, at sign, percent sign, curly brackets, backslash, and slash. Can't end with space or period.",
    "invalidCharacters": "*#&+:<>?@%{}/",
@@ -3620,7 +3620,7 @@
    "staticValues": ""
  },
  {
-   "id": 182,
+   "id" :  182,
    "nameLookup": "Insights/scheduledQueryRules",
    "resource": "Insights/scheduledQueryRules",
    "optional": "UnitDept",
@@ -3628,8 +3628,8 @@
    "property": "",
    "ShortName": "insqr",
    "scope": "resource group",
-   "lengthMin": 1,
-   "lengthMax": 260,
+   "lengthMin": "1",
+   "lengthMax": "260",
    "validText": "",
    "invalidText": "Asterisk, angle brackets, percent sign, curly brackets, ampersand, colon backslash, question mark, slash, and number sign. Can't end with space or period.",
    "invalidCharacters": "*<>%{}&:\\?/#",
@@ -3640,7 +3640,7 @@
    "staticValues": ""
  },
  {
-   "id": 183,
+   "id" :  183,
    "nameLookup": "IoTCentral/IoTApps",
    "resource": "IoTCentral/IoTApps",
    "optional": "UnitDept",
@@ -3648,8 +3648,8 @@
    "property": "",
    "ShortName": "iotapp",
    "scope": "global",
-   "lengthMin": 2,
-   "lengthMax": 63,
+   "lengthMin": "2",
+   "lengthMax": "63",
    "validText": "Lowercase letters, numbers and hyphens. Start with lowercase letter or number",
    "invalidText": "",
    "invalidCharacters": "",
@@ -3660,7 +3660,7 @@
    "staticValues": ""
  },
  {
-   "id": 184,
+   "id" :  184,
    "nameLookup": "KeyVault/vaults",
    "resource": "KeyVault/vaults",
    "optional": "UnitDept",
@@ -3668,8 +3668,8 @@
    "property": "",
    "ShortName": "kv",
    "scope": "global",
-   "lengthMin": 3,
-   "lengthMax": 24,
+   "lengthMin": "3",
+   "lengthMax": "24",
    "validText": "Alphanumerics and hyphens. Start with letter. End with letter or number.",
    "invalidText": "Can't contain consecutive hyphens.",
    "invalidCharacters": "",
@@ -3680,7 +3680,7 @@
    "staticValues": ""
  },
  {
-   "id": 185,
+   "id" :  185,
    "nameLookup": "KeyVault/vaults/secrets",
    "resource": "KeyVault/vaults/secrets",
    "optional": "UnitDept",
@@ -3688,8 +3688,8 @@
    "property": "",
    "ShortName": "kvs",
    "scope": "Vault",
-   "lengthMin": 1,
-   "lengthMax": 127,
+   "lengthMin": "1",
+   "lengthMax": "127",
    "validText": "Alphanumerics and hyphens.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -3700,7 +3700,7 @@
    "staticValues": ""
  },
  {
-   "id": 186,
+   "id" :  186,
    "nameLookup": "Kubernetes/connectedClusters",
    "resource": "Kubernetes/connectedClusters",
    "optional": "",
@@ -3720,7 +3720,7 @@
    "staticValues": ""
  },
  {
-   "id": 187,
+   "id" :  187,
    "nameLookup": "Kusto/clusters",
    "resource": "Kusto/clusters",
    "optional": "UnitDept",
@@ -3728,8 +3728,8 @@
    "property": "",
    "ShortName": "dec",
    "scope": "global",
-   "lengthMin": 4,
-   "lengthMax": 22,
+   "lengthMin": "4",
+   "lengthMax": "22",
    "validText": "Lowercase letters and numbers. Start with letter.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -3740,7 +3740,7 @@
    "staticValues": ""
  },
  {
-   "id": 188,
+   "id" :  188,
    "nameLookup": "Kusto/clusters/databases",
    "resource": "Kusto/clusters/databases",
    "optional": "UnitDept",
@@ -3748,8 +3748,8 @@
    "property": "",
    "ShortName": "dedb",
    "scope": "cluster",
-   "lengthMin": 1,
-   "lengthMax": 260,
+   "lengthMin": "1",
+   "lengthMax": "260",
    "validText": "Alphanumerics, hyphens, spaces, and periods.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -3760,7 +3760,7 @@
    "staticValues": ""
  },
  {
-   "id": 189,
+   "id" :  189,
    "nameLookup": "Kusto/clusters/databases/dataConnections",
    "resource": "Kusto/clusters/databases/dataConnections",
    "optional": "UnitDept",
@@ -3768,8 +3768,8 @@
    "property": "",
    "ShortName": "dcon",
    "scope": "database",
-   "lengthMin": 1,
-   "lengthMax": 40,
+   "lengthMin": "1",
+   "lengthMax": "40",
    "validText": "Alphanumerics, hyphens, spaces, and periods.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -3780,7 +3780,7 @@
    "staticValues": ""
  },
  {
-   "id": 190,
+   "id" :  190,
    "nameLookup": "Kusto/clusters/databases/eventhubconnections",
    "resource": "Kusto/clusters/databases/eventhubconnections",
    "optional": "UnitDept",
@@ -3788,8 +3788,8 @@
    "property": "",
    "ShortName": "ehcon",
    "scope": "database",
-   "lengthMin": 1,
-   "lengthMax": 40,
+   "lengthMin": "1",
+   "lengthMax": "40",
    "validText": "Alphanumerics, hyphens, spaces, and periods.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -3800,7 +3800,7 @@
    "staticValues": ""
  },
  {
-   "id": 191,
+   "id" :  191,
    "nameLookup": "Logic/integrationAccounts",
    "resource": "Logic/integrationAccounts",
    "optional": "UnitDept",
@@ -3808,8 +3808,8 @@
    "property": "",
    "ShortName": "ia",
    "scope": "resource group",
-   "lengthMin": 1,
-   "lengthMax": 80,
+   "lengthMin": "1",
+   "lengthMax": "80",
    "validText": "Alphanumerics, hyphens, underscores, periods, and parenthesis.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -3820,7 +3820,7 @@
    "staticValues": ""
  },
  {
-   "id": 192,
+   "id" :  192,
    "nameLookup": "Logic/integrationAccounts/assemblies",
    "resource": "Logic/integrationAccounts/assemblies",
    "optional": "UnitDept",
@@ -3828,8 +3828,8 @@
    "property": "",
    "ShortName": "assem",
    "scope": "integration account",
-   "lengthMin": 1,
-   "lengthMax": 80,
+   "lengthMin": "1",
+   "lengthMax": "80",
    "validText": "Alphanumerics, hyphens, underscores, periods, and parenthesis.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -3840,7 +3840,7 @@
    "staticValues": ""
  },
  {
-   "id": 193,
+   "id" :  193,
    "nameLookup": "Logic/integrationAccounts/batchConfigurations",
    "resource": "Logic/integrationAccounts/batchConfigurations",
    "optional": "UnitDept",
@@ -3848,8 +3848,8 @@
    "property": "",
    "ShortName": "bconf",
    "scope": "integration account",
-   "lengthMin": 1,
-   "lengthMax": 20,
+   "lengthMin": "1",
+   "lengthMax": "20",
    "validText": "Alphanumerics.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -3860,7 +3860,7 @@
    "staticValues": ""
  },
  {
-   "id": 194,
+   "id" :  194,
    "nameLookup": "Logic/integrationAccounts/certificates",
    "resource": "Logic/integrationAccounts/certificates",
    "optional": "UnitDept",
@@ -3868,8 +3868,8 @@
    "property": "",
    "ShortName": "iacert",
    "scope": "integration account",
-   "lengthMin": 1,
-   "lengthMax": 80,
+   "lengthMin": "1",
+   "lengthMax": "80",
    "validText": "Alphanumerics, hyphens, underscores, periods, and parenthesis.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -3880,7 +3880,7 @@
    "staticValues": ""
  },
  {
-   "id": 195,
+   "id" :  195,
    "nameLookup": "Logic/integrationAccounts/maps",
    "resource": "Logic/integrationAccounts/maps",
    "optional": "UnitDept",
@@ -3888,8 +3888,8 @@
    "property": "",
    "ShortName": "map",
    "scope": "integration account",
-   "lengthMin": 1,
-   "lengthMax": 80,
+   "lengthMin": "1",
+   "lengthMax": "80",
    "validText": "Alphanumerics, hyphens, underscores, periods, and parenthesis.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -3900,7 +3900,7 @@
    "staticValues": ""
  },
  {
-   "id": 196,
+   "id" :  196,
    "nameLookup": "Logic/integrationAccounts/partners",
    "resource": "Logic/integrationAccounts/partners",
    "optional": "UnitDept",
@@ -3908,8 +3908,8 @@
    "property": "",
    "ShortName": "part",
    "scope": "integration account",
-   "lengthMin": 1,
-   "lengthMax": 80,
+   "lengthMin": "1",
+   "lengthMax": "80",
    "validText": "Alphanumerics, hyphens, underscores, periods, and parenthesis.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -3920,7 +3920,7 @@
    "staticValues": ""
  },
  {
-   "id": 197,
+   "id" :  197,
    "nameLookup": "Logic/integrationAccounts/rosettanetprocessconfigurations",
    "resource": "Logic/integrationAccounts/rosettanetprocessconfigurations",
    "optional": "UnitDept",
@@ -3928,8 +3928,8 @@
    "property": "",
    "ShortName": "rpcnf",
    "scope": "integration account",
-   "lengthMin": 1,
-   "lengthMax": 80,
+   "lengthMin": "1",
+   "lengthMax": "80",
    "validText": "Alphanumerics, hyphens, underscores, periods, and parenthesis.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -3940,7 +3940,7 @@
    "staticValues": ""
  },
  {
-   "id": 198,
+   "id" :  198,
    "nameLookup": "Logic/integrationAccounts/schemas",
    "resource": "Logic/integrationAccounts/schemas",
    "optional": "UnitDept",
@@ -3948,8 +3948,8 @@
    "property": "",
    "ShortName": "schem",
    "scope": "integration account",
-   "lengthMin": 1,
-   "lengthMax": 80,
+   "lengthMin": "1",
+   "lengthMax": "80",
    "validText": "Alphanumerics, hyphens, underscores, periods, and parenthesis.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -3960,7 +3960,7 @@
    "staticValues": ""
  },
  {
-   "id": 199,
+   "id" :  199,
    "nameLookup": "Logic/integrationAccounts/sessions",
    "resource": "Logic/integrationAccounts/sessions",
    "optional": "UnitDept",
@@ -3968,8 +3968,8 @@
    "property": "",
    "ShortName": "ses",
    "scope": "integration account",
-   "lengthMin": 1,
-   "lengthMax": 80,
+   "lengthMin": "1",
+   "lengthMax": "80",
    "validText": "Alphanumerics, hyphens, underscores, periods, and parenthesis.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -3980,7 +3980,7 @@
    "staticValues": ""
  },
  {
-   "id": 200,
+   "id" :  200,
    "nameLookup": "Logic/integrationServiceEnvironments",
    "resource": "Logic/integrationServiceEnvironments",
    "optional": "UnitDept",
@@ -3988,8 +3988,8 @@
    "property": "",
    "ShortName": "lise",
    "scope": "resource group",
-   "lengthMin": 1,
-   "lengthMax": 80,
+   "lengthMin": "1",
+   "lengthMax": "80",
    "validText": "Alphanumerics, hyphens, periods, and underscores.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -4000,7 +4000,7 @@
    "staticValues": ""
  },
  {
-   "id": 201,
+   "id" :  201,
    "nameLookup": "Logic/integrationServiceEnvironments/managedApis",
    "resource": "Logic/integrationServiceEnvironments/managedApis",
    "optional": "UnitDept",
@@ -4008,8 +4008,8 @@
    "property": "",
    "ShortName": "mapi",
    "scope": "integration service environment",
-   "lengthMin": 1,
-   "lengthMax": 80,
+   "lengthMin": "1",
+   "lengthMax": "80",
    "validText": "Alphanumerics, hyphens, periods, and underscores.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -4020,7 +4020,7 @@
    "staticValues": ""
  },
  {
-   "id": 202,
+   "id" :  202,
    "nameLookup": "Logic/workflows",
    "resource": "Logic/workflows",
    "optional": "UnitDept",
@@ -4028,8 +4028,8 @@
    "property": "",
    "ShortName": "logic",
    "scope": "resource group",
-   "lengthMin": 1,
-   "lengthMax": 80,
+   "lengthMin": "1",
+   "lengthMax": "80",
    "validText": "Alphanumerics, hyphens, underscores, periods, and parenthesis.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -4040,7 +4040,7 @@
    "staticValues": ""
  },
  {
-   "id": 203,
+   "id" :  203,
    "nameLookup": "MachineLearning/commitmentPlans",
    "resource": "MachineLearning/commitmentPlans",
    "optional": "UnitDept",
@@ -4048,8 +4048,8 @@
    "property": "",
    "ShortName": "mlcp",
    "scope": "resource group",
-   "lengthMin": 1,
-   "lengthMax": 260,
+   "lengthMin": "1",
+   "lengthMax": "260",
    "validText": "",
    "invalidText": "Angle brackets, asterisk, percent sign, ampersand, colon, backslash, question mark, plus sign, and slash. Can't end with a space.",
    "invalidCharacters": "<>*%&:?+/\\",
@@ -4060,7 +4060,7 @@
    "staticValues": ""
  },
  {
-   "id": 204,
+   "id" :  204,
    "nameLookup": "MachineLearning/webServices",
    "resource": "MachineLearning/webServices",
    "optional": "UnitDept",
@@ -4068,8 +4068,8 @@
    "property": "",
    "ShortName": "mlweb",
    "scope": "resource group",
-   "lengthMin": 1,
-   "lengthMax": 260,
+   "lengthMin": "1",
+   "lengthMax": "260",
    "validText": "",
    "invalidText": "Angle brackets, asterisk, percent sign, ampersand, colon, backslash, question mark, plus sign, and slash. Can't end with a space.",
    "invalidCharacters": "<>*%&:?+/\\",
@@ -4080,7 +4080,7 @@
    "staticValues": ""
  },
  {
-   "id": 205,
+   "id" :  205,
    "nameLookup": "MachineLearning/workspaces",
    "resource": "MachineLearning/workspaces",
    "optional": "UnitDept",
@@ -4088,8 +4088,8 @@
    "property": "",
    "ShortName": "mlws",
    "scope": "resource group",
-   "lengthMin": 1,
-   "lengthMax": 260,
+   "lengthMin": "1",
+   "lengthMax": "260",
    "validText": "",
    "invalidText": "Angle brackets, asterisk, percent sign, ampersand, colon, backslash, question mark, plus sign, and slash. Can't end with a space.",
    "invalidCharacters": "<>*%&:?+/\\",
@@ -4100,7 +4100,7 @@
    "staticValues": ""
  },
  {
-   "id": 206,
+   "id" :  206,
    "nameLookup": "MachineLearningServices/workspaces",
    "resource": "MachineLearningServices/workspaces",
    "optional": "UnitDept",
@@ -4108,8 +4108,8 @@
    "property": "",
    "ShortName": "mlw",
    "scope": "resource group",
-   "lengthMin": 3,
-   "lengthMax": 33,
+   "lengthMin": "3",
+   "lengthMax": "33",
    "validText": "Alphanumerics and hyphens.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -4120,7 +4120,7 @@
    "staticValues": ""
  },
  {
-   "id": 207,
+   "id" :  207,
    "nameLookup": "MachineLearningServices/workspaces/computes",
    "resource": "MachineLearningServices/workspaces/computes",
    "optional": "UnitDept",
@@ -4128,8 +4128,8 @@
    "property": "",
    "ShortName": "mlswc",
    "scope": "workspace",
-   "lengthMin": 2,
-   "lengthMax": 16,
+   "lengthMin": "2",
+   "lengthMax": "16",
    "validText": "Alphanumerics and hyphens.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -4140,7 +4140,7 @@
    "staticValues": ""
  },
  {
-   "id": 208,
+   "id" :  208,
    "nameLookup": "ManagedIdentity/userAssignedIdentities",
    "resource": "ManagedIdentity/userAssignedIdentities",
    "optional": "UnitDept",
@@ -4148,8 +4148,8 @@
    "property": "",
    "ShortName": "id",
    "scope": "resource group",
-   "lengthMin": 3,
-   "lengthMax": 128,
+   "lengthMin": "3",
+   "lengthMax": "128",
    "validText": "Alphanumerics, hyphens, and underscores.  Start with letter or number.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -4160,7 +4160,7 @@
    "staticValues": ""
  },
  {
-   "id": 209,
+   "id" :  209,
    "nameLookup": "Management/managementGroups",
    "resource": "Management/managementGroups",
    "optional": "Org,UnitDept,ProjAppSvc,Environment",
@@ -4180,7 +4180,7 @@
    "staticValues": ""
  },
  {
-   "id": 210,
+   "id" :  210,
    "nameLookup": "Maps/accounts",
    "resource": "Maps/accounts",
    "optional": "UnitDept",
@@ -4188,8 +4188,8 @@
    "property": "",
    "ShortName": "macc",
    "scope": "resource group",
-   "lengthMin": 1,
-   "lengthMax": 98,
+   "lengthMin": "1",
+   "lengthMax": "98",
    "validText": "Alphanumerics, underscores, periods, and hyphens. Start with alphanumeric.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -4200,7 +4200,7 @@
    "staticValues": ""
  },
  {
-   "id": 211,
+   "id" :  211,
    "nameLookup": "Media/mediaservices",
    "resource": "Media/mediaservices",
    "optional": "UnitDept",
@@ -4208,8 +4208,8 @@
    "property": "",
    "ShortName": "mms",
    "scope": "resource group",
-   "lengthMin": 3,
-   "lengthMax": 24,
+   "lengthMin": "3",
+   "lengthMax": "24",
    "validText": "Lowercase letters and numbers.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -4220,7 +4220,7 @@
    "staticValues": ""
  },
  {
-   "id": 212,
+   "id" :  212,
    "nameLookup": "Media/mediaservices/liveEvents",
    "resource": "Media/mediaservices/liveEvents",
    "optional": "UnitDept",
@@ -4228,8 +4228,8 @@
    "property": "",
    "ShortName": "lievt",
    "scope": "Media service",
-   "lengthMin": 1,
-   "lengthMax": 32,
+   "lengthMin": "1",
+   "lengthMax": "32",
    "validText": "Alphanumerics and hyphens. Start with alphanumeric.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -4240,7 +4240,7 @@
    "staticValues": ""
  },
  {
-   "id": 213,
+   "id" :  213,
    "nameLookup": "Media/mediaservices/liveEvents/liveOutputs",
    "resource": "Media/mediaservices/liveEvents/liveOutputs",
    "optional": "UnitDept",
@@ -4248,8 +4248,8 @@
    "property": "",
    "ShortName": "liout",
    "scope": "Live event",
-   "lengthMin": 1,
-   "lengthMax": 256,
+   "lengthMin": "1",
+   "lengthMax": "256",
    "validText": "Alphanumerics and hyphens. Start with alphanumeric.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -4260,7 +4260,7 @@
    "staticValues": ""
  },
  {
-   "id": 214,
+   "id" :  214,
    "nameLookup": "Media/mediaservices/streamingEndpoints",
    "resource": "Media/mediaservices/streamingEndpoints",
    "optional": "UnitDept",
@@ -4268,8 +4268,8 @@
    "property": "",
    "ShortName": "strep",
    "scope": "Media service",
-   "lengthMin": 1,
-   "lengthMax": 256,
+   "lengthMin": "1",
+   "lengthMax": "256",
    "validText": "Alphanumerics and hyphens.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -4280,7 +4280,7 @@
    "staticValues": ""
  },
  {
-   "id": 215,
+   "id" :  215,
    "nameLookup": "Migrate/assessmentProjects",
    "resource": "Migrate/assessmentProjects",
    "optional": "",
@@ -4300,7 +4300,7 @@
    "staticValues": ""
  },
  {
-   "id": 216,
+   "id" :  216,
    "nameLookup": "Network/applicationGateways",
    "resource": "Network/applicationGateways",
    "optional": "UnitDept",
@@ -4308,8 +4308,8 @@
    "property": "",
    "ShortName": "agw",
    "scope": "resource group",
-   "lengthMin": 1,
-   "lengthMax": 24,
+   "lengthMin": "1",
+   "lengthMax": "24",
    "validText": "Alphanumerics, underscores, periods, and hyphens. Start with alphanumeric. End with alphanumeric or underscore.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -4320,7 +4320,7 @@
    "staticValues": ""
  },
  {
-   "id": 217,
+   "id" :  217,
    "nameLookup": "Network/applicationSecurityGroups",
    "resource": "Network/applicationSecurityGroups",
    "optional": "UnitDept",
@@ -4328,8 +4328,8 @@
    "property": "",
    "ShortName": "asg",
    "scope": "resource group",
-   "lengthMin": 1,
-   "lengthMax": 80,
+   "lengthMin": "1",
+   "lengthMax": "80",
    "validText": "Alphanumerics, underscores, periods, and hyphens. Start with alphanumeric. End with alphanumeric or underscore.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -4340,7 +4340,7 @@
    "staticValues": ""
  },
  {
-   "id": 218,
+   "id" :  218,
    "nameLookup": "Network/azureFirewalls",
    "resource": "Network/azureFirewalls",
    "optional": "UnitDept",
@@ -4348,8 +4348,8 @@
    "property": "",
    "ShortName": "afw",
    "scope": "resource group",
-   "lengthMin": 1,
-   "lengthMax": 80,
+   "lengthMin": "1",
+   "lengthMax": "80",
    "validText": "Alphanumerics, underscores, periods, and hyphens. Start with alphanumeric. End with alphanumeric or underscore.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -4360,7 +4360,7 @@
    "staticValues": ""
  },
  {
-   "id": 219,
+   "id" :  219,
    "nameLookup": "Network/bastionHosts",
    "resource": "Network/bastionHosts",
    "optional": "UnitDept",
@@ -4368,8 +4368,8 @@
    "property": "",
    "ShortName": "bas",
    "scope": "resource group",
-   "lengthMin": 1,
-   "lengthMax": 80,
+   "lengthMin": "1",
+   "lengthMax": "80",
    "validText": "Alphanumerics, underscores, periods, and hyphens. Start with alphanumeric. End with alphanumeric or underscore.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -4380,7 +4380,7 @@
    "staticValues": ""
  },
  {
-   "id": 220,
+   "id" :  220,
    "nameLookup": "Network/connections",
    "resource": "Network/connections",
    "optional": "UnitDept",
@@ -4388,8 +4388,8 @@
    "property": "",
    "ShortName": "con",
    "scope": "resource group",
-   "lengthMin": 1,
-   "lengthMax": 80,
+   "lengthMin": "1",
+   "lengthMax": "80",
    "validText": "Alphanumerics, underscores, periods, and hyphens. Start with alphanumeric. End with alphanumeric or underscore.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -4400,7 +4400,7 @@
    "staticValues": ""
  },
  {
-   "id": 221,
+   "id" :  221,
    "nameLookup": "Network/dnsZones",
    "resource": "Network/dnsZones",
    "optional": "UnitDept",
@@ -4408,8 +4408,8 @@
    "property": "",
    "ShortName": "dnsz",
    "scope": "resource group",
-   "lengthMin": 1,
-   "lengthMax": 63,
+   "lengthMin": "1",
+   "lengthMax": "63",
    "validText": "Each label can contain alphanumerics, underscores, and hyphens. Each label is a set of characters separated by a period. For example, contoso.com has 2 labels. 2 to 34 labels.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -4420,7 +4420,7 @@
    "staticValues": "us.contoso.net"
  },
  {
-   "id": 222,
+   "id" :  222,
    "nameLookup": "Network/expressRouteCircuits",
    "resource": "Network/expressRouteCircuits",
    "optional": "UnitDept",
@@ -4428,8 +4428,8 @@
    "property": "",
    "ShortName": "erc",
    "scope": "resource group",
-   "lengthMin": 1,
-   "lengthMax": 80,
+   "lengthMin": "1",
+   "lengthMax": "80",
    "validText": "Alphanumerics, underscores, periods, and hyphens. Start with alphanumeric. End alphanumeric or underscore.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -4440,7 +4440,7 @@
    "staticValues": ""
  },
  {
-   "id": 223,
+   "id" :  223,
    "nameLookup": "Network/firewallPolicies",
    "resource": "Network/firewallPolicies",
    "optional": "UnitDept",
@@ -4448,8 +4448,8 @@
    "property": "",
    "ShortName": "waf",
    "scope": "resource group",
-   "lengthMin": 1,
-   "lengthMax": 80,
+   "lengthMin": "1",
+   "lengthMax": "80",
    "validText": "Alphanumerics, underscores, periods, and hyphens. Start with alphanumeric. End alphanumeric or underscore.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -4460,7 +4460,7 @@
    "staticValues": ""
  },
  {
-   "id": 224,
+   "id" :  224,
    "nameLookup": "Network/firewallPolicies/ruleGroups",
    "resource": "Network/firewallPolicies/ruleGroups",
    "optional": "UnitDept",
@@ -4468,8 +4468,8 @@
    "property": "",
    "ShortName": "wafrg",
    "scope": "firewall policy",
-   "lengthMin": 1,
-   "lengthMax": 80,
+   "lengthMin": "1",
+   "lengthMax": "80",
    "validText": "Alphanumerics, underscores, periods, and hyphens. Start with alphanumeric. End alphanumeric or underscore.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -4480,7 +4480,7 @@
    "staticValues": ""
  },
  {
-   "id": 225,
+   "id" :  225,
    "nameLookup": "Network/frontDoors",
    "resource": "Network/frontDoors",
    "optional": "UnitDept",
@@ -4488,8 +4488,8 @@
    "property": "",
    "ShortName": "fd",
    "scope": "global",
-   "lengthMin": 3,
-   "lengthMax": 64,
+   "lengthMin": "3",
+   "lengthMax": "64",
    "validText": "Alphanumerics and hyphens. Start and end with alphanumeric.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -4500,7 +4500,7 @@
    "staticValues": ""
  },
  {
-   "id": 226,
+   "id" :  226,
    "nameLookup": "Network/frontdoorWebApplicationFirewallPolicies",
    "resource": "Network/frontdoorWebApplicationFirewallPolicies",
    "optional": "UnitDept",
@@ -4508,8 +4508,8 @@
    "property": "",
    "ShortName": "fdfp",
    "scope": "resource group",
-   "lengthMin": 1,
-   "lengthMax": 128,
+   "lengthMin": "1",
+   "lengthMax": "128",
    "validText": "Alphanumerics. Start with letter.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -4520,7 +4520,7 @@
    "staticValues": ""
  },
  {
-   "id": 227,
+   "id" :  227,
    "nameLookup": "Network/loadBalancers - [internal]",
    "resource": "Network/loadBalancers",
    "optional": "UnitDept",
@@ -4528,8 +4528,8 @@
    "property": "internal",
    "ShortName": "lbi",
    "scope": "resource group",
-   "lengthMin": 1,
-   "lengthMax": 80,
+   "lengthMin": "1",
+   "lengthMax": "80",
    "validText": "Alphanumerics, underscores, periods, and hyphens. Start with alphanumeric. End alphanumeric or underscore.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -4540,7 +4540,7 @@
    "staticValues": ""
  },
  {
-   "id": 228,
+   "id" :  228,
    "nameLookup": "Network/loadBalancers - [external]",
    "resource": "Network/loadBalancers",
    "optional": "UnitDept",
@@ -4548,8 +4548,8 @@
    "property": "external",
    "ShortName": "lbe",
    "scope": "resource group",
-   "lengthMin": 1,
-   "lengthMax": 80,
+   "lengthMin": "1",
+   "lengthMax": "80",
    "validText": "Alphanumerics, underscores, periods, and hyphens. Start with alphanumeric. End alphanumeric or underscore.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -4560,7 +4560,7 @@
    "staticValues": ""
  },
  {
-   "id": 229,
+   "id" :  229,
    "nameLookup": "Network/loadBalancers/inboundNatRules",
    "resource": "Network/loadBalancers/inboundNatRules",
    "optional": "UnitDept",
@@ -4568,8 +4568,8 @@
    "property": "",
    "ShortName": "rule",
    "scope": "load balancer",
-   "lengthMin": 1,
-   "lengthMax": 80,
+   "lengthMin": "1",
+   "lengthMax": "80",
    "validText": "Alphanumerics, underscores, periods, and hyphens. Start with alphanumeric. End alphanumeric or underscore.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -4580,7 +4580,7 @@
    "staticValues": ""
  },
  {
-   "id": 230,
+   "id" :  230,
    "nameLookup": "Network/localNetworkGateways",
    "resource": "Network/localNetworkGateways",
    "optional": "UnitDept",
@@ -4588,8 +4588,8 @@
    "property": "",
    "ShortName": "lgw",
    "scope": "resource group",
-   "lengthMin": 1,
-   "lengthMax": 80,
+   "lengthMin": "1",
+   "lengthMax": "80",
    "validText": "Alphanumerics, underscores, periods, and hyphens. Start with alphanumeric. End alphanumeric or underscore.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -4600,7 +4600,7 @@
    "staticValues": ""
  },
  {
-   "id": 231,
+   "id" :  231,
    "nameLookup": "Network/networkInterfaces",
    "resource": "Network/networkInterfaces",
    "optional": "UnitDept,Function",
@@ -4608,8 +4608,8 @@
    "property": "",
    "ShortName": "nic",
    "scope": "resource group",
-   "lengthMin": 1,
-   "lengthMax": 80,
+   "lengthMin": "1",
+   "lengthMax": "80",
    "validText": "Alphanumerics, underscores, periods, and hyphens. Start with alphanumeric. End alphanumeric or underscore.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -4620,7 +4620,7 @@
    "staticValues": ""
  },
  {
-   "id": 232,
+   "id" :  232,
    "nameLookup": "Network/networkSecurityGroups",
    "resource": "Network/networkSecurityGroups",
    "optional": "UnitDept,Function",
@@ -4628,8 +4628,8 @@
    "property": "",
    "ShortName": "nsg",
    "scope": "resource group",
-   "lengthMin": 1,
-   "lengthMax": 80,
+   "lengthMin": "1",
+   "lengthMax": "80",
    "validText": "Alphanumerics, underscores, periods, and hyphens. Start with alphanumeric. End alphanumeric or underscore.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -4640,7 +4640,7 @@
    "staticValues": ""
  },
  {
-   "id": 233,
+   "id" :  233,
    "nameLookup": "Network/networkSecurityGroups/securityRules",
    "resource": "Network/networkSecurityGroups/securityRules",
    "optional": "UnitDept",
@@ -4648,8 +4648,8 @@
    "property": "",
    "ShortName": "nsgsr",
    "scope": "network security group",
-   "lengthMin": 1,
-   "lengthMax": 80,
+   "lengthMin": "1",
+   "lengthMax": "80",
    "validText": "Alphanumerics, underscores, periods, and hyphens. Start with alphanumeric. End alphanumeric or underscore.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -4660,7 +4660,7 @@
    "staticValues": "AllowDnsTcpInbound,DenyFtpAnyOutbound"
  },
  {
-   "id": 234,
+   "id" :  234,
    "nameLookup": "Network/networkWatchers",
    "resource": "Network/networkWatchers",
    "optional": "UnitDept",
@@ -4668,8 +4668,8 @@
    "property": "",
    "ShortName": "nw",
    "scope": "resource group",
-   "lengthMin": 1,
-   "lengthMax": 80,
+   "lengthMin": "1",
+   "lengthMax": "80",
    "validText": "Alphanumerics, underscores, periods, and hyphens. Start with alphanumeric. End alphanumeric or underscore.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -4680,7 +4680,7 @@
    "staticValues": ""
  },
  {
-   "id": 235,
+   "id" :  235,
    "nameLookup": "Network/privateDnsZones",
    "resource": "Network/privateDnsZones",
    "optional": "UnitDept",
@@ -4688,8 +4688,8 @@
    "property": "",
    "ShortName": "pdnsz",
    "scope": "resource group",
-   "lengthMin": 1,
-   "lengthMax": 63,
+   "lengthMin": "1",
+   "lengthMax": "63",
    "validText": "Each label can contain alphanumerics, underscores, and hyphens. Each label is a set of characters separated by a period.  For example, contoso.com has 2 labels. 2 to 34 labels.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -4700,7 +4700,7 @@
    "staticValues": "privatelink.file.core.windows.net"
  },
  {
-   "id": 236,
+   "id" :  236,
    "nameLookup": "Network/privateDnsZones/virtualNetworkLinks",
    "resource": "Network/privateDnsZones/virtualNetworkLinks",
    "optional": "UnitDept",
@@ -4708,8 +4708,8 @@
    "property": "",
    "ShortName": "pdnsv",
    "scope": "private DNS zone",
-   "lengthMin": 1,
-   "lengthMax": 80,
+   "lengthMin": "1",
+   "lengthMax": "80",
    "validText": "Alphanumerics, underscores, periods, and hyphens.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -4720,7 +4720,7 @@
    "staticValues": ""
  },
  {
-   "id": 237,
+   "id" :  237,
    "nameLookup": "Network/privateLinkServices",
    "resource": "Network/privateLinkServices",
    "optional": "",
@@ -4740,7 +4740,7 @@
    "staticValues": ""
  },
  {
-   "id": 238,
+   "id" :  238,
    "nameLookup": "Network/publicIPAddresses",
    "resource": "Network/publicIPAddresses",
    "optional": "UnitDept,Function",
@@ -4748,8 +4748,8 @@
    "property": "",
    "ShortName": "pip",
    "scope": "resource group",
-   "lengthMin": 1,
-   "lengthMax": 80,
+   "lengthMin": "1",
+   "lengthMax": "80",
    "validText": "Alphanumerics, underscores, periods, and hyphens. Start with alphanumeric. End alphanumeric or underscore.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -4760,7 +4760,7 @@
    "staticValues": ""
  },
  {
-   "id": 239,
+   "id" :  239,
    "nameLookup": "Network/publicIPPrefixes",
    "resource": "Network/publicIPPrefixes",
    "optional": "",
@@ -4780,7 +4780,7 @@
    "staticValues": ""
  },
  {
-   "id": 240,
+   "id" :  240,
    "nameLookup": "Network/routeFilters",
    "resource": "Network/routeFilters",
    "optional": "UnitDept",
@@ -4788,8 +4788,8 @@
    "property": "",
    "ShortName": "rf",
    "scope": "resource group",
-   "lengthMin": 1,
-   "lengthMax": 80,
+   "lengthMin": "1",
+   "lengthMax": "80",
    "validText": "Alphanumerics, underscores, periods, and hyphens.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -4800,7 +4800,7 @@
    "staticValues": ""
  },
  {
-   "id": 241,
+   "id" :  241,
    "nameLookup": "Network/routeFilters/routeFilterRules",
    "resource": "Network/routeFilters/routeFilterRules",
    "optional": "UnitDept",
@@ -4808,8 +4808,8 @@
    "property": "",
    "ShortName": "nrfrr",
    "scope": "route filter",
-   "lengthMin": 1,
-   "lengthMax": 80,
+   "lengthMin": "1",
+   "lengthMax": "80",
    "validText": "Alphanumerics, underscores, periods, and hyphens. Start with alphanumeric. End alphanumeric or underscore.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -4820,7 +4820,7 @@
    "staticValues": ""
  },
  {
-   "id": 242,
+   "id" :  242,
    "nameLookup": "Network/routeTables",
    "resource": "Network/routeTables",
    "optional": "",
@@ -4840,7 +4840,7 @@
    "staticValues": ""
  },
  {
-   "id": 243,
+   "id" :  243,
    "nameLookup": "Network/routeTables/routes",
    "resource": "Network/routeTables/routes",
    "optional": "UnitDept",
@@ -4848,8 +4848,8 @@
    "property": "",
    "ShortName": "udr",
    "scope": "route table",
-   "lengthMin": 1,
-   "lengthMax": 80,
+   "lengthMin": "1",
+   "lengthMax": "80",
    "validText": "Alphanumerics, underscores, periods, and hyphens.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -4860,7 +4860,7 @@
    "staticValues": ""
  },
  {
-   "id": 244,
+   "id" :  244,
    "nameLookup": "Network/serviceEndpointPolicies",
    "resource": "Network/serviceEndpointPolicies",
    "optional": "UnitDept",
@@ -4868,8 +4868,8 @@
    "property": "",
    "ShortName": "se",
    "scope": "resource group",
-   "lengthMin": 1,
-   "lengthMax": 80,
+   "lengthMin": "1",
+   "lengthMax": "80",
    "validText": "Alphanumerics, underscores, periods, and hyphens. Start with alphanumeric. End alphanumeric or underscore.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -4880,7 +4880,7 @@
    "staticValues": ""
  },
  {
-   "id": 245,
+   "id" :  245,
    "nameLookup": "Network/trafficManagerProfiles",
    "resource": "Network/trafficManagerProfiles",
    "optional": "",
@@ -4900,7 +4900,7 @@
    "staticValues": ""
  },
  {
-   "id": 246,
+   "id" :  246,
    "nameLookup": "Network/virtualNetworkGateways",
    "resource": "Network/virtualNetworkGateways",
    "optional": "UnitDept",
@@ -4908,8 +4908,8 @@
    "property": "",
    "ShortName": "vgw",
    "scope": "resource group",
-   "lengthMin": 1,
-   "lengthMax": 80,
+   "lengthMin": "1",
+   "lengthMax": "80",
    "validText": "Alphanumerics, underscores, periods, and hyphens.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -4920,7 +4920,7 @@
    "staticValues": ""
  },
  {
-   "id": 247,
+   "id" :  247,
    "nameLookup": "Network/virtualNetworks",
    "resource": "Network/virtualNetworks",
    "optional": "UnitDept",
@@ -4928,8 +4928,8 @@
    "property": "",
    "ShortName": "vnet",
    "scope": "resource group",
-   "lengthMin": 2,
-   "lengthMax": 64,
+   "lengthMin": "2",
+   "lengthMax": "64",
    "validText": "Alphanumerics, underscores, periods, and hyphens.  Start with alphanumeric. End alphanumeric or underscore.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -4940,7 +4940,7 @@
    "staticValues": ""
  },
  {
-   "id": 248,
+   "id" :  248,
    "nameLookup": "Network/virtualnetworks/subnets",
    "resource": "Network/virtualnetworks/subnets",
    "optional": "UnitDept",
@@ -4948,8 +4948,8 @@
    "property": "",
    "ShortName": "snet",
    "scope": "virtual network",
-   "lengthMin": 1,
-   "lengthMax": 80,
+   "lengthMin": "1",
+   "lengthMax": "80",
    "validText": "Alphanumerics, underscores, periods, and hyphens.  Start with alphanumeric. End alphanumeric or underscore.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -4960,7 +4960,7 @@
    "staticValues": ""
  },
  {
-   "id": 249,
+   "id" :  249,
    "nameLookup": "Network/virtualNetworks/virtualNetworkPeerings",
    "resource": "Network/virtualNetworks/virtualNetworkPeerings",
    "optional": "UnitDept",
@@ -4968,8 +4968,8 @@
    "property": "",
    "ShortName": "peer",
    "scope": "virtual network",
-   "lengthMin": 1,
-   "lengthMax": 80,
+   "lengthMin": "1",
+   "lengthMax": "80",
    "validText": "Alphanumerics, underscores, periods, and hyphens.  Start with alphanumeric. End alphanumeric or underscore.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -4980,7 +4980,7 @@
    "staticValues": ""
  },
  {
-   "id": 250,
+   "id" :  250,
    "nameLookup": "Network/virtualWans",
    "resource": "Network/virtualWans",
    "optional": "UnitDept",
@@ -4988,8 +4988,8 @@
    "property": "",
    "ShortName": "vwan",
    "scope": "resource group",
-   "lengthMin": 1,
-   "lengthMax": 80,
+   "lengthMin": "1",
+   "lengthMax": "80",
    "validText": "Alphanumerics, underscores, periods, and hyphens.  Start with alphanumeric. End alphanumeric or underscore.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -5000,7 +5000,7 @@
    "staticValues": ""
  },
  {
-   "id": 251,
+   "id" :  251,
    "nameLookup": "Network/vpnGateways",
    "resource": "Network/vpnGateways",
    "optional": "UnitDept",
@@ -5008,8 +5008,8 @@
    "property": "",
    "ShortName": "vpng",
    "scope": "resource group",
-   "lengthMin": 1,
-   "lengthMax": 80,
+   "lengthMin": "1",
+   "lengthMax": "80",
    "validText": "Alphanumerics, underscores, periods, and hyphens.  Start with alphanumeric. End alphanumeric or underscore.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -5020,7 +5020,7 @@
    "staticValues": ""
  },
  {
-   "id": 252,
+   "id" :  252,
    "nameLookup": "Network/vpnGateways/vpnConnections",
    "resource": "Network/vpnGateways/vpnConnections",
    "optional": "UnitDept",
@@ -5028,8 +5028,8 @@
    "property": "",
    "ShortName": "vcn",
    "scope": "VPN gateway",
-   "lengthMin": 1,
-   "lengthMax": 80,
+   "lengthMin": "1",
+   "lengthMax": "80",
    "validText": "Alphanumerics, underscores, periods, and hyphens.  Start with alphanumeric. End alphanumeric or underscore.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -5040,7 +5040,7 @@
    "staticValues": ""
  },
  {
-   "id": 253,
+   "id" :  253,
    "nameLookup": "Network/vpnSites",
    "resource": "Network/vpnSites",
    "optional": "UnitDept",
@@ -5048,8 +5048,8 @@
    "property": "",
    "ShortName": "vpn",
    "scope": "resource group",
-   "lengthMin": 1,
-   "lengthMax": 80,
+   "lengthMin": "1",
+   "lengthMax": "80",
    "validText": "Alphanumerics, underscores, periods, and hyphens. Start with alphanumeric. End alphanumeric or underscore.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -5060,7 +5060,7 @@
    "staticValues": ""
  },
  {
-   "id": 254,
+   "id" :  254,
    "nameLookup": "NotificationHubs/namespaces",
    "resource": "NotificationHubs/namespaces",
    "optional": "UnitDept",
@@ -5068,8 +5068,8 @@
    "property": "",
    "ShortName": "ntfns",
    "scope": "global",
-   "lengthMin": 6,
-   "lengthMax": 50,
+   "lengthMin": "6",
+   "lengthMax": "50",
    "validText": "Alphanumerics and hyphens. Start with letter. End with alphanumeric.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -5080,7 +5080,7 @@
    "staticValues": ""
  },
  {
-   "id": 255,
+   "id" :  255,
    "nameLookup": "NotificationHubs/namespaces/AuthorizationRules",
    "resource": "NotificationHubs/namespaces/AuthorizationRules",
    "optional": "UnitDept",
@@ -5088,8 +5088,8 @@
    "property": "",
    "ShortName": "rule",
    "scope": "namespace",
-   "lengthMin": 1,
-   "lengthMax": 256,
+   "lengthMin": "1",
+   "lengthMax": "256",
    "validText": "Alphanumerics, periods, hyphens, and underscores. Start alphanumeric.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -5100,7 +5100,7 @@
    "staticValues": ""
  },
  {
-   "id": 256,
+   "id" :  256,
    "nameLookup": "NotificationHubs/namespaces/notificationHubs",
    "resource": "NotificationHubs/namespaces/notificationHubs",
    "optional": "UnitDept",
@@ -5108,8 +5108,8 @@
    "property": "",
    "ShortName": "ntf",
    "scope": "namespace",
-   "lengthMin": 1,
-   "lengthMax": 260,
+   "lengthMin": "1",
+   "lengthMax": "260",
    "validText": "Alphanumerics, periods, hyphens, and underscores. Start alphanumeric.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -5120,7 +5120,7 @@
    "staticValues": ""
  },
  {
-   "id": 257,
+   "id" :  257,
    "nameLookup": "NotificationHubs/namespaces/notificationHubs/AuthorizationRules",
    "resource": "NotificationHubs/namespaces/notificationHubs/AuthorizationRules",
    "optional": "UnitDept",
@@ -5128,8 +5128,8 @@
    "property": "",
    "ShortName": "rule",
    "scope": "notification hub",
-   "lengthMin": 1,
-   "lengthMax": 256,
+   "lengthMin": "1",
+   "lengthMax": "256",
    "validText": "Alphanumerics, periods, hyphens, and underscores.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -5140,7 +5140,7 @@
    "staticValues": ""
  },
  {
-   "id": 258,
+   "id" :  258,
    "nameLookup": "OperationalInsights/clusters",
    "resource": "OperationalInsights/clusters",
    "optional": "UnitDept",
@@ -5148,8 +5148,8 @@
    "property": "",
    "ShortName": "opic",
    "scope": "resource group",
-   "lengthMin": 4,
-   "lengthMax": 63,
+   "lengthMin": "4",
+   "lengthMax": "63",
    "validText": "Alphanumerics and hyphens. Start and end with alphanumeric.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -5160,7 +5160,7 @@
    "staticValues": ""
  },
  {
-   "id": 259,
+   "id" :  259,
    "nameLookup": "OperationalInsights/workspaces",
    "resource": "OperationalInsights/workspaces",
    "optional": "UnitDept",
@@ -5168,8 +5168,8 @@
    "property": "",
    "ShortName": "log",
    "scope": "global",
-   "lengthMin": 4,
-   "lengthMax": 63,
+   "lengthMin": "4",
+   "lengthMax": "63",
    "validText": "Alphanumerics and hyphens. Start and end with alphanumeric.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -5180,7 +5180,7 @@
    "staticValues": ""
  },
  {
-   "id": 260,
+   "id" :  260,
    "nameLookup": "OperationsManagement/solutions",
    "resource": "OperationsManagement/solutions",
    "optional": "UnitDept",
@@ -5200,7 +5200,7 @@
    "staticValues": "AntiMalware(contoso-IT)"
  },
  {
-   "id": 261,
+   "id" :  261,
    "nameLookup": "Portal/dashboards",
    "resource": "Portal/dashboards",
    "optional": "UnitDept",
@@ -5208,8 +5208,8 @@
    "property": "",
    "ShortName": "pdash",
    "scope": "resource group",
-   "lengthMin": 3,
-   "lengthMax": 160,
+   "lengthMin": "3",
+   "lengthMax": "160",
    "validText": "Alphanumerics and hyphens.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -5220,7 +5220,7 @@
    "staticValues": ""
  },
  {
-   "id": 262,
+   "id" :  262,
    "nameLookup": "PowerBI/workspaceCollections",
    "resource": "PowerBI/workspaceCollections",
    "optional": "UnitDept",
@@ -5228,8 +5228,8 @@
    "property": "",
    "ShortName": "pbiwc",
    "scope": "region",
-   "lengthMin": 3,
-   "lengthMax": 63,
+   "lengthMin": "3",
+   "lengthMax": "63",
    "validText": "Alphanumerics and hyphens. ",
    "invalidText": "Can't start with hyphen. Can't use consecutive hyphens.",
    "invalidCharacters": "",
@@ -5240,7 +5240,7 @@
    "staticValues": ""
  },
  {
-   "id": 263,
+   "id" :  263,
    "nameLookup": "PowerBIDedicated/capacities",
    "resource": "PowerBIDedicated/capacities",
    "optional": "UnitDept",
@@ -5248,8 +5248,8 @@
    "property": "",
    "ShortName": "pbi",
    "scope": "region",
-   "lengthMin": 3,
-   "lengthMax": 63,
+   "lengthMin": "3",
+   "lengthMax": "63",
    "validText": "Lowercase letters or numbers Start with lowercase letter.  Start with lowercase letter.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -5260,7 +5260,7 @@
    "staticValues": ""
  },
  {
-   "id": 264,
+   "id" :  264,
    "nameLookup": "Purview/accounts",
    "resource": "Purview/accounts",
    "optional": "",
@@ -5280,7 +5280,7 @@
    "staticValues": ""
  },
  {
-   "id": 265,
+   "id" :  265,
    "nameLookup": "RecoveryServices/vaults",
    "resource": "RecoveryServices/vaults",
    "optional": "UnitDept",
@@ -5288,8 +5288,8 @@
    "property": "",
    "ShortName": "rsv",
    "scope": "resource group",
-   "lengthMin": 2,
-   "lengthMax": 50,
+   "lengthMin": "2",
+   "lengthMax": "50",
    "validText": "Alphanumerics and hyphens. Start with letter.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -5300,7 +5300,7 @@
    "staticValues": ""
  },
  {
-   "id": 266,
+   "id" :  266,
    "nameLookup": "RecoveryServices/vaults/backupPolicies",
    "resource": "RecoveryServices/vaults/backupPolicies",
    "optional": "UnitDept",
@@ -5308,8 +5308,8 @@
    "property": "",
    "ShortName": "rsvbp",
    "scope": "vault",
-   "lengthMin": 3,
-   "lengthMax": 150,
+   "lengthMin": "3",
+   "lengthMax": "150",
    "validText": "Alphanumerics and hyphens. Start with letter.  ",
    "invalidText": "Can't end with hyphen",
    "invalidCharacters": "",
@@ -5320,7 +5320,7 @@
    "staticValues": ""
  },
  {
-   "id": 267,
+   "id" :  267,
    "nameLookup": "Relay/namespaces",
    "resource": "Relay/namespaces",
    "optional": "UnitDept",
@@ -5328,8 +5328,8 @@
    "property": "",
    "ShortName": "rns",
    "scope": "global",
-   "lengthMin": 6,
-   "lengthMax": 50,
+   "lengthMin": "6",
+   "lengthMax": "50",
    "validText": "Alphanumerics and hyphens. Start with letter or number.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -5340,7 +5340,7 @@
    "staticValues": ""
  },
  {
-   "id": 268,
+   "id" :  268,
    "nameLookup": "Relay/namespaces/AuthorizationRules",
    "resource": "Relay/namespaces/AuthorizationRules",
    "optional": "UnitDept",
@@ -5348,8 +5348,8 @@
    "property": "",
    "ShortName": "rule",
    "scope": "namespace",
-   "lengthMin": 1,
-   "lengthMax": 50,
+   "lengthMin": "1",
+   "lengthMax": "50",
    "validText": "Alphanumerics, periods, hyphens and underscores. Start and end with alphanumeric.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -5360,7 +5360,7 @@
    "staticValues": ""
  },
  {
-   "id": 269,
+   "id" :  269,
    "nameLookup": "Relay/namespaces/HybridConnections",
    "resource": "Relay/namespaces/HybridConnections",
    "optional": "UnitDept",
@@ -5368,8 +5368,8 @@
    "property": "",
    "ShortName": "hycon",
    "scope": "namespace",
-   "lengthMin": 1,
-   "lengthMax": 260,
+   "lengthMin": "1",
+   "lengthMax": "260",
    "validText": "Alphanumerics, periods, hyphens, underscores, and slashes. Start and end with alphanumeric.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -5380,7 +5380,7 @@
    "staticValues": ""
  },
  {
-   "id": 270,
+   "id" :  270,
    "nameLookup": "Relay/namespaces/HybridConnections/authorizationRules",
    "resource": "Relay/namespaces/HybridConnections/authorizationRules",
    "optional": "UnitDept",
@@ -5388,8 +5388,8 @@
    "property": "",
    "ShortName": "rule",
    "scope": "hybrid connection",
-   "lengthMin": 1,
-   "lengthMax": 50,
+   "lengthMin": "1",
+   "lengthMax": "50",
    "validText": "Alphanumerics, periods, hyphens and underscores. Start and end with alphanumeric.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -5400,7 +5400,7 @@
    "staticValues": ""
  },
  {
-   "id": 271,
+   "id" :  271,
    "nameLookup": "Relay/namespaces/WcfRelays",
    "resource": "Relay/namespaces/WcfRelays",
    "optional": "UnitDept",
@@ -5408,8 +5408,8 @@
    "property": "",
    "ShortName": "wcfr",
    "scope": "namespace",
-   "lengthMin": 1,
-   "lengthMax": 260,
+   "lengthMin": "1",
+   "lengthMax": "260",
    "validText": "Alphanumerics, periods, hyphens, underscores, and slashes. Start and end with alphanumeric.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -5420,7 +5420,7 @@
    "staticValues": ""
  },
  {
-   "id": 272,
+   "id" :  272,
    "nameLookup": "Relay/namespaces/WcfRelays/authorizationRules",
    "resource": "Relay/namespaces/WcfRelays/authorizationRules",
    "optional": "UnitDept",
@@ -5428,8 +5428,8 @@
    "property": "",
    "ShortName": "wcfra",
    "scope": "Wcf relay",
-   "lengthMin": 1,
-   "lengthMax": 50,
+   "lengthMin": "1",
+   "lengthMax": "50",
    "validText": "Alphanumerics, periods, hyphens and underscores. Start and end with alphanumeric.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -5440,7 +5440,7 @@
    "staticValues": ""
  },
  {
-   "id": 273,
+   "id" :  273,
    "nameLookup": "Resources/deployments",
    "resource": "Resources/deployments",
    "optional": "UnitDept",
@@ -5448,8 +5448,8 @@
    "property": "",
    "ShortName": "deloy",
    "scope": "resource group",
-   "lengthMin": 1,
-   "lengthMax": 64,
+   "lengthMin": "1",
+   "lengthMax": "64",
    "validText": "Alphanumerics, underscores, parentheses, hyphens, and periods.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -5460,7 +5460,7 @@
    "staticValues": ""
  },
  {
-   "id": 274,
+   "id" :  274,
    "nameLookup": "Resources/resourcegroups",
    "resource": "Resources/resourcegroups",
    "optional": "UnitDept",
@@ -5468,8 +5468,8 @@
    "property": "",
    "ShortName": "rg",
    "scope": "subscription",
-   "lengthMin": 1,
-   "lengthMax": 90,
+   "lengthMin": "1",
+   "lengthMax": "90",
    "validText": "Alphanumerics, underscores, parentheses, hyphens, periods, and unicode characters that match the regex documentation.",
    "invalidText": "Can't end with period.",
    "invalidCharacters": "",
@@ -5480,7 +5480,7 @@
    "staticValues": ""
  },
  {
-   "id": 275,
+   "id" :  275,
    "nameLookup": "Resources/tagNames",
    "resource": "Resources/tagNames",
    "optional": "UnitDept",
@@ -5488,8 +5488,8 @@
    "property": "",
    "ShortName": "rtn",
    "scope": "resource",
-   "lengthMin": 1,
-   "lengthMax": 512,
+   "lengthMin": "1",
+   "lengthMax": "512",
    "validText": "",
    "invalidText": "Angle brackets, percent sign, ampersand, backslash, question mark, and slash.",
    "invalidCharacters": "<>%&\\?/",
@@ -5500,7 +5500,7 @@
    "staticValues": ""
  },
  {
-   "id": 276,
+   "id" :  276,
    "nameLookup": "Resources/tagNames/tagValues",
    "resource": "Resources/tagNames/tagValues",
    "optional": "UnitDept",
@@ -5508,8 +5508,8 @@
    "property": "",
    "ShortName": "rtnv",
    "scope": "tag name",
-   "lengthMin": 1,
-   "lengthMax": 256,
+   "lengthMin": "1",
+   "lengthMax": "256",
    "validText": "All characters.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -5520,7 +5520,7 @@
    "staticValues": ""
  },
  {
-   "id": 277,
+   "id" :  277,
    "nameLookup": "Resources/templateSpecs",
    "resource": "Resources/templateSpecs",
    "optional": "UnitDept",
@@ -5528,8 +5528,8 @@
    "property": "",
    "ShortName": "tspec",
    "scope": "resource group",
-   "lengthMin": 1,
-   "lengthMax": 90,
+   "lengthMin": "1",
+   "lengthMax": "90",
    "validText": "Alphanumerics, underscores, parentheses, hyphens, and periods.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -5540,7 +5540,7 @@
    "staticValues": ""
  },
  {
-   "id": 278,
+   "id" :  278,
    "nameLookup": "Search/searchServices",
    "resource": "Search/searchServices",
    "optional": "",
@@ -5560,7 +5560,7 @@
    "staticValues": ""
  },
  {
-   "id": 279,
+   "id" :  279,
    "nameLookup": "ServiceBus/namespaces",
    "resource": "ServiceBus/namespaces",
    "optional": "UnitDept",
@@ -5568,8 +5568,8 @@
    "property": "",
    "ShortName": "sb",
    "scope": "global",
-   "lengthMin": 6,
-   "lengthMax": 50,
+   "lengthMin": "6",
+   "lengthMax": "50",
    "validText": "Alphanumerics and hyphens. Start with letter. End with alphanumeric.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -5580,7 +5580,7 @@
    "staticValues": ""
  },
  {
-   "id": 280,
+   "id" :  280,
    "nameLookup": "ServiceBus/namespaces/AuthorizationRules",
    "resource": "ServiceBus/namespaces/AuthorizationRules",
    "optional": "UnitDept",
@@ -5588,8 +5588,8 @@
    "property": "",
    "ShortName": "rule",
    "scope": "namespace",
-   "lengthMin": 1,
-   "lengthMax": 50,
+   "lengthMin": "1",
+   "lengthMax": "50",
    "validText": "Alphanumerics, periods, hyphens, and underscores. Start and end with alphnumeric.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -5600,7 +5600,7 @@
    "staticValues": ""
  },
  {
-   "id": 281,
+   "id" :  281,
    "nameLookup": "ServiceBus/namespaces/disasterRecoveryConfigs",
    "resource": "ServiceBus/namespaces/disasterRecoveryConfigs",
    "optional": "UnitDept",
@@ -5608,8 +5608,8 @@
    "property": "",
    "ShortName": "sbndc",
    "scope": "global",
-   "lengthMin": 6,
-   "lengthMax": 50,
+   "lengthMin": "6",
+   "lengthMax": "50",
    "validText": "Alphanumerics and hyphens. Start with letter. End with alphanumeric.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -5620,7 +5620,7 @@
    "staticValues": ""
  },
  {
-   "id": 282,
+   "id" :  282,
    "nameLookup": "ServiceBus/namespaces/migrationConfigurations",
    "resource": "ServiceBus/namespaces/migrationConfigurations",
    "optional": "UnitDept",
@@ -5640,7 +5640,7 @@
    "staticValues": "$default"
  },
  {
-   "id": 283,
+   "id" :  283,
    "nameLookup": "ServiceBus/namespaces/queues",
    "resource": "ServiceBus/namespaces/queues",
    "optional": "UnitDept",
@@ -5648,8 +5648,8 @@
    "property": "",
    "ShortName": "sbq",
    "scope": "namespace",
-   "lengthMin": 1,
-   "lengthMax": 260,
+   "lengthMin": "1",
+   "lengthMax": "260",
    "validText": "Alphanumerics, periods, hyphens, underscores, and slashes. Start and end with alphnumeric.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -5660,7 +5660,7 @@
    "staticValues": ""
  },
  {
-   "id": 284,
+   "id" :  284,
    "nameLookup": "ServiceBus/namespaces/queues/authorizationRules",
    "resource": "ServiceBus/namespaces/queues/authorizationRules",
    "optional": "UnitDept",
@@ -5668,8 +5668,8 @@
    "property": "",
    "ShortName": "rule",
    "scope": "queue",
-   "lengthMin": 1,
-   "lengthMax": 50,
+   "lengthMin": "1",
+   "lengthMax": "50",
    "validText": "Alphanumerics, periods, hyphens, and underscores. Start and end with alphnumeric.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -5680,7 +5680,7 @@
    "staticValues": ""
  },
  {
-   "id": 285,
+   "id" :  285,
    "nameLookup": "ServiceBus/namespaces/topics",
    "resource": "ServiceBus/namespaces/topics",
    "optional": "UnitDept",
@@ -5688,8 +5688,8 @@
    "property": "",
    "ShortName": "sbt",
    "scope": "namespace",
-   "lengthMin": 1,
-   "lengthMax": 260,
+   "lengthMin": "1",
+   "lengthMax": "260",
    "validText": "Alphanumerics, periods, hyphens, underscores, and slashes. Start and end with alphnumeric.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -5700,7 +5700,7 @@
    "staticValues": ""
  },
  {
-   "id": 286,
+   "id" :  286,
    "nameLookup": "ServiceBus/namespaces/topics/authorizationRules",
    "resource": "ServiceBus/namespaces/topics/authorizationRules",
    "optional": "UnitDept",
@@ -5708,8 +5708,8 @@
    "property": "",
    "ShortName": "rule",
    "scope": "topic",
-   "lengthMin": 1,
-   "lengthMax": 50,
+   "lengthMin": "1",
+   "lengthMax": "50",
    "validText": "Alphanumerics, periods, hyphens, and underscores. Start and end with alphnumeric.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -5720,7 +5720,7 @@
    "staticValues": ""
  },
  {
-   "id": 287,
+   "id" :  287,
    "nameLookup": "ServiceBus/namespaces/topics/subscriptions",
    "resource": "ServiceBus/namespaces/topics/subscriptions",
    "optional": "UnitDept",
@@ -5728,8 +5728,8 @@
    "property": "",
    "ShortName": "tsub",
    "scope": "topic",
-   "lengthMin": 1,
-   "lengthMax": 50,
+   "lengthMin": "1",
+   "lengthMax": "50",
    "validText": "Alphanumerics, periods, hyphens, and underscores. Start and end with alphnumeric.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -5740,7 +5740,7 @@
    "staticValues": ""
  },
  {
-   "id": 288,
+   "id" :  288,
    "nameLookup": "ServiceBus/namespaces/topics/subscriptions/rules",
    "resource": "ServiceBus/namespaces/topics/subscriptions/rules",
    "optional": "UnitDept",
@@ -5748,8 +5748,8 @@
    "property": "",
    "ShortName": "rule",
    "scope": "subscription",
-   "lengthMin": 1,
-   "lengthMax": 50,
+   "lengthMin": "1",
+   "lengthMax": "50",
    "validText": "Alphanumerics, periods, hyphens, and underscores. Start and end with alphnumeric.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -5760,7 +5760,7 @@
    "staticValues": ""
  },
  {
-   "id": 289,
+   "id" :  289,
    "nameLookup": "ServiceFabric/clusters",
    "resource": "ServiceFabric/clusters",
    "optional": "UnitDept",
@@ -5768,8 +5768,8 @@
    "property": "",
    "ShortName": "sf",
    "scope": "region",
-   "lengthMin": 4,
-   "lengthMax": 23,
+   "lengthMin": "4",
+   "lengthMax": "23",
    "validText": "Lowercase letters, numbers, and hyphens. Start with lowercase letter.  End with lowercase letter or number",
    "invalidText": "",
    "invalidCharacters": "",
@@ -5780,7 +5780,7 @@
    "staticValues": ""
  },
  {
-   "id": 290,
+   "id" :  290,
    "nameLookup": "SignalRService/signalR",
    "resource": "SignalRService/signalR",
    "optional": "UnitDept",
@@ -5788,8 +5788,8 @@
    "property": "",
    "ShortName": "sigr",
    "scope": "global",
-   "lengthMin": 3,
-   "lengthMax": 63,
+   "lengthMin": "3",
+   "lengthMax": "63",
    "validText": "Alphanumerics and hyphens. Start with letter. End with alphanumeric.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -5800,7 +5800,7 @@
    "staticValues": ""
  },
  {
-   "id": 291,
+   "id" :  291,
    "nameLookup": "Sql/managedInstances",
    "resource": "Sql/managedInstances",
    "optional": "UnitDept",
@@ -5808,8 +5808,8 @@
    "property": "",
    "ShortName": "sqlmi",
    "scope": "global",
-   "lengthMin": 1,
-   "lengthMax": 63,
+   "lengthMin": "1",
+   "lengthMax": "63",
    "validText": "Lowercase letters, numbers, and hyphens.",
    "invalidText": "Can't start or end with hyphen.",
    "invalidCharacters": "",
@@ -5820,7 +5820,7 @@
    "staticValues": ""
  },
  {
-   "id": 292,
+   "id" :  292,
    "nameLookup": "Sql/servers - [Azure SQL Data Warehouse]",
    "resource": "Sql/servers",
    "optional": "UnitDept",
@@ -5828,8 +5828,8 @@
    "property": "Azure SQL Data Warehouse",
    "ShortName": "sqldw",
    "scope": "global",
-   "lengthMin": 1,
-   "lengthMax": 63,
+   "lengthMin": "1",
+   "lengthMax": "63",
    "validText": "Lowercase letters, numbers, and hyphens.",
    "invalidText": "Can't start or end with hyphen.",
    "invalidCharacters": "",
@@ -5840,7 +5840,7 @@
    "staticValues": ""
  },
  {
-   "id": 293,
+   "id" :  293,
    "nameLookup": "Sql/servers - [Azure SQL Database Server]",
    "resource": "Sql/servers",
    "optional": "UnitDept",
@@ -5848,8 +5848,8 @@
    "property": "Azure SQL Database Server",
    "ShortName": "sql",
    "scope": "global",
-   "lengthMin": 1,
-   "lengthMax": 63,
+   "lengthMin": "1",
+   "lengthMax": "63",
    "validText": "Lowercase letters, numbers, and hyphens.",
    "invalidText": "Can't start or end with hyphen.",
    "invalidCharacters": "",
@@ -5860,7 +5860,7 @@
    "staticValues": ""
  },
  {
-   "id": 294,
+   "id" :  294,
    "nameLookup": "Sql/servers/administrators",
    "resource": "Sql/servers/administrators",
    "optional": "UnitDept",
@@ -5880,7 +5880,7 @@
    "staticValues": "ActiveDirectory"
  },
  {
-   "id": 295,
+   "id" :  295,
    "nameLookup": "Sql/servers/databases",
    "resource": "Sql/servers/databases",
    "optional": "UnitDept",
@@ -5888,8 +5888,8 @@
    "property": "",
    "ShortName": "sqldb",
    "scope": "server",
-   "lengthMin": 1,
-   "lengthMax": 128,
+   "lengthMin": "1",
+   "lengthMax": "128",
    "validText": "",
    "invalidText": "Angle brackets, asterisk, percent sign, ampersand, colon, backslash, slash, and question mark. Can't end with period or space.",
    "invalidCharacters": "<>*%&:/?",
@@ -5900,7 +5900,7 @@
    "staticValues": ""
  },
  {
-   "id": 296,
+   "id" :  296,
    "nameLookup": "Sql/servers/databases/syncGroups",
    "resource": "Sql/servers/databases/syncGroups",
    "optional": "UnitDept",
@@ -5908,8 +5908,8 @@
    "property": "",
    "ShortName": "sqlsg",
    "scope": "database",
-   "lengthMin": 1,
-   "lengthMax": 150,
+   "lengthMin": "1",
+   "lengthMax": "150",
    "validText": "Alphanumerics, hyphens, and underscores.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -5920,7 +5920,7 @@
    "staticValues": ""
  },
  {
-   "id": 297,
+   "id" :  297,
    "nameLookup": "Sql/servers/elasticPools",
    "resource": "Sql/servers/elasticPools",
    "optional": "UnitDept",
@@ -5928,8 +5928,8 @@
    "property": "",
    "ShortName": "sqlep",
    "scope": "server",
-   "lengthMin": 1,
-   "lengthMax": 128,
+   "lengthMin": "1",
+   "lengthMax": "128",
    "validText": "",
    "invalidText": "Angle brackets, asterisk, percent sign, ampersand, colon, backslash, slash, and question mark. Can't end with period or space.",
    "invalidCharacters": "<>*%&:/?",
@@ -5940,7 +5940,7 @@
    "staticValues": ""
  },
  {
-   "id": 298,
+   "id" :  298,
    "nameLookup": "Sql/servers/failoverGroups",
    "resource": "Sql/servers/failoverGroups",
    "optional": "UnitDept",
@@ -5948,8 +5948,8 @@
    "property": "",
    "ShortName": "sqlfg",
    "scope": "global",
-   "lengthMin": 1,
-   "lengthMax": 63,
+   "lengthMin": "1",
+   "lengthMax": "63",
    "validText": "Lowercase letters, numbers, and hyphens.",
    "invalidText": "Can't start or end with hyphen.",
    "invalidCharacters": "",
@@ -5960,7 +5960,7 @@
    "staticValues": ""
  },
  {
-   "id": 299,
+   "id" :  299,
    "nameLookup": "Sql/servers/firewallRules",
    "resource": "Sql/servers/firewallRules",
    "optional": "UnitDept",
@@ -5968,8 +5968,8 @@
    "property": "",
    "ShortName": "sqlfw",
    "scope": "server",
-   "lengthMin": 1,
-   "lengthMax": 128,
+   "lengthMin": "1",
+   "lengthMax": "128",
    "validText": "",
    "invalidText": "Angle brackets, asterisk, percent sign, ampersand, colon, backslash, slash, and question mark. Can't end with period.",
    "invalidCharacters": "<>*%&:;/?",
@@ -5980,7 +5980,7 @@
    "staticValues": ""
  },
  {
-   "id": 300,
+   "id" :  300,
    "nameLookup": "Storage/blob",
    "resource": "Storage/blob",
    "optional": "UnitDept",
@@ -5988,8 +5988,8 @@
    "property": "",
    "ShortName": "sbl",
    "scope": "container",
-   "lengthMin": 1,
-   "lengthMax": 1024,
+   "lengthMin": "1",
+   "lengthMax": "1024",
    "validText": "Any URL characters, case sensitive.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -6000,7 +6000,7 @@
    "staticValues": ""
  },
  {
-   "id": 301,
+   "id" :  301,
    "nameLookup": "Storage/queue",
    "resource": "Storage/queue",
    "optional": "UnitDept",
@@ -6008,8 +6008,8 @@
    "property": "",
    "ShortName": "squ",
    "scope": "storage account",
-   "lengthMin": 3,
-   "lengthMax": 63,
+   "lengthMin": "3",
+   "lengthMax": "63",
    "validText": "Lowercase letters, numbers, and hyphens.",
    "invalidText": "Can't start or end with hyphen. Can't use consecutive hyphens.",
    "invalidCharacters": "",
@@ -6020,7 +6020,7 @@
    "staticValues": ""
  },
  {
-   "id": 302,
+   "id" :  302,
    "nameLookup": "Storage/storageAccounts - [VM Storage Account]",
    "resource": "Storage/storageAccounts",
    "optional": "UnitDept",
@@ -6028,8 +6028,8 @@
    "property": "VM Storage Account",
    "ShortName": "stvm",
    "scope": "global",
-   "lengthMin": 3,
-   "lengthMax": 24,
+   "lengthMin": "3",
+   "lengthMax": "24",
    "validText": "Lowercase letters and numbers.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -6040,7 +6040,7 @@
    "staticValues": ""
  },
  {
-   "id": 303,
+   "id" :  303,
    "nameLookup": "Storage/storageAccounts",
    "resource": "Storage/storageAccounts",
    "optional": "UnitDept",
@@ -6048,8 +6048,8 @@
    "property": "",
    "ShortName": "st",
    "scope": "global",
-   "lengthMin": 3,
-   "lengthMax": 24,
+   "lengthMin": "3",
+   "lengthMax": "24",
    "validText": "Lowercase letters and numbers.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -6060,7 +6060,7 @@
    "staticValues": ""
  },
  {
-   "id": 304,
+   "id" :  304,
    "nameLookup": "Storage/storageAccounts/blobServices",
    "resource": "Storage/storageAccounts/blobServices",
    "optional": "UnitDept",
@@ -6080,7 +6080,7 @@
    "staticValues": "default"
  },
  {
-   "id": 305,
+   "id" :  305,
    "nameLookup": "Storage/storageAccounts/blobServices/containers",
    "resource": "Storage/storageAccounts/blobServices/containers",
    "optional": "UnitDept",
@@ -6088,8 +6088,8 @@
    "property": "",
    "ShortName": "stblc",
    "scope": "storage account",
-   "lengthMin": 3,
-   "lengthMax": 63,
+   "lengthMin": "3",
+   "lengthMax": "63",
    "validText": "Lowercase letters, numbers, and hyphens. Start with lowercase letter or number.  ",
    "invalidText": "Can't use consecutive hyphens.",
    "invalidCharacters": "",
@@ -6100,7 +6100,7 @@
    "staticValues": ""
  },
  {
-   "id": 306,
+   "id" :  306,
    "nameLookup": "Storage/storageAccounts/fileServices",
    "resource": "Storage/storageAccounts/fileServices",
    "optional": "UnitDept",
@@ -6120,7 +6120,7 @@
    "staticValues": "default"
  },
  {
-   "id": 307,
+   "id" :  307,
    "nameLookup": "Storage/storageAccounts/fileServices/shares",
    "resource": "Storage/storageAccounts/fileServices/shares",
    "optional": "UnitDept",
@@ -6128,8 +6128,8 @@
    "property": "",
    "ShortName": "stfss",
    "scope": "storage account",
-   "lengthMin": 3,
-   "lengthMax": 63,
+   "lengthMin": "3",
+   "lengthMax": "63",
    "validText": "Lowercase letters, numbers, and hyphens.",
    "invalidText": "Can't start or end with hyphen. Can't use consecutive hyphens.",
    "invalidCharacters": "",
@@ -6140,7 +6140,7 @@
    "staticValues": ""
  },
  {
-   "id": 308,
+   "id" :  308,
    "nameLookup": "Storage/storageAccounts/managementPolicies",
    "resource": "Storage/storageAccounts/managementPolicies",
    "optional": "UnitDept",
@@ -6160,7 +6160,7 @@
    "staticValues": "default"
  },
  {
-   "id": 309,
+   "id" :  309,
    "nameLookup": "Storage/table",
    "resource": "Storage/table",
    "optional": "UnitDept",
@@ -6168,8 +6168,8 @@
    "property": "",
    "ShortName": "sta",
    "scope": "storage account",
-   "lengthMin": 3,
-   "lengthMax": 63,
+   "lengthMin": "3",
+   "lengthMax": "63",
    "validText": "Alphanumerics. Start with letter.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -6180,7 +6180,7 @@
    "staticValues": ""
  },
  {
-   "id": 310,
+   "id" :  310,
    "nameLookup": "StorageSync/storageSyncServices",
    "resource": "StorageSync/storageSyncServices",
    "optional": "UnitDept",
@@ -6188,8 +6188,8 @@
    "property": "",
    "ShortName": "sss",
    "scope": "resource group",
-   "lengthMin": 1,
-   "lengthMax": 260,
+   "lengthMin": "1",
+   "lengthMax": "260",
    "validText": "Alphanumerics, spaces, periods, hyphens, and underscores.",
    "invalidText": "Can't end with period or space.",
    "invalidCharacters": "",
@@ -6200,7 +6200,7 @@
    "staticValues": ""
  },
  {
-   "id": 311,
+   "id" :  311,
    "nameLookup": "StorageSync/storageSyncServices/syncGroups",
    "resource": "StorageSync/storageSyncServices/syncGroups",
    "optional": "UnitDept",
@@ -6208,8 +6208,8 @@
    "property": "",
    "ShortName": "sgrp",
    "scope": "storage sync service",
-   "lengthMin": 1,
-   "lengthMax": 260,
+   "lengthMin": "1",
+   "lengthMax": "260",
    "validText": "Alphanumerics, spaces, periods, hyphens, and underscores.",
    "invalidText": "Can't end with period or space.",
    "invalidCharacters": "",
@@ -6220,7 +6220,7 @@
    "staticValues": ""
  },
  {
-   "id": 312,
+   "id" :  312,
    "nameLookup": "StorSimple/managers",
    "resource": "StorSimple/managers",
    "optional": "UnitDept",
@@ -6228,8 +6228,8 @@
    "property": "",
    "ShortName": "ssimp",
    "scope": "resource group",
-   "lengthMin": 2,
-   "lengthMax": 50,
+   "lengthMin": "2",
+   "lengthMax": "50",
    "validText": "Alphanumerics and hyphens. Start with letter. End with alphanumeric.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -6240,7 +6240,7 @@
    "staticValues": ""
  },
  {
-   "id": 313,
+   "id" :  313,
    "nameLookup": "StreamAnalytics/cluster",
    "resource": "StreamAnalytics/cluster",
    "optional": "",
@@ -6260,7 +6260,7 @@
    "staticValues": ""
  },
  {
-   "id": 314,
+   "id" :  314,
    "nameLookup": "StreamAnalytics/streamingjobs",
    "resource": "StreamAnalytics/streamingjobs",
    "optional": "UnitDept",
@@ -6268,8 +6268,8 @@
    "property": "",
    "ShortName": "sasj",
    "scope": "resource group",
-   "lengthMin": 3,
-   "lengthMax": 63,
+   "lengthMin": "3",
+   "lengthMax": "63",
    "validText": "Alphanumerics, hyphens, and underscores.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -6280,7 +6280,7 @@
    "staticValues": ""
  },
  {
-   "id": 315,
+   "id" :  315,
    "nameLookup": "StreamAnalytics/streamingjobs/functions",
    "resource": "StreamAnalytics/streamingjobs/functions",
    "optional": "UnitDept",
@@ -6288,8 +6288,8 @@
    "property": "",
    "ShortName": "sjf",
    "scope": "streaming job",
-   "lengthMin": 3,
-   "lengthMax": 63,
+   "lengthMin": "3",
+   "lengthMax": "63",
    "validText": "Alphanumerics, hyphens, and underscores.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -6300,7 +6300,7 @@
    "staticValues": ""
  },
  {
-   "id": 316,
+   "id" :  316,
    "nameLookup": "StreamAnalytics/streamingjobs/inputs",
    "resource": "StreamAnalytics/streamingjobs/inputs",
    "optional": "UnitDept",
@@ -6308,8 +6308,8 @@
    "property": "",
    "ShortName": "sjin",
    "scope": "streaming job",
-   "lengthMin": 3,
-   "lengthMax": 63,
+   "lengthMin": "3",
+   "lengthMax": "63",
    "validText": "Alphanumerics, hyphens, and underscores.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -6320,7 +6320,7 @@
    "staticValues": ""
  },
  {
-   "id": 317,
+   "id" :  317,
    "nameLookup": "StreamAnalytics/streamingjobs/outputs",
    "resource": "StreamAnalytics/streamingjobs/outputs",
    "optional": "UnitDept",
@@ -6328,8 +6328,8 @@
    "property": "",
    "ShortName": "sjout",
    "scope": "streaming job",
-   "lengthMin": 3,
-   "lengthMax": 63,
+   "lengthMin": "3",
+   "lengthMax": "63",
    "validText": "Alphanumerics, hyphens, and underscores.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -6340,7 +6340,7 @@
    "staticValues": ""
  },
  {
-   "id": 318,
+   "id" :  318,
    "nameLookup": "StreamAnalytics/streamingjobs/transformations",
    "resource": "StreamAnalytics/streamingjobs/transformations",
    "optional": "UnitDept",
@@ -6348,8 +6348,8 @@
    "property": "",
    "ShortName": "sjtrf",
    "scope": "streaming job",
-   "lengthMin": 3,
-   "lengthMax": 63,
+   "lengthMin": "3",
+   "lengthMax": "63",
    "validText": "Alphanumerics, hyphens, and underscores.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -6360,7 +6360,7 @@
    "staticValues": ""
  },
  {
-   "id": 319,
+   "id" :  319,
    "nameLookup": "Subscription/subscriptions",
    "resource": "Subscription/subscriptions",
    "optional": "Org,UnitDept,ProjAppSvc,Instance",
@@ -6380,7 +6380,7 @@
    "staticValues": ""
  },
  {
-   "id": 320,
+   "id" :  320,
    "nameLookup": "Synapse/workspaces",
    "resource": "Synapse/workspaces",
    "optional": "",
@@ -6400,7 +6400,7 @@
    "staticValues": ""
  },
  {
-   "id": 321,
+   "id" :  321,
    "nameLookup": "Synapse/workspaces/sqlPools - [Azure Synapse Analytics Spark Pool]",
    "resource": "Synapse/workspaces/sqlPools",
    "optional": "",
@@ -6420,7 +6420,7 @@
    "staticValues": ""
  },
  {
-   "id": 322,
+   "id" :  322,
    "nameLookup": "Synapse/workspaces/sqlPools - [Azure Synapse Analytics SQL Dedicated Pool]",
    "resource": "Synapse/workspaces/sqlPools",
    "optional": "",
@@ -6440,7 +6440,7 @@
    "staticValues": ""
  },
  {
-   "id": 323,
+   "id" :  323,
    "nameLookup": "TimeSeriesInsights/environments",
    "resource": "TimeSeriesInsights/environments",
    "optional": "UnitDept",
@@ -6448,8 +6448,8 @@
    "property": "",
    "ShortName": "tsi",
    "scope": "resource group",
-   "lengthMin": 1,
-   "lengthMax": 90,
+   "lengthMin": "1",
+   "lengthMax": "90",
    "validText": "",
    "invalidText": "Single quote, angle brackets, percent sign, ampersand, colon, backslash, question mark, slash, and number sign.",
    "invalidCharacters": "'<>%&:\\?/#",
@@ -6460,7 +6460,7 @@
    "staticValues": ""
  },
  {
-   "id": 324,
+   "id" :  324,
    "nameLookup": "TimeSeriesInsights/environments/accessPolicies",
    "resource": "TimeSeriesInsights/environments/accessPolicies",
    "optional": "UnitDept",
@@ -6468,8 +6468,8 @@
    "property": "",
    "ShortName": "tsiea",
    "scope": "environment",
-   "lengthMin": 1,
-   "lengthMax": 90,
+   "lengthMin": "1",
+   "lengthMax": "90",
    "validText": "",
    "invalidText": "Single quote, angle brackets, percent sign, ampersand, colon, backslash, question mark, slash, and number sign.",
    "invalidCharacters": "'<>%&:\\?/#",
@@ -6480,7 +6480,7 @@
    "staticValues": ""
  },
  {
-   "id": 325,
+   "id" :  325,
    "nameLookup": "TimeSeriesInsights/environments/eventSources",
    "resource": "TimeSeriesInsights/environments/eventSources",
    "optional": "UnitDept",
@@ -6488,8 +6488,8 @@
    "property": "",
    "ShortName": "tsiee",
    "scope": "environment",
-   "lengthMin": 1,
-   "lengthMax": 90,
+   "lengthMin": "1",
+   "lengthMax": "90",
    "validText": "",
    "invalidText": "Single quote, angle brackets, percent sign, ampersand, colon, backslash, question mark, slash, and number sign.",
    "invalidCharacters": "<>%&:\\?/#",
@@ -6500,7 +6500,7 @@
    "staticValues": ""
  },
  {
-   "id": 326,
+   "id" :  326,
    "nameLookup": "TimeSeriesInsights/environments/referenceDataSets",
    "resource": "TimeSeriesInsights/environments/referenceDataSets",
    "optional": "UnitDept",
@@ -6508,8 +6508,8 @@
    "property": "",
    "ShortName": "tsier",
    "scope": "environment",
-   "lengthMin": 3,
-   "lengthMax": 63,
+   "lengthMin": "3",
+   "lengthMax": "63",
    "validText": "Alphanumerics",
    "invalidText": "",
    "invalidCharacters": "",
@@ -6520,7 +6520,7 @@
    "staticValues": ""
  },
  {
-   "id": 327,
+   "id" :  327,
    "nameLookup": "Web/certificates",
    "resource": "Web/certificates",
    "optional": "UnitDept",
@@ -6528,8 +6528,8 @@
    "property": "",
    "ShortName": "wbcer",
    "scope": "resource group",
-   "lengthMin": 1,
-   "lengthMax": 260,
+   "lengthMin": "1",
+   "lengthMax": "260",
    "validText": "",
    "invalidText": "Slash",
    "invalidCharacters": "/",
@@ -6540,7 +6540,7 @@
    "staticValues": ""
  },
  {
-   "id": 328,
+   "id" :  328,
    "nameLookup": "Web/serverfarms",
    "resource": "Web/serverfarms",
    "optional": "UnitDept",
@@ -6548,8 +6548,8 @@
    "property": "",
    "ShortName": "plan",
    "scope": "resource group",
-   "lengthMin": 1,
-   "lengthMax": 40,
+   "lengthMin": "1",
+   "lengthMax": "40",
    "validText": "Alphanumerics and hyphens.",
    "invalidText": "",
    "invalidCharacters": "",
@@ -6560,7 +6560,7 @@
    "staticValues": ""
  },
  {
-   "id": 329,
+   "id" :  329,
    "nameLookup": "Web/sites - [Static Web App]",
    "resource": "Web/sites",
    "optional": "UnitDept",
@@ -6568,8 +6568,8 @@
    "property": "Static Web App",
    "ShortName": "stapp",
    "scope": "global",
-   "lengthMin": 2,
-   "lengthMax": 60,
+   "lengthMin": "2",
+   "lengthMax": "60",
    "validText": "Contains alphanumerics and hyphens.",
    "invalidText": "Can't start or end with hyphen.",
    "invalidCharacters": "",
@@ -6580,7 +6580,7 @@
    "staticValues": ""
  },
  {
-   "id": 330,
+   "id" :  330,
    "nameLookup": "Web/sites - [Web App]",
    "resource": "Web/sites",
    "optional": "UnitDept",
@@ -6588,8 +6588,8 @@
    "property": "Web App",
    "ShortName": "app",
    "scope": "global",
-   "lengthMin": 2,
-   "lengthMax": 60,
+   "lengthMin": "2",
+   "lengthMax": "60",
    "validText": "Contains alphanumerics and hyphens.",
    "invalidText": "Can't start or end with hyphen.",
    "invalidCharacters": "",
@@ -6600,7 +6600,7 @@
    "staticValues": ""
  },
  {
-   "id": 331,
+   "id" :  331,
    "nameLookup": "Web/sites - [Function App]",
    "resource": "Web/sites",
    "optional": "UnitDept",
@@ -6608,8 +6608,8 @@
    "property": "Function App",
    "ShortName": "func",
    "scope": "global",
-   "lengthMin": 2,
-   "lengthMax": 60,
+   "lengthMin": "2",
+   "lengthMax": "60",
    "validText": "Contains alphanumerics and hyphens.",
    "invalidText": "Can't start or end with hyphen.",
    "invalidCharacters": "",
@@ -6620,7 +6620,7 @@
    "staticValues": ""
  },
  {
-   "id": 332,
+   "id" :  332,
    "nameLookup": "Web/sites - [App Service Environment]",
    "resource": "Web/sites",
    "optional": "UnitDept",
@@ -6628,8 +6628,8 @@
    "property": "App Service Environment",
    "ShortName": "ase",
    "scope": "global",
-   "lengthMin": 2,
-   "lengthMax": 60,
+   "lengthMin": "2",
+   "lengthMax": "60",
    "validText": "Contains alphanumerics and hyphens.",
    "invalidText": "Can't start or end with hyphen.",
    "invalidCharacters": "",
@@ -6640,7 +6640,7 @@
    "staticValues": ""
  },
  {
-   "id": 333,
+   "id" :  333,
    "nameLookup": "Web/sites - [Azure Static Web Apps]",
    "resource": "Web/sites",
    "optional": "UnitDept",
@@ -6648,8 +6648,8 @@
    "property": "Azure Static Web Apps",
    "ShortName": "aswba",
    "scope": "global",
-   "lengthMin": 2,
-   "lengthMax": 60,
+   "lengthMin": "2",
+   "lengthMax": "60",
    "validText": "Contains alphanumerics and hyphens.",
    "invalidText": "Can't start or end with hyphen.",
    "invalidCharacters": "",
@@ -6660,7 +6660,7 @@
    "staticValues": ""
  },
  {
-   "id": 334,
+   "id" :  334,
    "nameLookup": "Web/sites/slots",
    "resource": "Web/sites/slots",
    "optional": "UnitDept",
@@ -6668,8 +6668,8 @@
    "property": "",
    "ShortName": "slot",
    "scope": "site",
-   "lengthMin": 2,
-   "lengthMax": 60,
+   "lengthMin": "2",
+   "lengthMax": "60",
    "validText": "Alphanumerics and hyphens.",
    "invalidText": "",
    "invalidCharacters": "",

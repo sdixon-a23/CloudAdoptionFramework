@@ -289,6 +289,17 @@
                                                                     </td>
                                                                 </tr>
                                                             }
+                                                            @if (@resourcetype.NameLookup != "")
+                                                            {
+                                                                <tr>
+                                                                    <td class="align-top w-25">
+                                                                        Name Lookup:
+                                                                    </td>
+                                                                    <td style="word-wrap:anywhere;overflow-wrap:anywhere;white-space: normal;" class="align-top">
+                                                                        @resourcetype.NameLookup
+                                                                    </td>
+                                                                </tr>
+                                                            }
                                                             @if ((@resourcetype.LengthMin != "") && (@resourcetype.LengthMax != ""))
                                                             {
                                                                 <tr>

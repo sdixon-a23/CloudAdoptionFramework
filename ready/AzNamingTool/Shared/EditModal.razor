@@ -129,6 +129,15 @@
                 }
                 @if ((type == "ResourceType") && (resourceComponents != null))
                 {
+                    <div id="globallyoptionalcontainer" class="card mb-3">
+                        <div class="card-header bg-default text-black fw-bold">
+                            Name Lookup
+                        </div>
+                        <div class="card card-body @theme.ThemeStyle">
+                            <input title="Name Lookup" value="@itemNameLookup" type="text" class="form-control @theme.ThemeStyle" id="namelookup" @onchange="@((ui) => { itemNameLookup = (string)ui.Value;})" />
+                        </div>
+                    </div>
+
                     @if (bool.Parse(ConfigurationHelper.GetAppSetting("DevMode")))
                     {
                         <div id="globallyoptionalcontainer" class="card mb-3">
@@ -236,6 +245,7 @@
     private string? itemName;
     private string? itemDisplayName;
     private string? itemShortName;
+    private string? itemNameLookup;
     private string? itemRegEx;
     private List<ResourceComponent> resourceComponents;
     private string? optional;
@@ -282,6 +292,7 @@
                 ResourceType resourceType = (ResourceType)serviceResponse.ResponseObject;
                 itemName = resourceType.Resource;
                 itemShortName = resourceType.ShortName;
+                itemNameLookup = resourceType.NameLookup;
                 optional = resourceType.Optional;
                 exclude = resourceType.Exclude;
                 itemRegEx = resourceType.Regx;
@@ -388,6 +399,7 @@
                                 serviceResponse = await ResourceTypeService.GetItem(id);
                                 ResourceType resourceType = (ResourceType)serviceResponse.ResponseObject;
                                 resourceType.ShortName = itemShortName;
+                                resourceType.NameLookup = itemNameLookup;
                                 resourceType.Optional = "";
                                 resourceType.Exclude = "";
                                 if (bool.Parse(ConfigurationHelper.GetAppSetting("DevMode")))
