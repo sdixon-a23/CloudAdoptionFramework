@@ -300,6 +300,17 @@
                                                                     </td>
                                                                 </tr>
                                                             }
+                                                             @if (@resourcetype.AllowDashes)
+                                                            {
+                                                                <tr>
+                                                                    <td class="align-top w-25">
+                                                                        Allow dashes:
+                                                                    </td>
+                                                                    <td style="word-wrap:anywhere;overflow-wrap:anywhere;white-space: normal;" class="align-top">
+                                                                        @resourcetype.AllowDashes
+                                                                    </td>
+                                                                </tr>
+                                                            }
                                                             @if ((@resourcetype.LengthMin != "") && (@resourcetype.LengthMax != ""))
                                                             {
                                                                 <tr>

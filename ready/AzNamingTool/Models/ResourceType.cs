@@ -20,6 +20,7 @@ namespace AzureNamingTool.Models
         }
         public string Scope { get; set; }
         public string NameLookup { get; set; }
+        public bool AllowDashes { get; set; }
         public string LengthMin { get; set; }
         public string LengthMax { get; set; }
         public string ValidText { get; set; }

@@ -246,6 +246,7 @@
     private string? itemDisplayName;
     private string? itemShortName;
     private string? itemNameLookup;
+    private bool itemAllowDashes;
     private string? itemRegEx;
     private List<ResourceComponent> resourceComponents;
     private string? optional;
@@ -293,6 +294,7 @@
                 itemName = resourceType.Resource;
                 itemShortName = resourceType.ShortName;
                 itemNameLookup = resourceType.NameLookup;
+                itemAllowDashes = resourceType.AllowDashes;
                 optional = resourceType.Optional;
                 exclude = resourceType.Exclude;
                 itemRegEx = resourceType.Regx;
@@ -400,6 +402,7 @@
                                 ResourceType resourceType = (ResourceType)serviceResponse.ResponseObject;
                                 resourceType.ShortName = itemShortName;
                                 resourceType.NameLookup = itemNameLookup;
+                                resourceType.AllowDashes = itemAllowDashes;
                                 resourceType.Optional = "";
                                 resourceType.Exclude = "";
                                 if (bool.Parse(ConfigurationHelper.GetAppSetting("DevMode")))
