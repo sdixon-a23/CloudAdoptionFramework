@@ -300,8 +300,6 @@
                                                                     </td>
                                                                 </tr>
                                                             }
-                                                             @if (@resourcetype.AllowDashes)
-                                                            {
                                                                 <tr>
                                                                     <td class="align-top w-25">
                                                                         Allow dashes:
@@ -310,7 +308,6 @@
                                                                         @resourcetype.AllowDashes
                                                                     </td>
                                                                 </tr>
-                                                            }
                                                             @if ((@resourcetype.LengthMin != "") && (@resourcetype.LengthMax != ""))
                                                             {
                                                                 <tr>
